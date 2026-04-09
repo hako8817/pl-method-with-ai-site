@@ -1,3 +1,46 @@
-@use "./base.scss";
+﻿@use "./base.scss";
 
-// put your custom CSS here!
+:root {
+  --brand-cobalt: #0047ab;
+  --brand-cobalt-soft: #6f95ff;
+  --brand-cobalt-deep: #0b2f6b;
+}
+
+a {
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.14em;
+}
+
+.page-title,
+.article-title {
+  letter-spacing: -0.02em;
+}
+
+.page-header,
+header {
+  border-bottom: 1px solid color-mix(in srgb, var(--brand-cobalt) 14%, transparent);
+}
+
+article h1,
+article h2,
+article h3,
+article h4 {
+  color: var(--brand-cobalt-deep);
+}
+
+ul li::marker,
+ol li::marker {
+  color: var(--brand-cobalt);
+}
+
+.callout[data-callout="note"] {
+  border-color: color-mix(in srgb, var(--brand-cobalt) 28%, transparent);
+  background: color-mix(in srgb, var(--brand-cobalt-soft) 10%, white);
+}
+
+.darkmode article h1,
+.darkmode article h2,
+.darkmode article h3,
+.darkmode article h4 {
+  color: #c7d8ff;
+}

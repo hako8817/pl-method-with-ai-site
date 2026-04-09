@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "PL Method with AI",
+    pageTitle: "hako의 AI를 이용한 기획 Knowledge",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -23,8 +23,8 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "IBM Plex Sans KR",
+        body: "IBM Plex Sans KR",
         code: "IBM Plex Mono",
       },
       colors: {
@@ -34,10 +34,10 @@ const config: QuartzConfig = {
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
           dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          secondary: "#0047AB",
+          tertiary: "#6F95FF",
+          highlight: "rgba(0, 71, 171, 0.12)",
+          textHighlight: "#8FB8FF66",
         },
         darkMode: {
           light: "#161618",
@@ -45,10 +45,10 @@ const config: QuartzConfig = {
           gray: "#646464",
           darkgray: "#d4d4d4",
           dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          secondary: "#8FB8FF",
+          tertiary: "#6F95FF",
+          highlight: "rgba(0, 71, 171, 0.12)",
+          textHighlight: "#3B82F655",
         },
       },
     },
@@ -95,4 +95,5 @@ const config: QuartzConfig = {
 }
 
 export default config
+
 
