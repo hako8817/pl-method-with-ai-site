@@ -18,12 +18,5 @@ title: Planning
 2. [Deliverable Chain Overview](deliverable-chain-overview)
 3. [Book TOC](book-toc)
 
-## Chapters
-1. [Chapter 01](chapters/chapter-01)
-2. [Chapter 02](chapters/chapter-02)
-3. [Chapter 03](chapters/chapter-03)
-4. [Chapter 04](chapters/chapter-04)
-5. [Chapter 05](chapters/chapter-05)
-6. [Chapter 06](chapters/chapter-06)
-7. [Chapter 07](chapters/chapter-07)
-8. [Chapter 08](chapters/chapter-08)
+## Book
+1. [AI 시대 기획 산출물의 재설계](chapters)

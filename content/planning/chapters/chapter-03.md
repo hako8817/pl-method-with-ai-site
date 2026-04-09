@@ -1,7 +1,8 @@
----
+﻿---
 publish: true
 publish_section: planning
 publish_order: 43
+title: "3장. 구조가 먼저다: 좋은 문장보다 좋은 구조, 기준 산출물이 토대"
 ---
 
 # 3장. 구조가 먼저다: 좋은 문장보다 좋은 구조, 기준 산출물이 토대
@@ -473,3 +474,4 @@ Augment Code의 연구는 이를 가장 간결하게 정리한다.
 - GitHub Blog, "Spec-driven development with AI: Get started with a new open source toolkit" — spec-kit의 constitution 개념
 - Augment Code, "Mastering Spec-Driven Development with Prompted AI Workflows" — AC 구체성이 AI 코드 품질을 직접 결정함을 명시
 - EPAM, 내부 연구 (2025) — 스펙 기반 구조화 태스크 80% 자동화 가능
+

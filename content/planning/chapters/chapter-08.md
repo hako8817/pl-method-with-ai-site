@@ -1,7 +1,8 @@
----
+﻿---
 publish: true
 publish_section: planning
 publish_order: 48
+title: "8장. RIB: Requirements Input Brief"
 ---
 
 # 8장. RIB: Requirements Input Brief
@@ -349,3 +350,4 @@ RIB가 완성되면 산출물 체인의 첫 번째 관문이 열린다. RIB는 P
 - **이 장(8장)이 결정한 것**: 문제·범위·제약·이해관계자·전제 조건의 구조화
 - **다음 장(9장)이 시작하는 것**: 방향·목적·성공 기준·Feature 우선순위를 확정하는 PRD 작성
 ---
+

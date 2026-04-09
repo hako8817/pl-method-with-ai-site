@@ -1,7 +1,8 @@
----
+﻿---
 publish: true
 publish_section: planning
 publish_order: 45
+title: "5장. 도구 환경 셋팅: Obsidian, VS Code, AI, Git"
 ---
 
 # 5장. 도구 환경 셋팅: Obsidian, VS Code, AI, Git
@@ -256,3 +257,4 @@ Obsidian이 컨텍스트를 쌓고, VS Code에서 산출물을 만들고, AI가 
 - **그 다음(7장)이 결정하는 것**: Source of Truth와 버전 관리 원칙
 
 이 세 장이 함께 이 책의 작업 방식의 기반을 구성한다.
+
