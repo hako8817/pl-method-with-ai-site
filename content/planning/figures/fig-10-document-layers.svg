@@ -1,0 +1,53 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <marker id="arrow10" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#243447"/>
+    </marker>
+    <style>
+      .title{font:700 38px Arial,sans-serif;fill:#22313a}
+      .subtitle{font:500 20px Arial,sans-serif;fill:#58666e}
+      .head{font:700 22px Arial,sans-serif;fill:#22313a}
+      .body{font:500 16px Arial,sans-serif;fill:#58666e}
+      .small{font:500 14px Arial,sans-serif;fill:#7b8790}
+      .biz{fill:#eef4fb;stroke:#4f6f94;stroke-width:2.6}
+      .prd{fill:#f4f7ff;stroke:#7087b4;stroke-width:2.6}
+      .srd{fill:#eef7f5;stroke:#5f9587;stroke-width:2.6}
+      .spec{fill:#fff7eb;stroke:#c08a43;stroke-width:2.6}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="#f7f5ef"/>
+  <text x="90" y="90" class="title">문서 레이어와 책임 분리</text>
+  <text x="90" y="126" class="subtitle">문서가 많아서 문제가 아니라, 서로 다른 레이어의 문서가 같은 책임을 침범할 때 문제가 생긴다.</text>
+
+  <rect x="180" y="180" width="1240" height="130" rx="24" class="biz"/>
+  <text x="220" y="224" class="head">BRD</text>
+  <text x="220" y="254" class="body">비즈니스 목표 / 범위 / 성공 기준</text>
+  <text x="220" y="282" class="body">주 담당: Biz / 리더 / 의사결정자</text>
+
+  <rect x="260" y="340" width="1080" height="140" rx="24" class="prd"/>
+  <text x="300" y="384" class="head">PRD</text>
+  <text x="300" y="414" class="body">사용자 문제 / 제품 방향 / 기능 우선순위 / 대표 시나리오</text>
+  <text x="300" y="442" class="body">주 담당: PM / Design / Engineering 협업</text>
+
+  <rect x="340" y="510" width="920" height="140" rx="24" class="srd"/>
+  <text x="380" y="554" class="head">SRD</text>
+  <text x="380" y="584" class="body">시스템 요구 / 인터페이스 / 데이터 / NFR / 기술 제약</text>
+  <text x="380" y="612" class="body">주 담당: Architect / Engineering / Data</text>
+
+  <rect x="420" y="680" width="760" height="120" rx="24" class="spec"/>
+  <text x="460" y="722" class="head">기능명세 / 상세사양</text>
+  <text x="460" y="752" class="body">상태 / 조건 / 오류 / 예외 처리 / 테스트 기준</text>
+  <text x="460" y="780" class="body">주 담당: Engineering / QA</text>
+
+  <line x1="800" y1="310" x2="800" y2="340" stroke="#243447" stroke-width="4" marker-end="url(#arrow10)"/>
+  <line x1="800" y1="480" x2="800" y2="510" stroke="#243447" stroke-width="4" marker-end="url(#arrow10)"/>
+  <line x1="800" y1="650" x2="800" y2="680" stroke="#243447" stroke-width="4" marker-end="url(#arrow10)"/>
+
+  <text x="1230" y="235" class="body">왜 하는가</text>
+  <text x="1230" y="405" class="body">무엇을 만들 것인가</text>
+  <text x="1230" y="575" class="body">어떤 구조로 구현할 것인가</text>
+  <text x="1230" y="735" class="body">정확히 어떻게 동작할 것인가</text>
+</svg>
+
+
+

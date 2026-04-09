@@ -1,0 +1,395 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1100" viewBox="0 0 1800 1100">
+  <defs>
+    <marker id="mFwd" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1a3a3a"/>
+    </marker>
+    <style>
+      .bg        { fill:#f5f3ed }
+      .phBox     { fill:#ffffff; stroke:#1a3a3a; stroke-width:2.5 }
+      .phHdr     { fill:#1a3a3a }
+      .phHdrTxt  { font:700 16px Arial,sans-serif; fill:#ffffff }
+      .dlvBox    { fill:#eef6f6; stroke:#4a8a8a; stroke-width:1.8 }
+      .dlvName   { font:700 14px Arial,sans-serif; fill:#1a3a3a }
+      .dlvSub    { font:400 13px Arial,sans-serif; fill:#3a6060 }
+      .dlvNote   { font:600 12px Arial,sans-serif; fill:#9a2800 }
+      .dlvRef    { fill:#f0f8f0; stroke:#3a7a3a; stroke-width:1.8; stroke-dasharray:5 3 }
+      .dlvRefNm  { font:700 14px Arial,sans-serif; fill:#1a4a1a }
+      .dlvRefSb  { font:400 13px Arial,sans-serif; fill:#2a5a2a }
+      .dlvCycle  { fill:#eeeefc; stroke:#4a4aaa; stroke-width:1.8 }
+      .dlvCycNm  { font:700 14px Arial,sans-serif; fill:#1a1a6a }
+      .dlvCycSb  { font:400 13px Arial,sans-serif; fill:#3a3a8a }
+      .dlvCycNt  { font:600 13px Arial,sans-serif; fill:#6a1a8a }
+      .custBox   { fill:#2a4a4a }
+      .custTxt   { font:700 14px Arial,sans-serif; fill:#ffffff }
+      .custSub   { font:400 13px Arial,sans-serif; fill:#9acaca }
+      .gateBadge { fill:#c03a14; stroke:#ffffff; stroke-width:2 }
+      .gateTxt   { font:700 12px Arial,sans-serif; fill:#ffffff }
+      .bpmnBand  { fill:#e2f4e2; stroke:#2a7a2a; stroke-width:2.2 }
+      .bpmnHdr   { font:700 14px Arial,sans-serif; fill:#1a4a1a }
+      .bpmnTxt   { font:400 13px Arial,sans-serif; fill:#2a5a2a }
+      .bpmnWarn  { font:600 13px Arial,sans-serif; fill:#7a2a00 }
+      .rtmBand   { fill:#e2ecf8; stroke:#2a5a9a; stroke-width:2.2 }
+      .rtmHdr    { font:700 14px Arial,sans-serif; fill:#0a2a6a }
+      .rtmTxt    { font:400 13px Arial,sans-serif; fill:#1a3a7a }
+      .decBox    { fill:#f5eedd; stroke:#8a5820; stroke-width:2 }
+      .decHdr    { font:700 14px Arial,sans-serif; fill:#4a2800 }
+      .decTxt    { font:400 13px Arial,sans-serif; fill:#5a3a10 }
+      .fbBand    { fill:#f5eef8; stroke:#7a3a8a; stroke-width:1.8 }
+      .fbHdr     { font:700 13px Arial,sans-serif; fill:#4a1a5a }
+      .fbTxt     { font:400 13px Arial,sans-serif; fill:#6a2a7a }
+      .aiBox     { fill:#fef7e0; stroke:#b07820; stroke-width:2.2 }
+      .aiHdr     { font:700 15px Arial,sans-serif; fill:#5a3000 }
+      .aiTxt     { font:400 13px Arial,sans-serif; fill:#6a4010 }
+      .aiWarn    { font:600 13px Arial,sans-serif; fill:#8a3a00 }
+      .pmBox     { fill:#1a3a3a }
+      .pmHdr     { font:700 17px Arial,sans-serif; fill:#ffffff }
+      .pmCol     { font:700 14px Arial,sans-serif; fill:#88cccc }
+      .pmTxt     { font:400 13px Arial,sans-serif; fill:#c0dcdc }
+      .foundBox  { fill:#f0e8d4; stroke:#9a7020; stroke-width:2.2 }
+      .foundHdr  { font:700 15px Arial,sans-serif; fill:#3a2000 }
+      .foundTxt  { font:400 13px Arial,sans-serif; fill:#5a3a10 }
+      .pBox      { fill:#f8f8f2; stroke:#888868; stroke-width:2 }
+      .pHdr      { font:700 15px Arial,sans-serif; fill:#1a3a3a }
+      .pTxt      { font:400 13px Arial,sans-serif; fill:#3a5050 }
+      .pNote     { font:600 13px Arial,sans-serif; fill:#7a2a00 }
+      .titleTxt  { font:700 32px Arial,sans-serif; fill:#1a3a3a }
+      .subTxt    { font:400 17px Arial,sans-serif; fill:#4a6060 }
+      .fwdLine   { stroke:#1a3a3a; stroke-width:4.5; fill:none }
+    </style>
+  </defs>
+
+  <!-- ── Background ── -->
+  <rect width="1800" height="1100" class="bg"/>
+
+  <!-- ═══════════════════════════════════════
+       TITLE  y: 20–78
+  ════════════════════════════════════════ -->
+  <text x="40" y="50" class="titleTxt">기획 산출물 with AI — 전체 구조 개요</text>
+  <text x="40" y="75" class="subTxt">산출물 체인 · BPMN/DMN 분리 원칙 · AI는 도구, PM이 주체 · 모든 단계는 반복 수정 가능</text>
+
+  <!--
+  ═══════════════════════════════════════════════════════════════
+   PHASE BOXES  y: 90 → 410   (height 320)
+   Col positions  x / w / right
+     고객  : 20  / 130 / 150
+     기획  : 178 / 293 / 471
+     설계  : 499 / 281 / 780
+     개발  : 808 / 293 / 1101
+     QA    : 1129 / 265 / 1394
+     운영  : 1422 / 278 / 1700
+   Flow arrow y = 250  (midpoint of boxes)
+  ═══════════════════════════════════════════════════════════════
+  -->
+
+  <!-- ─ 고객/비즈니스 ─ -->
+  <rect x="20" y="90" width="130" height="320" rx="12" class="custBox"/>
+  <text x="85"  y="186" class="custTxt" text-anchor="middle">고객</text>
+  <text x="85"  y="206" class="custTxt" text-anchor="middle">비즈니스</text>
+  <line x1="34" y1="222" x2="136" y2="222" stroke="#3a6a6a" stroke-width="1.5"/>
+  <text x="85"  y="244" class="custSub" text-anchor="middle">요구사항</text>
+  <text x="85"  y="264" class="custSub" text-anchor="middle">Pain Point</text>
+  <text x="85"  y="284" class="custSub" text-anchor="middle">비즈니스 목표</text>
+  <text x="85"  y="304" class="custSub" text-anchor="middle">신규 / As-Is</text>
+  <text x="85"  y="322" class="custSub" text-anchor="middle">복원 모두 해당</text>
+
+  <!-- flow arrow 고객→기획 -->
+  <line x1="150" y1="250" x2="173" y2="250" class="fwdLine" marker-end="url(#mFwd)"/>
+
+  <!-- ─ 01 기획 ─ -->
+  <rect x="178" y="90" width="293" height="320" rx="12" class="phBox"/>
+  <rect x="178" y="90" width="293" height="44"  rx="12" class="phHdr"/>
+  <rect x="178" y="116" width="293" height="18"  class="phHdr"/>
+  <text x="324" y="119" class="phHdrTxt" text-anchor="middle">01  기획</text>
+  <!-- RIB -->
+  <rect x="189" y="142" width="271" height="80" rx="8" class="dlvBox"/>
+  <text x="201" y="162" class="dlvName">RIB</text>
+  <text x="201" y="180" class="dlvSub">문제 정의 · 범위 · 제약조건</text>
+  <text x="201" y="198" class="dlvSub">이해관계자 · 확인 필요사항</text>
+  <text x="201" y="215" class="dlvSub">As-Is 복원 시: 현행 파악 포함</text>
+  <!-- PRD -->
+  <rect x="189" y="228" width="271" height="80" rx="8" class="dlvBox"/>
+  <text x="201" y="248" class="dlvName">PRD</text>
+  <text x="201" y="266" class="dlvSub">방향 · 시나리오 · 우선순위</text>
+  <text x="201" y="284" class="dlvSub">성공기준 · Feature 목록</text>
+  <text x="201" y="300" class="dlvSub">이해관계자 동의 기준 포함</text>
+  <!-- 정책서 -->
+  <rect x="189" y="314" width="271" height="72" rx="8" class="dlvBox"/>
+  <text x="201" y="334" class="dlvName">정책서</text>
+  <text x="201" y="352" class="dlvSub">실행 규칙 · 예외 · 엣지케이스</text>
+  <text x="201" y="370" class="dlvSub">결정 근거 · 기준 명시</text>
+  <!-- Gate 1 -->
+  <rect x="447" y="389" width="72" height="22" rx="5" class="gateBadge"/>
+  <text x="483" y="404" class="gateTxt" text-anchor="middle">DoR ✓</text>
+
+  <!-- flow arrow 기획→설계 -->
+  <line x1="471" y1="250" x2="494" y2="250" class="fwdLine" marker-end="url(#mFwd)"/>
+
+  <!-- ─ 02 설계 ─ -->
+  <rect x="499" y="90" width="281" height="320" rx="12" class="phBox"/>
+  <rect x="499" y="90" width="281" height="44"  rx="12" class="phHdr"/>
+  <rect x="499" y="116" width="281" height="18"  class="phHdr"/>
+  <text x="639" y="119" class="phHdrTxt" text-anchor="middle">02  설계</text>
+  <!-- 프로토타입 -->
+  <rect x="510" y="142" width="259" height="84" rx="8" class="dlvBox"/>
+  <text x="522" y="162" class="dlvName">프로토타입 (Lo-fi → Hi-fi)</text>
+  <text x="522" y="180" class="dlvSub">화면 흐름 · 상태 변화 · UX 검증</text>
+  <text x="522" y="198" class="dlvSub">이해관계자 검토 · 피드백 반영</text>
+  <text x="522" y="216" class="dlvSub">기획 초기 개념 검증부터 활용 가능</text>
+  <!-- BPMN/DMN 참조 -->
+  <rect x="510" y="232" width="259" height="62" rx="8" class="dlvRef"/>
+  <text x="522" y="252" class="dlvRefNm">BPMN + DMN</text>
+  <text x="522" y="270" class="dlvRefSb">↓ 하단 크로스커팅 레이어 참조</text>
+  <text x="522" y="286" class="dlvRefSb">기획~개발 전 단계에서 분리 사용</text>
+  <!-- UX/IA 설계 -->
+  <rect x="510" y="300" width="259" height="80" rx="8" class="dlvBox"/>
+  <text x="522" y="320" class="dlvName">UX/IA 설계</text>
+  <text x="522" y="338" class="dlvSub">정보구조 · 사용자 흐름 정의</text>
+  <text x="522" y="356" class="dlvSub">인터랙션 기준 · 컴포넌트 정의</text>
+  <text x="522" y="372" class="dlvSub">설계 기준 확정 후 개발로 전달</text>
+  <!-- Gate 2 -->
+  <rect x="752" y="389" width="88" height="22" rx="5" class="gateBadge"/>
+  <text x="796" y="404" class="gateTxt" text-anchor="middle">설계 확정 ✓</text>
+
+  <!-- flow arrow 설계→개발 -->
+  <line x1="780" y1="250" x2="803" y2="250" class="fwdLine" marker-end="url(#mFwd)"/>
+
+  <!-- ─ 03 개발 ─ -->
+  <rect x="808" y="90" width="293" height="320" rx="12" class="phBox"/>
+  <rect x="808" y="90" width="293" height="44"  rx="12" class="phHdr"/>
+  <rect x="808" y="116" width="293" height="18"  class="phHdr"/>
+  <text x="954" y="119" class="phHdrTxt" text-anchor="middle">03  개발</text>
+  <!-- 사양서 -->
+  <rect x="819" y="142" width="271" height="80" rx="8" class="dlvBox"/>
+  <text x="831" y="162" class="dlvName">사양서 / 상세설계서</text>
+  <text x="831" y="180" class="dlvSub">구현 조건 · 상태 정의 · 오류 처리</text>
+  <text x="831" y="198" class="dlvSub">API 명세 · 비즈니스 규칙 기준</text>
+  <text x="831" y="214" class="dlvNote">★ TC 설계는 이 시점 착수</text>
+  <!-- 데이터 모델 -->
+  <rect x="819" y="228" width="271" height="80" rx="8" class="dlvBox"/>
+  <text x="831" y="248" class="dlvName">데이터 모델</text>
+  <text x="831" y="266" class="dlvSub">엔티티 · 관계 · 상태 전이</text>
+  <text x="831" y="284" class="dlvSub">논리 → 물리 모델 단계적 구체화</text>
+  <text x="831" y="300" class="dlvSub">기획 단계 개념 모델에서 시작</text>
+  <!-- 구현 기준서 -->
+  <rect x="819" y="314" width="271" height="72" rx="8" class="dlvBox"/>
+  <text x="831" y="334" class="dlvName">구현 기준서</text>
+  <text x="831" y="352" class="dlvSub">DoD · 완료기준 · 릴리스 단위</text>
+  <text x="831" y="370" class="dlvSub">의존성 · 구현 우선순위</text>
+  <!-- Gate 3 -->
+  <rect x="1067" y="389" width="92" height="22" rx="5" class="gateBadge"/>
+  <text x="1113" y="404" class="gateTxt" text-anchor="middle">사양 확정 ✓</text>
+
+  <!-- flow arrow 개발→QA -->
+  <line x1="1101" y1="250" x2="1124" y2="250" class="fwdLine" marker-end="url(#mFwd)"/>
+
+  <!-- ─ 04 QA ─ -->
+  <rect x="1129" y="90" width="265" height="320" rx="12" class="phBox"/>
+  <rect x="1129" y="90" width="265" height="44"  rx="12" class="phHdr"/>
+  <rect x="1129" y="116" width="265" height="18"  class="phHdr"/>
+  <text x="1261" y="119" class="phHdrTxt" text-anchor="middle">04  QA</text>
+  <!-- 테스트케이스 -->
+  <rect x="1140" y="142" width="243" height="96" rx="8" class="dlvBox"/>
+  <text x="1152" y="162" class="dlvName">테스트케이스</text>
+  <text x="1152" y="180" class="dlvSub">정상 · 예외 · 경계값 시나리오</text>
+  <text x="1152" y="198" class="dlvSub">검증기준 · 회귀 범위 정의</text>
+  <text x="1152" y="214" class="dlvNote">★ 사양서 확정 직후 설계 시작</text>
+  <text x="1152" y="230" class="dlvNote">(QA 단계가 아닌 설계 검증 도구)</text>
+  <!-- QA 결과 -->
+  <rect x="1140" y="244" width="243" height="76" rx="8" class="dlvBox"/>
+  <text x="1152" y="264" class="dlvName">QA 결과 / 회귀 기록</text>
+  <text x="1152" y="282" class="dlvSub">결함 이력 · 재현 조건 · 수정 확인</text>
+  <text x="1152" y="300" class="dlvSub">릴리스 판단 근거</text>
+  <!-- RTM 참조 -->
+  <rect x="1140" y="326" width="243" height="54" rx="8" class="dlvRef"/>
+  <text x="1152" y="346" class="dlvRefNm">RTM</text>
+  <text x="1152" y="364" class="dlvRefSb">↓ 크로스커팅 레이어 참조</text>
+  <!-- Gate 4 -->
+  <rect x="1360" y="389" width="92" height="22" rx="5" class="gateBadge"/>
+  <text x="1406" y="404" class="gateTxt" text-anchor="middle">QA 통과 ✓</text>
+
+  <!-- flow arrow QA→운영 -->
+  <line x1="1394" y1="250" x2="1417" y2="250" class="fwdLine" marker-end="url(#mFwd)"/>
+
+  <!-- ─ 05 운영 ─ -->
+  <rect x="1422" y="90" width="278" height="320" rx="12" class="phBox"/>
+  <rect x="1422" y="90" width="278" height="44"  rx="12" class="phHdr"/>
+  <rect x="1422" y="116" width="278" height="18"  class="phHdr"/>
+  <text x="1561" y="119" class="phHdrTxt" text-anchor="middle">05  운영</text>
+  <!-- 릴리스 노트 -->
+  <rect x="1433" y="142" width="256" height="76" rx="8" class="dlvBox"/>
+  <text x="1445" y="162" class="dlvName">릴리스 노트</text>
+  <text x="1445" y="180" class="dlvSub">변경 내역 · 영향 범위</text>
+  <text x="1445" y="198" class="dlvSub">알려진 이슈 · 롤백 기준</text>
+  <!-- 운영 문서 -->
+  <rect x="1433" y="224" width="256" height="76" rx="8" class="dlvBox"/>
+  <text x="1445" y="244" class="dlvName">운영 문서 / 매뉴얼</text>
+  <text x="1445" y="262" class="dlvSub">모니터링 기준 · 장애 대응</text>
+  <text x="1445" y="280" class="dlvSub">에스컬레이션 · 알림 조건</text>
+  <!-- 피드백 순환 -->
+  <rect x="1433" y="306" width="256" height="80" rx="8" class="dlvCycle"/>
+  <text x="1445" y="326" class="dlvCycNm">운영 피드백</text>
+  <text x="1445" y="344" class="dlvCycSb">이슈 패턴 · 사용 데이터 분석</text>
+  <text x="1445" y="362" class="dlvCycSb">AI 이상 감지 · 개선 인사이트</text>
+  <text x="1445" y="378" class="dlvCycNt">↩ 다음 기획의 RIB 입력으로 순환</text>
+
+  <!-- Feedback loop arc: 운영 → 기획 -->
+  <path d="M 1561,410 Q 1561,435 870,445 Q 400,452 324,435 Q 270,424 270,410"
+        stroke="#4a4aaa" stroke-width="2.5" fill="none" stroke-dasharray="9 5"
+        marker-end="url(#mFwd)"/>
+  <text x="870" y="460" style="font:600 12px Arial,sans-serif;fill:#3a3a9a" text-anchor="middle">↩ 운영 피드백 → 다음 기획 RIB 순환</text>
+
+  <!--
+  ═══════════════════════════════════════════════════════════════
+   CROSS-CUTTING BANDS
+   BPMN/DMN : x=178  w=923  y=476–546  (기획~개발)
+   RTM       : x=178  w=1216 y=556–602  (기획~QA)
+   Decision Log : x=1422 w=278 y=476–602
+  ═══════════════════════════════════════════════════════════════
+  -->
+
+  <!-- BPMN + DMN band -->
+  <rect x="178" y="476" width="923" height="70" rx="10" class="bpmnBand"/>
+  <text x="196" y="500" class="bpmnHdr">BPMN (프로세스 흐름) + DMN (판단 규칙) — 크로스커팅 도구 (기획~개발 전 단계 사용)</text>
+  <text x="196" y="520" class="bpmnTxt">정책서 → BPMN으로 흐름화, DMN으로 판단 규칙화 · 사양서 작성 시 BPMN/DMN 기반으로 구현 조건 도출</text>
+  <text x="196" y="538" class="bpmnWarn">흐름과 판단을 같은 문서에 섞으면 판단 기준 하나가 바뀔 때 전체 흐름도를 다시 검토해야 한다</text>
+
+  <!-- RTM band -->
+  <rect x="178" y="556" width="1216" height="46" rx="10" class="rtmBand"/>
+  <text x="196" y="578" class="rtmHdr">RTM (Requirement Traceability Matrix) — 기획 단계부터 씨앗을 심고 QA에서 완성한다</text>
+  <text x="196" y="596" class="rtmTxt">요구사항(RIB/PRD) ↔ 설계(BPMN/사양서) ↔ 테스트케이스 전체 연결 추적 · RTM 없으면 QA가 무엇을 검증하는지 알 수 없다</text>
+
+  <!-- Decision Log + Changelog -->
+  <rect x="1422" y="476" width="278" height="126" rx="10" class="decBox"/>
+  <text x="1440" y="500" class="decHdr">Decision Log</text>
+  <text x="1440" y="520" class="decTxt">주요 판단의 선택 근거 기록</text>
+  <text x="1440" y="538" class="decTxt">누가 언제 왜 결정했는가</text>
+  <line x1="1430" y1="548" x2="1692" y2="548" stroke="#8a5820" stroke-width="1.5"/>
+  <text x="1440" y="568" class="decHdr">Changelog</text>
+  <text x="1440" y="586" class="decTxt">산출물 변경 이력 전체 관리</text>
+  <text x="1440" y="602" class="decTxt">영향 범위 분석 기준</text>
+
+  <!--
+  ═══════════════════════════════════════════════
+   반복 수정 경로  y: 614–658
+  ═══════════════════════════════════════════════
+  -->
+  <rect x="20" y="614" width="1680" height="44" rx="8" class="fbBand"/>
+  <text x="38" y="632" class="fbHdr">반복 수정 경로 — 모든 단계는 앞 단계로 돌아갈 수 있다 (이 도식 전체가 반복 구조)</text>
+  <line x1="208" y1="618" x2="208" y2="654" stroke="#8a4a9a" stroke-width="1" stroke-dasharray="3 2"/>
+  <text x="230" y="644" class="fbTxt">← 설계↔기획: 요구 재정의</text>
+  <line x1="450" y1="618" x2="450" y2="654" stroke="#8a4a9a" stroke-width="1" stroke-dasharray="3 2"/>
+  <text x="470" y="644" class="fbTxt">← 개발↔설계: 설계 재검토</text>
+  <line x1="720" y1="618" x2="720" y2="654" stroke="#8a4a9a" stroke-width="1" stroke-dasharray="3 2"/>
+  <text x="740" y="644" class="fbTxt">← QA↔개발: 사양서 수정</text>
+  <line x1="980" y1="618" x2="980" y2="654" stroke="#8a4a9a" stroke-width="1" stroke-dasharray="3 2"/>
+  <text x="1000" y="644" class="fbTxt">← 운영↔QA: 회귀 재검증</text>
+  <line x1="1250" y1="618" x2="1250" y2="654" stroke="#8a4a9a" stroke-width="1" stroke-dasharray="3 2"/>
+  <text x="1270" y="644" class="fbTxt">↩ 운영→기획: 피드백 순환 (위 점선 화살표)</text>
+
+  <!--
+  ═══════════════════════════════════════════════
+   AI / PM  y: 670–820
+   AI  : x=20  w=420  (도구, 1/4)
+   PM  : x=460 w=1240 (주체, 3/4)
+  ═══════════════════════════════════════════════
+  -->
+  <!-- AI box -->
+  <rect x="20" y="670" width="420" height="150" rx="10" class="aiBox"/>
+  <text x="40"  y="698" class="aiHdr">AI 담당 (도구)</text>
+  <line x1="28" y1="706" x2="432" y2="706" stroke="#b07820" stroke-width="1.5"/>
+  <text x="40"  y="724" class="aiTxt">초안 생성 · 구조화 · 문서 간 변환</text>
+  <text x="40"  y="742" class="aiTxt">누락 항목 점검 · 케이스/예외 발굴</text>
+  <text x="40"  y="760" class="aiTxt">PRD→BPMN 변환 · 사양→TC 변환</text>
+  <text x="40"  y="778" class="aiTxt">형식 통일 · 용어 일관성 점검</text>
+  <text x="40"  y="800" class="aiWarn">AI 출력은 반드시 PM이 검토한다</text>
+  <text x="40"  y="816" class="aiWarn">조직 맥락 없이 생성된 정책은 위험하다</text>
+
+  <!-- PM box -->
+  <rect x="460" y="670" width="1240" height="150" rx="10" class="pmBox"/>
+  <text x="482" y="698" class="pmHdr">PM 책임 (주체 — AI가 대신할 수 없는 영역)</text>
+  <line x1="468" y1="706" x2="1692" y2="706" stroke="#4a7a7a" stroke-width="1.5"/>
+  <!-- Column 1: 판단 -->
+  <text x="482" y="728" class="pmCol">판단</text>
+  <text x="482" y="748" class="pmTxt">범위 확정 / 우선순위 결정</text>
+  <text x="482" y="766" class="pmTxt">정책 충돌 해소</text>
+  <text x="482" y="784" class="pmTxt">예외 처리 결정</text>
+  <text x="482" y="802" class="pmTxt">게이트 통과 최종 판단</text>
+  <!-- Divider 1 -->
+  <line x1="710" y1="712" x2="710" y2="812" stroke="#3a6a6a" stroke-width="1"/>
+  <!-- Column 2: 맥락 -->
+  <text x="728" y="728" class="pmCol">맥락</text>
+  <text x="728" y="748" class="pmTxt">이해관계자 이견 해소</text>
+  <text x="728" y="766" class="pmTxt">조직·정치 맥락 반영</text>
+  <text x="728" y="784" class="pmTxt">비즈니스 목표 유지</text>
+  <text x="728" y="802" class="pmTxt">히스토리 기반 판단</text>
+  <!-- Divider 2 -->
+  <line x1="986" y1="712" x2="986" y2="812" stroke="#3a6a6a" stroke-width="1"/>
+  <!-- Column 3: 책임 -->
+  <text x="1004" y="728" class="pmCol">책임</text>
+  <text x="1004" y="748" class="pmTxt">산출물 품질 최종 책임</text>
+  <text x="1004" y="766" class="pmTxt">승인 · 변경 의사결정</text>
+  <text x="1004" y="784" class="pmTxt">체인 연결 무결성 유지</text>
+  <text x="1004" y="802" class="pmTxt">기준 문서 최신화 관리</text>
+  <!-- Divider 3 -->
+  <line x1="1262" y1="712" x2="1262" y2="812" stroke="#3a6a6a" stroke-width="1"/>
+  <!-- Column 4: AI 검토 -->
+  <text x="1280" y="728" class="pmCol">AI 출력 검토</text>
+  <text x="1280" y="748" class="pmTxt">정책·예외의 맥락 타당성</text>
+  <text x="1280" y="766" class="pmTxt">과거 결정과의 충돌 확인</text>
+  <text x="1280" y="784" class="pmTxt">비즈니스 우선순위 왜곡 방지</text>
+  <text x="1280" y="802" class="pmTxt">이해관계자 맥락 누락 방지</text>
+
+  <!--
+  ═══════════════════════════════════════════════
+   기준 문서 레이어  y: 834–914
+  ═══════════════════════════════════════════════
+  -->
+  <rect x="20" y="834" width="1680" height="80" rx="10" class="foundBox"/>
+  <text x="40"  y="862" class="foundHdr">기준 문서 레이어 — 전 단계가 공통 참조 (변경 시 전 단계 산출물에 영향)</text>
+  <line x1="28" y1="870" x2="1692" y2="870" stroke="#9a7020" stroke-width="1.5"/>
+  <text x="40"  y="890" class="foundTxt">로드맵 · 용어집 · Feature Taxonomy · Source of Truth · 공통 정책</text>
+  <text x="40"  y="908" class="foundTxt">AI가 모든 산출물 생성 시 기준 컨텍스트로 제공 — 없으면 AI 출력의 일관성을 보장할 수 없다 · 변경 시 영향 범위 먼저 파악</text>
+
+  <!--
+  ═══════════════════════════════════════════════
+   핵심 원칙 3개  y: 928–1080
+   P1: x=20   w=530
+   P2: x=570  w=530
+   P3: x=1120 w=580
+  ═══════════════════════════════════════════════
+  -->
+
+  <!-- P1: 산출물 체인 -->
+  <rect x="20" y="928" width="530" height="152" rx="10" class="pBox"/>
+  <text x="40" y="954" class="pHdr">① 산출물 체인 — 연결이 끊기면 체인이 끊긴다</text>
+  <line x1="28" y1="962" x2="542" y2="962" stroke="#888868" stroke-width="1.5"/>
+  <text x="40" y="982" class="pTxt">RIB → PRD → 정책서 → BPMN/DMN</text>
+  <text x="40" y="1000" class="pTxt">→ 사양서 → 프로토타입 → TC → 개발/운영</text>
+  <text x="40" y="1020" class="pTxt">각 산출물의 출력이 다음 입력이 된다.</text>
+  <text x="40" y="1038" class="pTxt">문서 하나의 완성도보다 앞뒤 연결이 먼저.</text>
+  <text x="40" y="1058" class="pNote">RTM·Decision Log·Changelog 없이는</text>
+  <text x="40" y="1074" class="pNote">체인이 연결돼도 추적할 수 없다</text>
+
+  <!-- P2: 흐름/판단 분리 -->
+  <rect x="570" y="928" width="530" height="152" rx="10" class="pBox"/>
+  <text x="590" y="954" class="pHdr">② 흐름/판단 분리 — 변경 비용의 핵심 차이</text>
+  <line x1="578" y1="962" x2="1092" y2="962" stroke="#888868" stroke-width="1.5"/>
+  <text x="590" y="982" class="pTxt">흐름은 BPMN  /  판단은 DMN</text>
+  <text x="590" y="1000" class="pTxt">같은 문서에 섞으면 판단 기준 하나가</text>
+  <text x="590" y="1018" class="pTxt">바뀔 때 전체 흐름도를 다시 봐야 한다.</text>
+  <text x="590" y="1036" class="pTxt">분리하면 DMN 테이블 한 줄만 바꾸면 된다.</text>
+  <text x="590" y="1056" class="pNote">BPMN/DMN은 설계 단계의 산출물이 아니라</text>
+  <text x="590" y="1072" class="pNote">기획부터 개발까지 지속 활용하는 분리 도구</text>
+
+  <!-- P3: PM이 주체 -->
+  <rect x="1120" y="928" width="580" height="152" rx="10" class="pBox"/>
+  <text x="1140" y="954" class="pHdr">③ PM이 주체 — AI가 못 하는 것이 있다</text>
+  <line x1="1128" y1="962" x2="1692" y2="962" stroke="#888868" stroke-width="1.5"/>
+  <text x="1140" y="982" class="pTxt">AI는 초안·점검·변환을 빠르게 처리한다.</text>
+  <text x="1140" y="1000" class="pTxt">그러나 조직 맥락, 의사결정 히스토리,</text>
+  <text x="1140" y="1018" class="pTxt">이해관계자 정치, 비즈니스 우선순위 판단은</text>
+  <text x="1140" y="1036" class="pTxt">PM이 직접 해야 한다.</text>
+  <text x="1140" y="1056" class="pNote">AI 출력을 검토 없이 그대로 쓰면</text>
+  <text x="1140" y="1072" class="pNote">그 산출물의 책임은 그대로 PM에게 남는다</text>
+
+</svg>
