@@ -18,7 +18,7 @@ title: "1장. AI는 기획을 없애지 않는다 — 요구사항 구조가 더
 - AI가 산출물에 가져온 변화가 속도만이 아님을 이해할 수 있다.
 - PM/PO의 역할이 왜 문서 작성에서 구조 설계로 이동하는지 설명할 수 있다.
 
-![](../figures/fig-method-overview-onepage-v3.svg)
+![](../figures/fig-method-overview-onepage-v3.png)
 
 > 도식: AI 시대 기획 산출물 재설계 전체 개요: WHY → WHAT(산출물 체인) → HOW(팀 운영체계)
 
