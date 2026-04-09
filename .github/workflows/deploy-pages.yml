@@ -32,7 +32,7 @@ jobs:
         run: npm ci
 
       - name: Build site
-        run: npx quartz build -d content
+        run: node ./quartz/bootstrap-cli.mjs build -d content
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
@@ -52,3 +52,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
