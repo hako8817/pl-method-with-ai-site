@@ -1,4 +1,4 @@
-﻿# Hako의 AI기획
+﻿# Hako의 기획 with AI
 
 기획자, PO, PM를 위한 AI기획 방법론과 구조화된 Knowledge를 공개하는 사이트다.
 
@@ -29,3 +29,4 @@
 npm install
 node ./quartz/bootstrap-cli.mjs build --serve -d content
 ```
+

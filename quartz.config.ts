@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Hako의 AI기획",
+    pageTitle: "Hako의 기획 with AI",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -95,6 +95,7 @@ const config: QuartzConfig = {
 }
 
 export default config
+
 
 
 
