@@ -15,8 +15,7 @@ title: Planning
 
 ## Reading Order
 1. Planning
-2. [Deliverable Chain Overview](deliverable-chain-overview)
-3. [Book TOC](book-toc)
+2. [Book TOC](book-toc)
 
 ## Book
 1. [AI 시대 기획 산출물의 재설계](chapters)
