@@ -58,3 +58,8 @@ PROFESSION® In-Depth ReportREQU"))
 
 [8] OpenAI Docs, **Structured model outputs**. Structured Outputs는 모델 응답이 개발자가 정의한 JSON Schema를 따르도록 보장하며, 필수 키 누락이나 잘못된 enum 값을 줄이는 구조화된 출력 방식을 제공한다고 설명한다. ([OpenAI Platform](https://platform.openai.com/docs/guides/structured-outputs?utm_source=chatgpt.com "Structured model outputs | OpenAI API"))
 
+
+---
+
+브런치: https://brunch.co.kr/@hako
+
