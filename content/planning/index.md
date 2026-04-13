@@ -1,6 +1,5 @@
 ---
 title: Planning
----
 type:
 category: "#project"
 status: active

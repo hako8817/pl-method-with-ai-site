@@ -1,6 +1,5 @@
 ---
 title: Prologue
----
 type:
 category: "#project"
 status: active
