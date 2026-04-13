@@ -7,18 +7,20 @@ interface Options {
 }
 
 export default ((opts?: Options) => {
-  const Footer: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
+  const Footer: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
     const year = new Date().getFullYear()
     const links = opts?.links ?? []
     return (
       <footer class={`${displayClass ?? ""}`}>
-                <ul>
+        <ul>
           {Object.entries(links).map(([text, link]) => (
             <li>
               <a href={link}>{`${text} :${link}`}</a>
             </li>
           ))}
-        </ul>`r`n        <p>{`Created with Quartz v${version} © ${year}`}</p>`r`n      </footer>
+        </ul>
+        <p>{`Created with Quartz v${version} © ${year}`}</p>
+      </footer>
     )
   }
 
