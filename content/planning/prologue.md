@@ -1,8 +1,5 @@
 ﻿---
 title: Prologue
----
-
----
 type:
 category: "#project"
 status: active
@@ -61,5 +58,6 @@ PROFESSION짰 In-Depth ReportREQU"))
 [7] GitHub Docs, **Adding repository custom instructions for GitHub Copilot**. ??μ냼 ?꾩껜 吏移? 寃쎈줈蹂?吏移? `AGENTS.md` 湲곕컲 ?먯씠?꾪듃 吏移⑥쓣 吏?먰븯硫? 媛??媛源뚯슫 `AGENTS.md`媛 ?곗꽑 ?곸슜?쒕떎怨??ㅻ챸?쒕떎. ?먰븳 吏移⑥씠 Copilot ?붿껌???먮룞?쇰줈 異붽??쒕떎怨?紐낆떆?쒕떎. ([GitHub Docs](https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions?tool=copilotcli&utm_source=chatgpt.com "Adding repository custom instructions for GitHub Copilot - GitHub Docs"))
 
 [8] OpenAI Docs, **Structured model outputs**. Structured Outputs??紐⑤뜽 ?묐떟??媛쒕컻?먭? ?뺤쓽??JSON Schema瑜??곕Ⅴ?꾨줉 蹂댁옣?섎ŉ, ?꾩닔 ???꾨씫?대굹 ?섎せ??enum 媛믪쓣 以꾩씠??援ъ“?붾맂 異쒕젰 諛⑹떇???쒓났?쒕떎怨??ㅻ챸?쒕떎. ([OpenAI Platform](https://platform.openai.com/docs/guides/structured-outputs?utm_source=chatgpt.com "Structured model outputs | OpenAI API"))
+
 
 
