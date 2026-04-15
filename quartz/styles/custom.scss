@@ -52,3 +52,8 @@ ol li::marker {
 .darkmode article h4 {
   color: #c7d8ff;
 }
+
+.hide-folder-listing + .page-listing {
+  display: none !important;
+}
+

@@ -3,9 +3,11 @@ title: "PM/PO를 위한 PKM OS 챕터"
 publish: true
 publish_section: pkm
 publish_order: 22
+cssclasses: [hide-folder-listing]
 ---
 
 # PM/PO를 위한 PKM OS 챕터
+
 
 프롤로그, 파트 요약, 상세 장을 읽는 순서대로 정리한 목록이다.
 
