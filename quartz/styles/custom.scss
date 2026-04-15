@@ -57,3 +57,7 @@ ol li::marker {
   display: none !important;
 }
 
+
+body[data-slug="pkm/index"] .page-listing {
+  display: none !important;
+}

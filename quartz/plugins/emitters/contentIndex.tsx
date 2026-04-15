@@ -1,4 +1,4 @@
-import { Root } from "hast"
+﻿import { Root } from "hast"
 import { GlobalConfiguration } from "../../cfg"
 import { getDate } from "../../components/Date"
 import { escapeHTML } from "../../util/escape"
@@ -115,6 +115,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
               : undefined,
             date: date,
             description: file.data.description ?? "",
+            publishOrder: file.data.frontmatter?.publish_order,
           })
         }
       }
@@ -172,3 +173,4 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
     },
   }
 }
+
