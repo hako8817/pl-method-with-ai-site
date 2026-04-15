@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 560" width="960" height="560"
+     xmlns="http://www.w3.org/2000/svg"
+     font-family="'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Segoe UI', sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#6B7280"/>
+    </marker>
+  </defs>
+  <rect width="960" height="560" fill="#F8FAFC"/>
+  <text x="480" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">이 책에서 Knowledge와 Decision OS는 전체 데이터 공개가 아니라 방법과 샘플의 사례다</text>
+  <text x="480" y="58" text-anchor="middle" font-size="11" fill="#6B7280">독자가 가져가야 하는 것은 볼트 구경이 아니라 재현 가능한 운영 플레이어다</text>
+
+  <rect x="70" y="106" width="168" height="92" rx="12" fill="#DBEAFE" stroke="#60A5FA" stroke-width="2"/>
+  <text x="154" y="138" text-anchor="middle" font-size="18" font-weight="bold" fill="#1D4ED8">Daily Input</text>
+  <text x="154" y="163" text-anchor="middle" font-size="11" fill="#1E3A8A">사실, 판단, 지식 후보, 결과</text>
+  <text x="154" y="181" text-anchor="middle" font-size="11" fill="#1E3A8A">모든 흐름의 출발점</text>
+
+  <rect x="286" y="96" width="256" height="126" rx="14" fill="#ECFDF5" stroke="#34D399" stroke-width="2"/>
+  <text x="414" y="128" text-anchor="middle" font-size="20" font-weight="bold" fill="#047857">Knowledge</text>
+  <text x="414" y="154" text-anchor="middle" font-size="11" fill="#065F46">재사용 지식을 다루는 운영 방법</text>
+  <text x="414" y="172" text-anchor="middle" font-size="11" fill="#065F46">분류 기준, 파일명 규칙, 메타데이터</text>
+  <text x="414" y="190" text-anchor="middle" font-size="11" fill="#065F46">신규 생성 / 업데이트 / 보류 판단</text>
+  <text x="414" y="208" text-anchor="middle" font-size="11" fill="#065F46">샘플 노트 몇 개만으로 구조를 설명</text>
+
+  <rect x="286" y="258" width="256" height="126" rx="14" fill="#F5E8FF" stroke="#C084FC" stroke-width="2"/>
+  <text x="414" y="290" text-anchor="middle" font-size="20" font-weight="bold" fill="#7E22CE">Decision OS</text>
+  <text x="414" y="316" text-anchor="middle" font-size="11" fill="#6B21A8">근거와 결정을 다루는 운영 방법</text>
+  <text x="414" y="334" text-anchor="middle" font-size="11" fill="#6B21A8">Evidence, Decision, 상태값, 링크 구조</text>
+  <text x="414" y="352" text-anchor="middle" font-size="11" fill="#6B21A8">샘플 로그와 판단 흐름만 공개</text>
+  <text x="414" y="370" text-anchor="middle" font-size="11" fill="#6B21A8">전체 저장소 dump는 목적이 아님</text>
+
+  <rect x="620" y="168" width="192" height="104" rx="12" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2"/>
+  <text x="716" y="200" text-anchor="middle" font-size="18" font-weight="bold" fill="#B45309">Book Focus</text>
+  <text x="716" y="225" text-anchor="middle" font-size="11" fill="#92400E">rules + samples + play</text>
+  <text x="716" y="243" text-anchor="middle" font-size="11" fill="#92400E">how to adapt to your vault</text>
+  <text x="716" y="261" text-anchor="middle" font-size="11" fill="#92400E">not raw data volume</text>
+
+  <rect x="620" y="326" width="222" height="112" rx="12" fill="#FFF7ED" stroke="#FB923C" stroke-width="2"/>
+  <text x="731" y="358" text-anchor="middle" font-size="18" font-weight="bold" fill="#C2410C">Distill / Express</text>
+  <text x="731" y="383" text-anchor="middle" font-size="11" fill="#9A3412">패턴을 묶고 다시 꺼내 쓰는 단계</text>
+  <text x="731" y="401" text-anchor="middle" font-size="11" fill="#9A3412">PRD, Case Study, Checklist, Playbook</text>
+  <text x="731" y="419" text-anchor="middle" font-size="11" fill="#9A3412">개인 볼트가 실행 자산으로 전환됨</text>
+
+  <rect x="66" y="428" width="476" height="82" rx="12" fill="#FFFFFF" stroke="#D1D5DB"/>
+  <text x="304" y="458" text-anchor="middle" font-size="16" font-weight="bold" fill="#111827">독자가 책에서 가져가야 하는 것</text>
+  <text x="304" y="482" text-anchor="middle" font-size="11" fill="#4B5563">샘플 노트를 그대로 복사하는 것이 아니라</text>
+  <text x="304" y="500" text-anchor="middle" font-size="11" fill="#4B5563">Daily에서 분기하고 구조화하고 재사용하는 플레이를 자기 환경에 재현하는 것</text>
+
+  <path d="M238,152 L286,152" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+  <path d="M238,152 C264,152 264,321 286,321" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+  <path d="M542,159 C586,176 598,194 620,208" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+  <path d="M542,321 C584,334 600,352 620,364" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+  <path d="M812,382 C844,390 858,412 858,448 C858,484 784,500 542,500" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+</svg>

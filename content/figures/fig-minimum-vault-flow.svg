@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 980 560" width="980" height="560"
+     xmlns="http://www.w3.org/2000/svg"
+     font-family="'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Segoe UI', sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#6B7280"/>
+    </marker>
+  </defs>
+  <rect width="980" height="560" fill="#F8FAFC"/>
+  <text x="490" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">최소 볼트 구조의 목적은 흐름이 막히지 않게 하는 것이다</text>
+  <text x="490" y="58" text-anchor="middle" font-size="11" fill="#6B7280">구조 설계의 목적은 완벽한 분류가 아니라 입력, 연결, 재사용이 계속 흐르게 만드는 것이다</text>
+
+  <rect x="54" y="220" width="140" height="80" rx="12" fill="#DBEAFE" stroke="#60A5FA" stroke-width="2"/>
+  <text x="124" y="252" text-anchor="middle" font-size="17" font-weight="bold" fill="#1D4ED8">00.inbox</text>
+  <text x="124" y="276" text-anchor="middle" font-size="11" fill="#2563EB">분류 전 완충 구간</text>
+
+  <rect x="250" y="90" width="170" height="88" rx="12" fill="#EDE9FE" stroke="#A78BFA" stroke-width="2"/>
+  <text x="335" y="123" text-anchor="middle" font-size="17" font-weight="bold" fill="#6D28D9">10.projects</text>
+  <text x="335" y="147" text-anchor="middle" font-size="11" fill="#7C3AED">진행 중인 프로젝트</text>
+  <text x="335" y="165" text-anchor="middle" font-size="11" fill="#7C3AED">마감이 있다</text>
+
+  <rect x="250" y="220" width="170" height="88" rx="12" fill="#ECFDF5" stroke="#34D399" stroke-width="2"/>
+  <text x="335" y="253" text-anchor="middle" font-size="17" font-weight="bold" fill="#047857">20.areas</text>
+  <text x="335" y="277" text-anchor="middle" font-size="11" fill="#059669">지속 관리 영역</text>
+  <text x="335" y="295" text-anchor="middle" font-size="11" fill="#059669">마감이 없다</text>
+
+  <rect x="250" y="350" width="170" height="88" rx="12" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2"/>
+  <text x="335" y="383" text-anchor="middle" font-size="17" font-weight="bold" fill="#B45309">30.resources</text>
+  <text x="335" y="407" text-anchor="middle" font-size="11" fill="#C2410C">재사용 지식 자산</text>
+  <text x="335" y="425" text-anchor="middle" font-size="11" fill="#C2410C">언제든 다시 쓴다</text>
+
+  <rect x="780" y="220" width="146" height="80" rx="12" fill="#F3F4F6" stroke="#9CA3AF" stroke-width="2"/>
+  <text x="853" y="252" text-anchor="middle" font-size="17" font-weight="bold" fill="#374151">90.archive</text>
+  <text x="853" y="276" text-anchor="middle" font-size="11" fill="#4B5563">완료 / 비활성</text>
+
+  <rect x="500" y="170" width="210" height="180" rx="14" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="2"/>
+  <text x="605" y="202" text-anchor="middle" font-size="18" font-weight="bold" fill="#111827">판단 기준</text>
+  <text x="605" y="232" text-anchor="middle" font-size="11" fill="#4B5563">프로젝트 맥락인가?</text>
+  <text x="605" y="250" text-anchor="middle" font-size="11" fill="#4B5563">지속 관리 영역인가?</text>
+  <text x="605" y="268" text-anchor="middle" font-size="11" fill="#4B5563">재사용 지식인가?</text>
+  <text x="605" y="300" text-anchor="middle" font-size="11" fill="#6B7280">입력 순간에 이 질문을 빠르게</text>
+  <text x="605" y="318" text-anchor="middle" font-size="11" fill="#6B7280">답할 수 있어야 볼트가 가벼워진다</text>
+
+  <path d="M194,260 L224,260 L224,320 L500,320" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+  <line x1="710" y1="210" x2="780" y2="246" stroke="#6B7280" stroke-width="2.3" marker-end="url(#arr)"/>
+  <line x1="420" y1="134" x2="500" y2="210" stroke="#6B7280" stroke-width="2.3" marker-end="url(#arr)"/>
+  <line x1="420" y1="264" x2="500" y2="260" stroke="#6B7280" stroke-width="2.3" marker-end="url(#arr)"/>
+  <line x1="420" y1="394" x2="500" y2="310" stroke="#6B7280" stroke-width="2.3" marker-end="url(#arr)"/>
+
+  <text x="456" y="128" text-anchor="middle" font-size="10.5" fill="#6B7280">특정 프로젝트의 결정·근거</text>
+  <text x="457" y="248" text-anchor="middle" font-size="10.5" fill="#6B7280">지속 책임 영역</text>
+  <text x="456" y="424" text-anchor="middle" font-size="10.5" fill="#6B7280">개념·원리·방법</text>
+
+  <rect x="170" y="482" width="640" height="34" rx="8" fill="#FFFFFF" stroke="#D1D5DB"/>
+  <text x="490" y="504" text-anchor="middle" font-size="11" fill="#374151">좋은 볼트 구조는 처음부터 완벽한 구조가 아니라, 입력과 재사용을 계속 가능하게 만드는 최소 구조다</text>
+</svg>

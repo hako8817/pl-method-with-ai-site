@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 560" width="960" height="560"
+     xmlns="http://www.w3.org/2000/svg"
+     font-family="'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Segoe UI', sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#6B7280"/>
+    </marker>
+  </defs>
+  <rect width="960" height="560" fill="#F8FAFC"/>
+  <text x="480" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">이 책은 PKM 방법론 하나를 고르는 대신 강한 부분을 CODE에 배치한다</text>
+  <text x="480" y="58" text-anchor="middle" font-size="11" fill="#6B7280">GTD, PARA, Zettelkasten, Second Brain의 장점을 기획자 PKM 흐름에 맞게 재조합한다</text>
+
+  <rect x="56" y="96" width="188" height="110" rx="12" fill="#E0F2FE" stroke="#38BDF8" stroke-width="2"/>
+  <text x="150" y="126" text-anchor="middle" font-size="18" font-weight="bold" fill="#0369A1">GTD</text>
+  <text x="150" y="151" text-anchor="middle" font-size="11" fill="#0C4A6E">할 일과 실행 기준 정리</text>
+  <text x="150" y="169" text-anchor="middle" font-size="11" fill="#0C4A6E">머릿속 입력을 밖으로 꺼냄</text>
+  <text x="150" y="187" text-anchor="middle" font-size="11" fill="#0C4A6E">다음 행동 판단에 강함</text>
+
+  <rect x="282" y="96" width="188" height="110" rx="12" fill="#DCFCE7" stroke="#34D399" stroke-width="2"/>
+  <text x="376" y="126" text-anchor="middle" font-size="18" font-weight="bold" fill="#047857">PARA</text>
+  <text x="376" y="151" text-anchor="middle" font-size="11" fill="#065F46">프로젝트와 자료 구조화</text>
+  <text x="376" y="169" text-anchor="middle" font-size="11" fill="#065F46">폴더와 위치 기준 정리</text>
+  <text x="376" y="187" text-anchor="middle" font-size="11" fill="#065F46">도구 전반에 적용하기 쉬움</text>
+
+  <rect x="508" y="96" width="188" height="110" rx="12" fill="#F5E8FF" stroke="#C084FC" stroke-width="2"/>
+  <text x="602" y="126" text-anchor="middle" font-size="18" font-weight="bold" fill="#7E22CE">Zettelkasten</text>
+  <text x="602" y="151" text-anchor="middle" font-size="11" fill="#6B21A8">노트 단위와 연결 설계</text>
+  <text x="602" y="169" text-anchor="middle" font-size="11" fill="#6B21A8">고립된 기록을 패턴으로 승격</text>
+  <text x="602" y="187" text-anchor="middle" font-size="11" fill="#6B21A8">사고 확장과 연결에 강함</text>
+
+  <rect x="734" y="96" width="170" height="110" rx="12" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2"/>
+  <text x="819" y="126" text-anchor="middle" font-size="18" font-weight="bold" fill="#B45309">Second Brain</text>
+  <text x="819" y="151" text-anchor="middle" font-size="11" fill="#92400E">CODE 흐름과 산출물화</text>
+  <text x="819" y="169" text-anchor="middle" font-size="11" fill="#92400E">Distill 이후 Express에 강함</text>
+  <text x="819" y="187" text-anchor="middle" font-size="11" fill="#92400E">꺼내 쓰는 구조를 강조</text>
+
+  <path d="M150,206 C150,252 150,278 202,304" fill="none" stroke="#94A3B8" stroke-width="2.5" marker-end="url(#arr)"/>
+  <path d="M376,206 C376,252 376,278 376,304" fill="none" stroke="#94A3B8" stroke-width="2.5" marker-end="url(#arr)"/>
+  <path d="M602,206 C602,252 602,278 550,304" fill="none" stroke="#94A3B8" stroke-width="2.5" marker-end="url(#arr)"/>
+  <path d="M819,206 C819,252 819,278 724,304" fill="none" stroke="#94A3B8" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <rect x="84" y="320" width="178" height="122" rx="14" fill="#DBEAFE" stroke="#60A5FA" stroke-width="2"/>
+  <text x="173" y="355" text-anchor="middle" font-size="20" font-weight="bold" fill="#1D4ED8">Capture</text>
+  <text x="173" y="381" text-anchor="middle" font-size="11" fill="#1E3A8A">Daily 입력을 놓치지 않음</text>
+  <text x="173" y="399" text-anchor="middle" font-size="11" fill="#1E3A8A">사실, 결정, 후보, 결과를 수집</text>
+  <text x="173" y="417" text-anchor="middle" font-size="11" fill="#1E3A8A">GTD의 입력 discipline을 차용</text>
+
+  <rect x="288" y="320" width="178" height="122" rx="14" fill="#ECFDF5" stroke="#34D399" stroke-width="2"/>
+  <text x="377" y="355" text-anchor="middle" font-size="20" font-weight="bold" fill="#047857">Organize</text>
+  <text x="377" y="381" text-anchor="middle" font-size="11" fill="#065F46">폴더, 객체, 메타데이터 고정</text>
+  <text x="377" y="399" text-anchor="middle" font-size="11" fill="#065F46">어디에 둘지 빠르게 결정</text>
+  <text x="377" y="417" text-anchor="middle" font-size="11" fill="#065F46">PARA의 구조 감각을 차용</text>
+
+  <rect x="492" y="320" width="178" height="122" rx="14" fill="#F5E8FF" stroke="#C084FC" stroke-width="2"/>
+  <text x="581" y="355" text-anchor="middle" font-size="20" font-weight="bold" fill="#7E22CE">Distill</text>
+  <text x="581" y="381" text-anchor="middle" font-size="11" fill="#6B21A8">반복 패턴과 연결을 찾음</text>
+  <text x="581" y="399" text-anchor="middle" font-size="11" fill="#6B21A8">노트를 재사용 지식으로 승격</text>
+  <text x="581" y="417" text-anchor="middle" font-size="11" fill="#6B21A8">Zettelkasten의 연결 강점을 차용</text>
+
+  <rect x="696" y="320" width="178" height="122" rx="14" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2"/>
+  <text x="785" y="355" text-anchor="middle" font-size="20" font-weight="bold" fill="#B45309">Express</text>
+  <text x="785" y="381" text-anchor="middle" font-size="11" fill="#92400E">PRD, 제안서, 플레이북으로 전환</text>
+  <text x="785" y="399" text-anchor="middle" font-size="11" fill="#92400E">검색 가능한 컨텍스트 패키지 구성</text>
+  <text x="785" y="417" text-anchor="middle" font-size="11" fill="#92400E">Second Brain의 산출물 관점을 차용</text>
+
+  <path d="M262,381 L288,381" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+  <path d="M466,381 L492,381" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+  <path d="M670,381 L696,381" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <rect x="146" y="474" width="668" height="42" rx="10" fill="#FFFFFF" stroke="#D1D5DB"/>
+  <text x="480" y="500" text-anchor="middle" font-size="12" fill="#374151">결론: 이 책은 방법론을 비교해 우열을 가리기보다, 기획자 PKM에 필요한 역할을 CODE 흐름에 배치한다</text>
+</svg>

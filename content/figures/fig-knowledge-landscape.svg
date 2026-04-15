@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 520" width="960" height="520"
+     xmlns="http://www.w3.org/2000/svg"
+     font-family="'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Segoe UI', sans-serif">
+
+<defs>
+  <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <path d="M0,0 L8,3 L0,6 Z" fill="#6B7280"/>
+  </marker>
+  <marker id="arr-purple" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <path d="M0,0 L8,3 L0,6 Z" fill="#7C3AED"/>
+  </marker>
+  <marker id="arr-green" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <path d="M0,0 L8,3 L0,6 Z" fill="#10B981"/>
+  </marker>
+  <marker id="arr-blue" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <path d="M0,0 L8,3 L0,6 Z" fill="#2563EB"/>
+  </marker>
+  <marker id="arr-orange" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <path d="M0,0 L8,3 L0,6 Z" fill="#F59E0B"/>
+  </marker>
+</defs>
+
+<!-- Background -->
+<rect width="960" height="520" fill="#F8FAFC"/>
+
+<!-- Title -->
+<text x="480" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">기획자 지식 지형도: 6개 현장영역과 4개 지식영역</text>
+<text x="480" y="58" text-anchor="middle" font-size="12" fill="#6B7280">현장에서 만나는 지식이 이 책의 4개 지식영역으로 어떻게 축적되는지 보여준다</text>
+
+<!-- Left column -->
+<rect x="30" y="68" width="340" height="42" rx="6" fill="#1E40AF"/>
+<text x="200" y="82" text-anchor="middle" font-size="13" font-weight="bold" fill="white">현장에서 만나는 지식</text>
+<text x="200" y="97" text-anchor="middle" font-size="11" fill="#BFDBFE">기획자가 알아야 할 것 - 지식의 내용(WHAT)</text>
+
+<rect x="30" y="116" width="340" height="54" rx="6" fill="#EDE9FE" stroke="#A78BFA" stroke-width="1.5"/>
+<text x="58" y="136" font-size="14" font-weight="bold" fill="#4C1D95">① 도메인</text>
+<text x="58" y="155" font-size="11.5" fill="#6D28D9">사용자 · 시장 · 고객 · 도메인 규칙</text>
+
+<rect x="30" y="180" width="340" height="54" rx="6" fill="#EDE9FE" stroke="#A78BFA" stroke-width="1.5"/>
+<text x="58" y="200" font-size="14" font-weight="bold" fill="#4C1D95">② 비즈니스 / 전략</text>
+<text x="58" y="219" font-size="11.5" fill="#6D28D9">비즈니스 모델 · 경쟁사 · KPI · 방향성</text>
+
+<rect x="30" y="244" width="340" height="54" rx="6" fill="#D1FAE5" stroke="#34D399" stroke-width="1.5"/>
+<text x="58" y="264" font-size="14" font-weight="bold" fill="#065F46">③ 기획</text>
+<text x="58" y="283" font-size="11.5" fill="#047857">요구사항 · 기획 방법론 · 의사결정 근거</text>
+
+<rect x="30" y="308" width="340" height="54" rx="6" fill="#DBEAFE" stroke="#60A5FA" stroke-width="1.5"/>
+<text x="58" y="328" font-size="14" font-weight="bold" fill="#1D4ED8">④ 디자인</text>
+<text x="58" y="347" font-size="11.5" fill="#2563EB">UX 원칙 · 디자인 시스템 · 사용성 기준</text>
+
+<rect x="30" y="372" width="340" height="54" rx="6" fill="#DBEAFE" stroke="#60A5FA" stroke-width="1.5"/>
+<text x="58" y="392" font-size="14" font-weight="bold" fill="#1D4ED8">⑤ 개발</text>
+<text x="58" y="411" font-size="11.5" fill="#2563EB">아키텍처 · API · 기술부채 · 개발 비용</text>
+
+<rect x="30" y="436" width="340" height="54" rx="6" fill="#FFF7ED" stroke="#FBBF24" stroke-width="1.5"/>
+<text x="58" y="456" font-size="14" font-weight="bold" fill="#92400E">⑥ 운영 / 협업</text>
+<text x="58" y="475" font-size="11.5" fill="#B45309">모니터링 · 장애 · 팀 운영 · 사용자 피드백</text>
+
+<!-- Connectors -->
+<line x1="372" y1="143" x2="560" y2="143" stroke="#7C3AED" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arr-purple)"/>
+<line x1="372" y1="207" x2="560" y2="193" stroke="#7C3AED" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arr-purple)"/>
+<path d="M372,271 L430,271 L430,268 L562,268" fill="none" stroke="#10B981" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arr-green)"/>
+<path d="M372,335 L430,335 L430,372 L560,372" fill="none" stroke="#2563EB" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arr-blue)"/>
+<path d="M372,399 L410,399 L410,382 L560,382" fill="none" stroke="#2563EB" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arr-blue)"/>
+<path d="M372,463 L430,463 L430,452 L560,452" fill="none" stroke="#F59E0B" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arr-orange)"/>
+
+<!-- Right column -->
+<rect x="562" y="68" width="368" height="42" rx="6" fill="#065F46"/>
+<text x="746" y="82" text-anchor="middle" font-size="13" font-weight="bold" fill="white">지식 영역</text>
+<text x="746" y="97" text-anchor="middle" font-size="11" fill="#6EE7B7">현장에서 쌓이는 지식을 분류한 구조</text>
+
+<rect x="562" y="116" width="368" height="100" rx="6" fill="#EDE9FE" stroke="#7C3AED" stroke-width="2"/>
+<rect x="562" y="116" width="7" height="100" rx="3" fill="#7C3AED"/>
+<text x="746" y="141" text-anchor="middle" font-size="13" font-weight="bold" fill="#4C1D95">도메인 지식</text>
+<text x="746" y="160" text-anchor="middle" font-size="10.5" fill="#6D28D9"></text>
+<text x="578" y="181" font-size="10.5" fill="#9333EA">← ① 도메인 + ② 비즈니스/전략을 이 축에 쌓는다</text>
+<text x="578" y="198" font-size="10" fill="#A78BFA">사용자·시장·비즈니스 이해를 재사용 지식으로 관리</text>
+
+<rect x="562" y="228" width="368" height="80" rx="6" fill="#ECFDF5" stroke="#10B981" stroke-width="2"/>
+<rect x="562" y="228" width="7" height="80" rx="3" fill="#10B981"/>
+<text x="746" y="253" text-anchor="middle" font-size="13" font-weight="bold" fill="#065F46">맥락 지식</text>
+<text x="746" y="272" text-anchor="middle" font-size="10.5" fill="#047857"></text>
+<text x="578" y="293" font-size="10.5" fill="#059669">← ③ 기획의 결정·근거를 구조적으로 쌓는다</text>
+
+<rect x="562" y="320" width="368" height="80" rx="6" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<rect x="562" y="320" width="7" height="80" rx="3" fill="#2563EB"/>
+<text x="746" y="345" text-anchor="middle" font-size="13" font-weight="bold" fill="#1E40AF">기술 지식</text>
+<text x="746" y="364" text-anchor="middle" font-size="10.5" fill="#2563EB"></text>
+<text x="578" y="385" font-size="10.5" fill="#3B82F6">← ④ 디자인 + ⑤ 개발의 구현 판단을 이 축에 쌓는다</text>
+
+<rect x="562" y="412" width="368" height="80" rx="6" fill="#FFF7ED" stroke="#F59E0B" stroke-width="2"/>
+<rect x="562" y="412" width="7" height="80" rx="3" fill="#F59E0B"/>
+<text x="746" y="437" text-anchor="middle" font-size="13" font-weight="bold" fill="#92400E">관계 지식</text>
+<text x="746" y="456" text-anchor="middle" font-size="10.5" fill="#B45309"></text>
+<text x="578" y="477" font-size="10.5" fill="#D97706">← ⑥ 운영/협업에서 드러나는 팀·이해관계자 패턴을 관리</text>
+
+<!-- Bottom note -->
+<rect x="30" y="492" width="900" height="28" rx="4" fill="#F1F5F9"/>
+<text x="480" y="510" text-anchor="middle" font-size="9.5" fill="#64748B"></text>
+
+</svg>

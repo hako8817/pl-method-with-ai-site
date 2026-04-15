@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 720" width="960" height="720"
+     xmlns="http://www.w3.org/2000/svg"
+     font-family="'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Segoe UI', sans-serif">
+  <defs>
+    <marker id="arr-gray" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#6B7280"/>
+    </marker>
+    <marker id="arr-purple" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#7C3AED"/>
+    </marker>
+    <marker id="arr-green" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#10B981"/>
+    </marker>
+    <marker id="arr-blue" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2563EB"/>
+    </marker>
+    <marker id="arr-orange" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#F59E0B"/>
+    </marker>
+  </defs>
+
+  <rect width="960" height="620" fill="#F8FAFC"/>
+
+  <text x="480" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">기획자의 지식은 네 영역에서 자란다</text>
+  <text x="480" y="58" text-anchor="middle" font-size="11.5" fill="#6B7280">네 영역은 저장 분류가 아니라, 판단을 만들 때 계속 참조하게 되는 지식의 성장 축이다</text>
+
+  <rect x="70" y="82" width="160" height="74" rx="10" fill="#EFF6FF" stroke="#60A5FA" stroke-width="2"/>
+  <text x="150" y="111" text-anchor="middle" font-size="16" font-weight="bold" fill="#1D4ED8">Evidence</text>
+  <text x="150" y="135" text-anchor="middle" font-size="10.5" fill="#2563EB">같은 근거라도 읽는 축에 따라</text>
+  <text x="150" y="150" text-anchor="middle" font-size="10.5" fill="#2563EB">의미가 달라진다</text>
+
+  <rect x="242" y="82" width="176" height="74" rx="10" fill="#F5F3FF" stroke="#A78BFA" stroke-width="2"/>
+  <text x="330" y="111" text-anchor="middle" font-size="16" font-weight="bold" fill="#6D28D9">Decision</text>
+  <text x="330" y="135" text-anchor="middle" font-size="10" fill="#7C3AED">같은 Decision이라도</text>
+  <text x="330" y="150" text-anchor="middle" font-size="10" fill="#7C3AED">네 영역이 비어 있으면 설명이 약해진다</text>
+
+  <rect x="550" y="82" width="160" height="74" rx="10" fill="#F0FDF4" stroke="#34D399" stroke-width="2"/>
+  <text x="630" y="111" text-anchor="middle" font-size="16" font-weight="bold" fill="#047857">Knowledge</text>
+  <text x="630" y="135" text-anchor="middle" font-size="10.5" fill="#059669">반복 연결된 경험이</text>
+  <text x="630" y="150" text-anchor="middle" font-size="10.5" fill="#059669">재사용 지식이 된다</text>
+
+  <rect x="730" y="82" width="160" height="74" rx="10" fill="#FFF7ED" stroke="#F59E0B" stroke-width="2"/>
+  <text x="810" y="111" text-anchor="middle" font-size="16" font-weight="bold" fill="#B45309">Result</text>
+  <text x="810" y="135" text-anchor="middle" font-size="10.5" fill="#C2410C">실행 결과는 다시</text>
+  <text x="810" y="150" text-anchor="middle" font-size="10.5" fill="#C2410C">다음 판단의 입력이 된다</text>
+
+  <line x1="150" y1="158" x2="150" y2="188" stroke="#94A3B8" stroke-width="1.5" marker-end="url(#arr-gray)"/>
+  <line x1="330" y1="158" x2="330" y2="188" stroke="#94A3B8" stroke-width="1.5" marker-end="url(#arr-gray)"/>
+  <line x1="630" y1="158" x2="630" y2="188" stroke="#94A3B8" stroke-width="1.5" marker-end="url(#arr-gray)"/>
+  <line x1="810" y1="158" x2="810" y2="188" stroke="#94A3B8" stroke-width="1.5" marker-end="url(#arr-gray)"/>
+
+  <rect x="150" y="194" width="660" height="58" rx="10" fill="#ECFDF5" stroke="#10B981" stroke-width="2.5"/>
+  <text x="480" y="219" text-anchor="middle" font-size="15" font-weight="bold" fill="#065F46">PKM은 흩어진 메모를 네 영역의 성장 축에 연결한다</text>
+  <text x="480" y="240" text-anchor="middle" font-size="10.5" fill="#047857">어느 영역의 지식을 키우는 메모인지 연결할 때 경험이 패턴으로 변한다</text>
+
+  <rect x="340" y="264" width="280" height="86" rx="12" fill="#ECFDF5" stroke="#10B981" stroke-width="2"/>
+  <text x="480" y="293" text-anchor="middle" font-size="17" font-weight="bold" fill="#065F46">맥락</text>
+  <text x="480" y="316" text-anchor="middle" font-size="12" fill="#047857">왜 지금 이 판단이 필요한가</text>
+  <text x="480" y="335" text-anchor="middle" font-size="10.5" fill="#059669">판단을 시간축 위에 올려놓는 지식</text>
+
+  <rect x="60" y="396" width="270" height="92" rx="12" fill="#F5F3FF" stroke="#7C3AED" stroke-width="2"/>
+  <text x="195" y="426" text-anchor="middle" font-size="17" font-weight="bold" fill="#5B21B6">도메인</text>
+  <text x="195" y="449" text-anchor="middle" font-size="12" fill="#6D28D9">무엇을 위해 판단하는가</text>
+  <text x="195" y="468" text-anchor="middle" font-size="10.5" fill="#7C3AED">사용자, 시장, 비즈니스 의미를 읽는 지식</text>
+
+  <rect x="630" y="396" width="270" height="92" rx="12" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+  <text x="765" y="426" text-anchor="middle" font-size="17" font-weight="bold" fill="#1D4ED8">기술이해</text>
+  <text x="765" y="449" text-anchor="middle" font-size="12" fill="#2563EB">무엇이 가능하고 무엇이 비싼가</text>
+  <text x="765" y="468" text-anchor="middle" font-size="10.5" fill="#3B82F6">구현 가능성과 제약을 현실적으로 보는 지식</text>
+
+  <rect x="340" y="534" width="280" height="86" rx="12" fill="#FFF7ED" stroke="#F59E0B" stroke-width="2"/>
+  <text x="480" y="563" text-anchor="middle" font-size="17" font-weight="bold" fill="#B45309">관계</text>
+  <text x="480" y="586" text-anchor="middle" font-size="12" fill="#C2410C">누가 움직이고 누가 영향을 받는가</text>
+  <text x="480" y="605" text-anchor="middle" font-size="10.5" fill="#D97706">판단이 조직 안에서 실제로 움직이게 하는 지식</text>
+
+  <circle cx="480" cy="442" r="74" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2.5"/>
+  <text x="480" y="425" text-anchor="middle" font-size="17" font-weight="bold" fill="#111827">판단력</text>
+  <text x="480" y="448" text-anchor="middle" font-size="12" fill="#334155">네 영역을 연결할 때</text>
+  <text x="480" y="467" text-anchor="middle" font-size="12" fill="#334155">비로소 완성된다</text>
+
+  <line x1="480" y1="350" x2="480" y2="366" stroke="#10B981" stroke-width="2.2" marker-end="url(#arr-green)"/>
+  <line x1="330" y1="442" x2="406" y2="442" stroke="#7C3AED" stroke-width="2.2" marker-end="url(#arr-purple)"/>
+  <line x1="630" y1="442" x2="554" y2="442" stroke="#2563EB" stroke-width="2.2" marker-end="url(#arr-blue)"/>
+  <line x1="480" y1="534" x2="480" y2="518" stroke="#F59E0B" stroke-width="2.2" marker-end="url(#arr-orange)"/>
+
+  <rect x="130" y="674" width="700" height="30" rx="8" fill="#FFFFFF" stroke="#D1D5DB"/>
+  <text x="480" y="694" text-anchor="middle" font-size="11" fill="#374151">메모는 흩어져 들어오지만, 연결이 반복되면 경험이 패턴이 되고 패턴이 쌓이면 판단력이 된다</text>
+</svg>

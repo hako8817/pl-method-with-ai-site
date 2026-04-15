@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 980 560" width="980" height="560"
+     xmlns="http://www.w3.org/2000/svg"
+     font-family="'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Segoe UI', sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#6B7280"/>
+    </marker>
+  </defs>
+  <rect width="980" height="560" fill="#F8FAFC"/>
+
+  <text x="490" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">컨텍스트 패키지는 Express의 최소 단위다</text>
+  <text x="490" y="58" text-anchor="middle" font-size="11" fill="#6B7280">좋은 산출물은 빈 화면에서 나오지 않고, 문제·근거·결정·지식·제약이 묶인 패키지에서 나온다</text>
+
+  <rect x="360" y="190" width="260" height="150" rx="14" fill="#ECFDF5" stroke="#10B981" stroke-width="3"/>
+  <text x="490" y="226" text-anchor="middle" font-size="20" font-weight="bold" fill="#047857">컨텍스트 패키지</text>
+  <text x="490" y="254" text-anchor="middle" font-size="11" fill="#059669">특정 작업을 위해 필요한 맥락을</text>
+  <text x="490" y="272" text-anchor="middle" font-size="11" fill="#059669">한 번에 묶은 검색 가능한 작업 단위</text>
+  <text x="490" y="304" text-anchor="middle" font-size="11" fill="#065F46">사람에게는 빠른 재이해 도구</text>
+  <text x="490" y="322" text-anchor="middle" font-size="11" fill="#065F46">AI에게는 좋은 입력 세트</text>
+
+  <rect x="120" y="110" width="180" height="72" rx="10" fill="#EFF6FF" stroke="#60A5FA" stroke-width="2"/>
+  <text x="210" y="140" text-anchor="middle" font-size="16" font-weight="bold" fill="#1D4ED8">문제 정의</text>
+  <text x="210" y="162" text-anchor="middle" font-size="11" fill="#2563EB">지금 풀어야 하는 문제</text>
+
+  <rect x="120" y="246" width="180" height="72" rx="10" fill="#DBEAFE" stroke="#93C5FD" stroke-width="2"/>
+  <text x="210" y="276" text-anchor="middle" font-size="16" font-weight="bold" fill="#1D4ED8">Evidence</text>
+  <text x="210" y="298" text-anchor="middle" font-size="11" fill="#2563EB">로그, VOC, 관찰, 리서치</text>
+
+  <rect x="120" y="382" width="180" height="72" rx="10" fill="#F5F3FF" stroke="#C4B5FD" stroke-width="2"/>
+  <text x="210" y="412" text-anchor="middle" font-size="16" font-weight="bold" fill="#6D28D9">Decision</text>
+  <text x="210" y="434" text-anchor="middle" font-size="11" fill="#7C3AED">이미 내려진 판단과 이유</text>
+
+  <rect x="680" y="110" width="180" height="72" rx="10" fill="#D1FAE5" stroke="#6EE7B7" stroke-width="2"/>
+  <text x="770" y="140" text-anchor="middle" font-size="16" font-weight="bold" fill="#047857">Knowledge</text>
+  <text x="770" y="162" text-anchor="middle" font-size="11" fill="#059669">개념, 원리, 재사용 기준</text>
+
+  <rect x="680" y="246" width="180" height="72" rx="10" fill="#FEF3C7" stroke="#FCD34D" stroke-width="2"/>
+  <text x="770" y="276" text-anchor="middle" font-size="16" font-weight="bold" fill="#B45309">제약 조건</text>
+  <text x="770" y="298" text-anchor="middle" font-size="11" fill="#C2410C">리소스, 일정, 기술, 정책</text>
+
+  <rect x="680" y="382" width="180" height="72" rx="10" fill="#F3F4F6" stroke="#9CA3AF" stroke-width="2"/>
+  <text x="770" y="412" text-anchor="middle" font-size="16" font-weight="bold" fill="#374151">관계 맥락</text>
+  <text x="770" y="434" text-anchor="middle" font-size="11" fill="#4B5563">이해관계자와 설득 포인트</text>
+
+  <line x1="300" y1="146" x2="360" y2="224" stroke="#6B7280" stroke-width="2.2" marker-end="url(#arr)"/>
+  <line x1="300" y1="282" x2="360" y2="266" stroke="#6B7280" stroke-width="2.2" marker-end="url(#arr)"/>
+  <line x1="300" y1="418" x2="360" y2="308" stroke="#6B7280" stroke-width="2.2" marker-end="url(#arr)"/>
+
+  <line x1="680" y1="146" x2="620" y2="224" stroke="#6B7280" stroke-width="2.2" marker-end="url(#arr)"/>
+  <line x1="680" y1="282" x2="620" y2="266" stroke="#6B7280" stroke-width="2.2" marker-end="url(#arr)"/>
+  <line x1="680" y1="418" x2="620" y2="308" stroke="#6B7280" stroke-width="2.2" marker-end="url(#arr)"/>
+
+  <rect x="240" y="480" width="500" height="56" rx="10" fill="#FFFFFF" stroke="#D1D5DB"/>
+  <text x="490" y="504" text-anchor="middle" font-size="11" fill="#374151">패키지를 만든 뒤에야 PRD, 제안서, 보고 문서, 온보딩 문서, 케이스 스터디로 안정적으로 전환할 수 있다</text>
+  <text x="490" y="522" text-anchor="middle" font-size="11" fill="#374151">핵심은 많이 모으는 것이 아니라 지금 작업에 필요한 것을 적절히 고르는 것이다</text>
+</svg>

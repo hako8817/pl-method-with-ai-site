@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 980 600" width="980" height="600"
+     xmlns="http://www.w3.org/2000/svg"
+     font-family="'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Segoe UI', sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#6B7280"/>
+    </marker>
+  </defs>
+  <rect width="980" height="600" fill="#F8FAFC"/>
+
+  <text x="490" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">개인 PKM이 실행 가능한 자산으로 올라가는 경로</text>
+  <text x="490" y="58" text-anchor="middle" font-size="11" fill="#6B7280">자산화는 새 문서를 억지로 만드는 일이 아니라, 반복 패턴을 더 강한 형식으로 고정하는 일이다</text>
+
+  <rect x="120" y="438" width="740" height="72" rx="12" fill="#EFF6FF" stroke="#60A5FA" stroke-width="2"/>
+  <text x="490" y="466" text-anchor="middle" font-size="18" font-weight="bold" fill="#1D4ED8">1. 노트와 결과</text>
+  <text x="490" y="490" text-anchor="middle" font-size="11" fill="#2563EB">Evidence, Decision, Result, Knowledge가 프로젝트 안에서 반복적으로 쌓인다</text>
+
+  <rect x="180" y="340" width="620" height="64" rx="12" fill="#F0FDF4" stroke="#34D399" stroke-width="2"/>
+  <text x="490" y="366" text-anchor="middle" font-size="18" font-weight="bold" fill="#047857">2. 패턴 발견</text>
+  <text x="490" y="388" text-anchor="middle" font-size="11" fill="#059669">Distill에서 반복되는 문제, 판단 기준, 실행 순서를 추출한다</text>
+
+  <rect x="240" y="250" width="500" height="64" rx="12" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2"/>
+  <text x="490" y="276" text-anchor="middle" font-size="18" font-weight="bold" fill="#B45309">3. 작은 자산</text>
+  <text x="490" y="298" text-anchor="middle" font-size="11" fill="#C2410C">체크리스트와 가이드는 가장 빠르게 만드는 첫 자산이다</text>
+
+  <rect x="290" y="160" width="400" height="64" rx="12" fill="#F5F3FF" stroke="#A78BFA" stroke-width="2"/>
+  <text x="490" y="186" text-anchor="middle" font-size="18" font-weight="bold" fill="#6D28D9">4. 플레이북과 방법론</text>
+  <text x="490" y="208" text-anchor="middle" font-size="11" fill="#7C3AED">반복 기준이 충분히 쌓이면 팀이 따라 하는 실행 문서가 된다</text>
+
+  <rect x="340" y="76" width="300" height="54" rx="12" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="2"/>
+  <text x="490" y="100" text-anchor="middle" font-size="17" font-weight="bold" fill="#111827">5. 구조화된 자산</text>
+  <text x="490" y="120" text-anchor="middle" font-size="11" fill="#4B5563">BPMN, DMN, AI가 읽는 기준 문서</text>
+
+  <line x1="490" y1="438" x2="490" y2="404" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+  <line x1="490" y1="340" x2="490" y2="314" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+  <line x1="490" y1="250" x2="490" y2="224" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+  <line x1="490" y1="160" x2="490" y2="130" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <rect x="780" y="358" width="136" height="48" rx="10" fill="#FFFFFF" stroke="#D1D5DB"/>
+  <text x="848" y="378" text-anchor="middle" font-size="10.5" fill="#6B7280">반복이 보이지 않으면</text>
+  <text x="848" y="394" text-anchor="middle" font-size="10.5" fill="#6B7280">자산화가 아니라 보관이다</text>
+
+  <rect x="74" y="174" width="112" height="48" rx="10" fill="#FFFFFF" stroke="#D1D5DB"/>
+  <text x="130" y="194" text-anchor="middle" font-size="10.5" fill="#6B7280">샘플 우선</text>
+  <text x="130" y="210" text-anchor="middle" font-size="10.5" fill="#6B7280">작게 시작</text>
+
+  <rect x="120" y="536" width="740" height="34" rx="8" fill="#FFFFFF" stroke="#D1D5DB"/>
+  <text x="490" y="558" text-anchor="middle" font-size="11" fill="#374151">개인의 경험이 자산이 되려면 반복 패턴이 보여야 하고, 그 패턴은 체크리스트와 플레이북을 거쳐 팀 실행 기준으로 올라간다</text>
+</svg>

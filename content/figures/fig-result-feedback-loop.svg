@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 620" width="960" height="620"
+     xmlns="http://www.w3.org/2000/svg"
+     font-family="'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Segoe UI', sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#6B7280"/>
+    </marker>
+    <marker id="arr-blue" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2563EB"/>
+    </marker>
+    <marker id="arr-green" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#10B981"/>
+    </marker>
+    <marker id="arr-orange" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#F59E0B"/>
+    </marker>
+  </defs>
+
+  <rect width="960" height="620" fill="#F8FAFC"/>
+
+  <text x="480" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">실행 결과는 끝이 아니라 다음 근거와 지식의 시작이다</text>
+  <text x="480" y="58" text-anchor="middle" font-size="11.5" fill="#6B7280">Result는 완료 표시가 아니라, 실행 이후 생긴 변화와 학습을 다시 시스템 안으로 돌려보내는 분기점이다</text>
+
+  <rect x="80" y="104" width="190" height="96" rx="12" fill="#EFF6FF" stroke="#60A5FA" stroke-width="2"/>
+  <text x="175" y="136" text-anchor="middle" font-size="18" font-weight="bold" fill="#1D4ED8">Decision</text>
+  <text x="175" y="160" text-anchor="middle" font-size="11" fill="#2563EB">무엇을 하기로 했는지</text>
+  <text x="175" y="178" text-anchor="middle" font-size="11" fill="#2563EB">왜 그렇게 결정했는지 남긴다</text>
+
+  <rect x="304" y="104" width="190" height="96" rx="12" fill="#F5F3FF" stroke="#A78BFA" stroke-width="2"/>
+  <text x="399" y="136" text-anchor="middle" font-size="18" font-weight="bold" fill="#6D28D9">Action</text>
+  <text x="399" y="160" text-anchor="middle" font-size="11" fill="#7C3AED">지금 해야 할 일</text>
+  <text x="399" y="178" text-anchor="middle" font-size="11" fill="#7C3AED">담당자, 기한, 후속 요청</text>
+
+  <rect x="528" y="104" width="190" height="96" rx="12" fill="#FFF7ED" stroke="#F59E0B" stroke-width="2"/>
+  <text x="623" y="136" text-anchor="middle" font-size="18" font-weight="bold" fill="#B45309">Result</text>
+  <text x="623" y="160" text-anchor="middle" font-size="11" fill="#C2410C">실행해 본 뒤 확인된</text>
+  <text x="623" y="178" text-anchor="middle" font-size="11" fill="#C2410C">변화, 차이, 학습</text>
+
+  <rect x="752" y="104" width="128" height="96" rx="12" fill="#F0FDF4" stroke="#34D399" stroke-width="2"/>
+  <text x="816" y="136" text-anchor="middle" font-size="18" font-weight="bold" fill="#047857">Review</text>
+  <text x="816" y="160" text-anchor="middle" font-size="11" fill="#059669">무엇을</text>
+  <text x="816" y="178" text-anchor="middle" font-size="11" fill="#059669">승격할지 본다</text>
+
+  <path d="M270,152 L304,152" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+  <path d="M494,152 L528,152" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+  <path d="M718,152 L752,152" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <rect x="140" y="248" width="680" height="66" rx="12" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.5"/>
+  <text x="480" y="274" text-anchor="middle" font-size="15" font-weight="bold" fill="#111827">Result는 Action과 다르다</text>
+  <text x="480" y="296" text-anchor="middle" font-size="10.5" fill="#475569">Action은 실행 자체를 관리하고, Result는 실행해 본 뒤 남는 의미 있는 변화와 학습을 다룬다</text>
+
+  <rect x="120" y="370" width="280" height="122" rx="14" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+  <text x="260" y="403" text-anchor="middle" font-size="18" font-weight="bold" fill="#1E40AF">Evidence로 승격</text>
+  <text x="260" y="430" text-anchor="middle" font-size="11" fill="#2563EB">새로 확인된 사용자 반응</text>
+  <text x="260" y="448" text-anchor="middle" font-size="11" fill="#2563EB">운영 수치, 장애 패턴, 협업 이슈</text>
+  <text x="260" y="466" text-anchor="middle" font-size="11" fill="#2563EB">다음 판단의 근거가 된다</text>
+
+  <rect x="560" y="370" width="280" height="122" rx="14" fill="#ECFDF5" stroke="#10B981" stroke-width="2"/>
+  <text x="700" y="403" text-anchor="middle" font-size="18" font-weight="bold" fill="#047857">Knowledge로 승격</text>
+  <text x="700" y="430" text-anchor="middle" font-size="11" fill="#059669">반복 가능한 기준과 패턴</text>
+  <text x="700" y="448" text-anchor="middle" font-size="11" fill="#059669">잘 작동한 형식, 체크 순서, 방법</text>
+  <text x="700" y="466" text-anchor="middle" font-size="11" fill="#059669">다음 프로젝트에서 다시 쓸 수 있다</text>
+
+  <path d="M624,200 L624,248" fill="none" stroke="#F59E0B" stroke-width="2.8" marker-end="url(#arr-orange)"/>
+  <text x="674" y="229" text-anchor="middle" font-size="10.5" fill="#C2410C">실행 뒤에 남는 것</text>
+
+  <path d="M480,314 C410,340 334,360 290,370" fill="none" stroke="#2563EB" stroke-width="2.5" marker-end="url(#arr-blue)"/>
+  <path d="M480,314 C550,340 626,360 670,370" fill="none" stroke="#10B981" stroke-width="2.5" marker-end="url(#arr-green)"/>
+  <text x="292" y="352" text-anchor="middle" font-size="10.5" fill="#2563EB">새로운 사실과 관찰</text>
+  <text x="668" y="352" text-anchor="middle" font-size="10.5" fill="#059669">반복 가능한 기준과 패턴</text>
+
+  <path d="M260,492 C260,540 430,548 480,548 C530,548 700,540 700,492" fill="none" stroke="#94A3B8" stroke-width="2" stroke-dasharray="6,4" marker-end="url(#arr)"/>
+  <text x="480" y="578" text-anchor="middle" font-size="11" fill="#475569">이 승격이 일어나야 PKM은 기록 저장소가 아니라 판단과 학습이 순환하는 시스템이 된다</text>
+</svg>

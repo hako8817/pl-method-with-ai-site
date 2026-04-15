@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 650" width="960" height="650"
+     xmlns="http://www.w3.org/2000/svg"
+     font-family="'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Segoe UI', sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#6B7280"/>
+    </marker>
+  </defs>
+
+  <rect width="960" height="650" fill="#F8FAFC"/>
+
+  <text x="480" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Organize에서 AI는 구조를 제안하고 사람은 구조를 승인한다</text>
+  <text x="480" y="58" text-anchor="middle" font-size="11.5" fill="#6B7280">AI의 강점은 창의성이 아니라 일관성이다. 이미 정해진 구조를 더 안정적으로 반복 적용하도록 돕는 데 가장 효과적이다</text>
+
+  <rect x="60" y="96" width="240" height="126" rx="14" fill="#DBEAFE" stroke="#60A5FA" stroke-width="2"/>
+  <text x="180" y="130" text-anchor="middle" font-size="18" font-weight="bold" fill="#1D4ED8">먼저 정해져 있어야 하는 구조</text>
+  <text x="180" y="157" text-anchor="middle" font-size="11" fill="#2563EB">객체 정의</text>
+  <text x="180" y="175" text-anchor="middle" font-size="11" fill="#2563EB">파일명 규칙</text>
+  <text x="180" y="193" text-anchor="middle" font-size="11" fill="#2563EB">메타데이터 규칙</text>
+  <text x="180" y="211" text-anchor="middle" font-size="11" fill="#2563EB">분류 축과 링크 기준</text>
+
+  <rect x="340" y="84" width="560" height="332" rx="16" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.5"/>
+  <text x="620" y="114" text-anchor="middle" font-size="18" font-weight="bold" fill="#111827">Organize에서 AI가 맡는 4가지 일</text>
+
+  <rect x="374" y="140" width="236" height="78" rx="12" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="492" y="168" text-anchor="middle" font-size="14" font-weight="bold" fill="#1D4ED8">1. 분류 추천</text>
+  <text x="492" y="190" text-anchor="middle" font-size="10.5" fill="#2563EB">어떤 객체인지, 어떤 축에 둘지,</text>
+  <text x="492" y="206" text-anchor="middle" font-size="10.5" fill="#2563EB">어떤 유형 이름이 맞는지 제안한다</text>
+
+  <rect x="630" y="140" width="236" height="78" rx="12" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="748" y="168" text-anchor="middle" font-size="14" font-weight="bold" fill="#1D4ED8">2. 기존 자산 연결 추천</text>
+  <text x="748" y="190" text-anchor="middle" font-size="10.5" fill="#2563EB">유사 노트, 관련 근거, 관련 결정,</text>
+  <text x="748" y="206" text-anchor="middle" font-size="10.5" fill="#2563EB">MOC나 허브 후보를 탐색한다</text>
+
+  <rect x="374" y="236" width="236" height="78" rx="12" fill="#ECFDF5" stroke="#34D399" stroke-width="1.5"/>
+  <text x="492" y="264" text-anchor="middle" font-size="14" font-weight="bold" fill="#047857">3. 메타데이터 초안 작성</text>
+  <text x="492" y="286" text-anchor="middle" font-size="10.5" fill="#059669">최소 frontmatter를 제안하고</text>
+  <text x="492" y="302" text-anchor="middle" font-size="10.5" fill="#059669">누락된 항목을 점검한다</text>
+
+  <rect x="630" y="236" width="236" height="78" rx="12" fill="#ECFDF5" stroke="#34D399" stroke-width="1.5"/>
+  <text x="748" y="264" text-anchor="middle" font-size="14" font-weight="bold" fill="#047857">4. 구조 확장 포인트 제안</text>
+  <text x="748" y="286" text-anchor="middle" font-size="10.5" fill="#059669">새 MOC, 체크리스트, 프레임워크로</text>
+  <text x="748" y="302" text-anchor="middle" font-size="10.5" fill="#059669">승격할 패턴이 보이는지 알려준다</text>
+
+  <rect x="470" y="332" width="300" height="60" rx="12" fill="#F5F3FF" stroke="#A78BFA" stroke-width="1.5"/>
+  <text x="620" y="356" text-anchor="middle" font-size="14" font-weight="bold" fill="#6D28D9">AI의 본질적 강점: 일관성</text>
+  <text x="620" y="376" text-anchor="middle" font-size="10.5" fill="#7C3AED">같은 규칙을 흔들리지 않고 반복 적용하는 데 강하다</text>
+
+  <path d="M300,160 L340,160" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+  <path d="M300,182 C320,182 334,182 374,182" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+  <path d="M300,198 C320,198 334,274 374,274" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <rect x="120" y="458" width="270" height="110" rx="14" fill="#FFF7ED" stroke="#F59E0B" stroke-width="2"/>
+  <text x="255" y="491" text-anchor="middle" font-size="17" font-weight="bold" fill="#B45309">사람의 최종 판단</text>
+  <text x="255" y="517" text-anchor="middle" font-size="11" fill="#C2410C">예외, 조직 맥락, 프로젝트 중요도,</text>
+  <text x="255" y="535" text-anchor="middle" font-size="11" fill="#C2410C">재사용 가능성을 함께 보고</text>
+  <text x="255" y="553" text-anchor="middle" font-size="11" fill="#C2410C">최종 구조를 승인하거나 조정한다</text>
+
+  <rect x="560" y="458" width="280" height="110" rx="14" fill="#F0FDF4" stroke="#34D399" stroke-width="2"/>
+  <text x="700" y="491" text-anchor="middle" font-size="17" font-weight="bold" fill="#047857">Distill 준비 완료</text>
+  <text x="700" y="517" text-anchor="middle" font-size="11" fill="#059669">같은 유형의 정보가 같은 방식으로 쌓이고</text>
+  <text x="700" y="535" text-anchor="middle" font-size="11" fill="#059669">관련 노트가 링크로 이어져 있어야</text>
+  <text x="700" y="553" text-anchor="middle" font-size="11" fill="#059669">다음 단계에서 패턴을 발견할 수 있다</text>
+
+  <path d="M620,392 L620,458" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+  <path d="M390,514 L560,514" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <rect x="110" y="598" width="740" height="30" rx="10" fill="#FFFFFF" stroke="#D1D5DB"/>
+  <text x="480" y="619" text-anchor="middle" font-size="11" fill="#374151">Organize에서 AI를 잘 쓴다는 것은 AI에게 구조를 맡기는 것이 아니라 구조 운영의 보조자와 규칙 적용 자동화 도구로 쓰는 것이다</text>
+</svg>

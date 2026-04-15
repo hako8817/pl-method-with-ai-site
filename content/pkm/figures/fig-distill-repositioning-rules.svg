@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 660" width="960" height="660"
+     xmlns="http://www.w3.org/2000/svg"
+     font-family="'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Segoe UI', sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#6B7280"/>
+    </marker>
+    <marker id="arr-blue" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2563EB"/>
+    </marker>
+    <marker id="arr-green" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#10B981"/>
+    </marker>
+    <marker id="arr-orange" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#F59E0B"/>
+    </marker>
+  </defs>
+
+  <rect width="960" height="660" fill="#F8FAFC"/>
+
+  <text x="480" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Distill의 정리 판단은 삭제보다 재배치에 가깝다</text>
+  <text x="480" y="58" text-anchor="middle" font-size="11.5" fill="#6B7280">중복, 오래된 노트, 고립 노트, 승격 후보를 각각 다른 기준으로 다뤄야 다음에도 다시 쓸 수 있는 구조가 된다</text>
+
+  <rect x="60" y="96" width="180" height="96" rx="14" fill="#EFF6FF" stroke="#60A5FA" stroke-width="2"/>
+  <text x="150" y="128" text-anchor="middle" font-size="18" font-weight="bold" fill="#1D4ED8">중복 노트</text>
+  <text x="150" y="153" text-anchor="middle" font-size="11" fill="#2563EB">기계적으로 지우지 말고</text>
+  <text x="150" y="171" text-anchor="middle" font-size="11" fill="#2563EB">기준본을 먼저 정한다</text>
+
+  <rect x="280" y="96" width="180" height="96" rx="14" fill="#F5F3FF" stroke="#A78BFA" stroke-width="2"/>
+  <text x="370" y="128" text-anchor="middle" font-size="18" font-weight="bold" fill="#6D28D9">오래된 노트</text>
+  <text x="370" y="153" text-anchor="middle" font-size="11" fill="#7C3AED">날짜보다 현재 효용을</text>
+  <text x="370" y="171" text-anchor="middle" font-size="11" fill="#7C3AED">먼저 판단한다</text>
+
+  <rect x="500" y="96" width="180" height="96" rx="14" fill="#ECFDF5" stroke="#34D399" stroke-width="2"/>
+  <text x="590" y="128" text-anchor="middle" font-size="18" font-weight="bold" fill="#047857">고립 노트</text>
+  <text x="590" y="153" text-anchor="middle" font-size="11" fill="#059669">삭제보다 먼저</text>
+  <text x="590" y="171" text-anchor="middle" font-size="11" fill="#059669">연결 시도를 한다</text>
+
+  <rect x="720" y="96" width="180" height="96" rx="14" fill="#FFF7ED" stroke="#F59E0B" stroke-width="2"/>
+  <text x="810" y="128" text-anchor="middle" font-size="18" font-weight="bold" fill="#B45309">승격 후보</text>
+  <text x="810" y="153" text-anchor="middle" font-size="11" fill="#C2410C">반복성과 적용 범위가</text>
+  <text x="810" y="171" text-anchor="middle" font-size="11" fill="#C2410C">보일 때 올린다</text>
+
+  <line x1="150" y1="192" x2="150" y2="236" stroke="#2563EB" stroke-width="2.5" marker-end="url(#arr-blue)"/>
+  <line x1="370" y1="192" x2="370" y2="236" stroke="#7C3AED" stroke-width="2.5" marker-end="url(#arr)"/>
+  <line x1="590" y1="192" x2="590" y2="236" stroke="#10B981" stroke-width="2.5" marker-end="url(#arr-green)"/>
+  <line x1="810" y1="192" x2="810" y2="236" stroke="#F59E0B" stroke-width="2.5" marker-end="url(#arr-orange)"/>
+
+  <rect x="70" y="244" width="160" height="116" rx="14" fill="#FFFFFF" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="150" y="274" text-anchor="middle" font-size="15" font-weight="bold" fill="#1D4ED8">기준본 만들기</text>
+  <text x="150" y="298" text-anchor="middle" font-size="10.5" fill="#2563EB">가장 맥락이 분명하고</text>
+  <text x="150" y="314" text-anchor="middle" font-size="10.5" fill="#2563EB">재사용하기 좋은 노트를</text>
+  <text x="150" y="330" text-anchor="middle" font-size="10.5" fill="#2563EB">중심으로 흡수/링크</text>
+
+  <rect x="290" y="244" width="160" height="116" rx="14" fill="#FFFFFF" stroke="#A78BFA" stroke-width="1.5"/>
+  <text x="370" y="274" text-anchor="middle" font-size="15" font-weight="bold" fill="#6D28D9">효용 재평가</text>
+  <text x="370" y="298" text-anchor="middle" font-size="10.5" fill="#7C3AED">지금도 반복 문제를</text>
+  <text x="370" y="314" text-anchor="middle" font-size="10.5" fill="#7C3AED">설명하는지, 연결 가능한지,</text>
+  <text x="370" y="330" text-anchor="middle" font-size="10.5" fill="#7C3AED">최신 대체본이 있는지 본다</text>
+
+  <rect x="510" y="244" width="160" height="116" rx="14" fill="#FFFFFF" stroke="#34D399" stroke-width="1.5"/>
+  <text x="590" y="274" text-anchor="middle" font-size="15" font-weight="bold" fill="#047857">연결 먼저 시도</text>
+  <text x="590" y="298" text-anchor="middle" font-size="10.5" fill="#059669">개념, Decision, MOC,</text>
+  <text x="590" y="314" text-anchor="middle" font-size="10.5" fill="#059669">체크리스트 후보와 연결해보고</text>
+  <text x="590" y="330" text-anchor="middle" font-size="10.5" fill="#059669">그 뒤 보류/아카이브 판단</text>
+
+  <rect x="730" y="244" width="160" height="116" rx="14" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="810" y="274" text-anchor="middle" font-size="15" font-weight="bold" fill="#B45309">재사용성 판단</text>
+  <text x="810" y="298" text-anchor="middle" font-size="10.5" fill="#C2410C">여러 번 등장했는지,</text>
+  <text x="810" y="314" text-anchor="middle" font-size="10.5" fill="#C2410C">다음 프로젝트에서도 쓰는지,</text>
+  <text x="810" y="330" text-anchor="middle" font-size="10.5" fill="#C2410C">일반화가 가능한지 본다</text>
+
+  <rect x="150" y="420" width="660" height="74" rx="14" fill="#F0FDF4" stroke="#34D399" stroke-width="2"/>
+  <text x="480" y="449" text-anchor="middle" font-size="17" font-weight="bold" fill="#047857">결론: 삭제보다 재배치</text>
+  <text x="480" y="472" text-anchor="middle" font-size="11" fill="#059669">어떤 노트는 원본으로 남고, 어떤 노트는 기준본으로 흡수되고, 어떤 노트는 체크리스트·가이드·패턴 노트로 승격된다</text>
+
+  <path d="M150,360 C150,392 250,404 320,420" fill="none" stroke="#2563EB" stroke-width="2.2" marker-end="url(#arr-blue)"/>
+  <path d="M370,360 C370,392 410,404 450,420" fill="none" stroke="#7C3AED" stroke-width="2.2" marker-end="url(#arr)"/>
+  <path d="M590,360 C590,392 550,404 510,420" fill="none" stroke="#10B981" stroke-width="2.2" marker-end="url(#arr-green)"/>
+  <path d="M810,360 C810,392 710,404 640,420" fill="none" stroke="#F59E0B" stroke-width="2.2" marker-end="url(#arr-orange)"/>
+
+  <rect x="170" y="544" width="620" height="48" rx="12" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.5"/>
+  <text x="480" y="568" text-anchor="middle" font-size="11" fill="#374151">Distill은 일간보다 주간 또는 프로젝트 마감 단위 루틴일 때 현실적이다. 충분한 재료가 쌓여야 패턴과 승격 후보가 보인다</text>
+</svg>

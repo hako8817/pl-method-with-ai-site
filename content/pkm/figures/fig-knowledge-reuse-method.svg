@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 646" width="960" height="646"
+     xmlns="http://www.w3.org/2000/svg"
+     font-family="'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Segoe UI', sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#6B7280"/>
+    </marker>
+    <marker id="arr-green" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#10B981"/>
+    </marker>
+  </defs>
+
+  <rect width="960" height="620" fill="#F8FAFC"/>
+
+  <text x="480" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Knowledge는 재사용 지식을 분리하고 운영하는 방법이다</text>
+  <text x="480" y="58" text-anchor="middle" font-size="11.5" fill="#6B7280">좋은 메모를 모으는 것이 아니라, 다음에도 다시 쓸 수 있는 기준과 패턴으로 승격시키는 흐름을 만든다</text>
+
+  <rect x="60" y="96" width="180" height="96" rx="12" fill="#DBEAFE" stroke="#60A5FA" stroke-width="2"/>
+  <text x="150" y="127" text-anchor="middle" font-size="18" font-weight="bold" fill="#1D4ED8">Daily 후보</text>
+  <text x="150" y="154" text-anchor="middle" font-size="11" fill="#2563EB">"나중에도 다시 쓸 것 같다"</text>
+  <text x="150" y="173" text-anchor="middle" font-size="11" fill="#2563EB">싶은 항목이 먼저 들어온다</text>
+
+  <rect x="280" y="96" width="180" height="96" rx="12" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+  <text x="370" y="127" text-anchor="middle" font-size="18" font-weight="bold" fill="#1E40AF">기존 검색</text>
+  <text x="370" y="154" text-anchor="middle" font-size="11" fill="#2563EB">이미 있는 Knowledge인지</text>
+  <text x="370" y="173" text-anchor="middle" font-size="11" fill="#2563EB">먼저 확인한다</text>
+
+  <rect x="500" y="96" width="180" height="96" rx="12" fill="#F5F3FF" stroke="#A78BFA" stroke-width="2"/>
+  <text x="590" y="127" text-anchor="middle" font-size="17" font-weight="bold" fill="#6D28D9">신규 / 업데이트 판단</text>
+  <text x="590" y="154" text-anchor="middle" font-size="11" fill="#7C3AED">새로 만들지, 기존 지식을</text>
+  <text x="590" y="173" text-anchor="middle" font-size="11" fill="#7C3AED">갱신할지 결정한다</text>
+
+  <rect x="710" y="96" width="200" height="96" rx="12" fill="#ECFDF5" stroke="#34D399" stroke-width="2"/>
+  <text x="810" y="127" text-anchor="middle" font-size="18" font-weight="bold" fill="#047857">노트 형태 선택</text>
+  <text x="810" y="154" text-anchor="middle" font-size="11" fill="#059669">무엇을 남길지가 아니라</text>
+  <text x="810" y="173" text-anchor="middle" font-size="11" fill="#059669">어떤 형태가 가장 다시 쓰기 좋은지 본다</text>
+
+  <path d="M240,144 L280,144" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+  <path d="M460,144 L500,144" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+  <path d="M680,144 L710,144" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <rect x="150" y="236" width="660" height="62" rx="12" fill="#ECFDF5" stroke="#10B981" stroke-width="2.5"/>
+  <text x="480" y="260" text-anchor="middle" font-size="15" font-weight="bold" fill="#065F46">Knowledge는 Daily에서 시작하지만 Daily에 머물지 않는다</text>
+  <text x="480" y="282" text-anchor="middle" font-size="10.5" fill="#047857">후보를 확인하고, 기존을 검색하고, 신규/업데이트를 판단한 뒤, 재사용하기 좋은 형태로 분리한다</text>
+
+  <line x1="480" y1="192" x2="480" y2="236" stroke="#10B981" stroke-width="2.5" marker-end="url(#arr-green)"/>
+
+  <rect x="60" y="338" width="540" height="200" rx="14" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.5"/>
+  <text x="330" y="368" text-anchor="middle" font-size="17" font-weight="bold" fill="#111827">재사용 지식의 기본 형태</text>
+
+  <rect x="88" y="390" width="154" height="48" rx="10" fill="#EDE9FE" stroke="#A78BFA" stroke-width="1.5"/>
+  <text x="165" y="419" text-anchor="middle" font-size="13" font-weight="bold" fill="#6D28D9">용어 / 개념</text>
+
+  <rect x="254" y="390" width="154" height="48" rx="10" fill="#EDE9FE" stroke="#A78BFA" stroke-width="1.5"/>
+  <text x="331" y="419" text-anchor="middle" font-size="13" font-weight="bold" fill="#6D28D9">표기법 / 기법</text>
+
+  <rect x="420" y="390" width="154" height="48" rx="10" fill="#EDE9FE" stroke="#A78BFA" stroke-width="1.5"/>
+  <text x="497" y="419" text-anchor="middle" font-size="13" font-weight="bold" fill="#6D28D9">프레임워크</text>
+
+  <rect x="88" y="454" width="154" height="48" rx="10" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="165" y="483" text-anchor="middle" font-size="13" font-weight="bold" fill="#1D4ED8">산출물</text>
+
+  <rect x="254" y="454" width="154" height="48" rx="10" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="331" y="483" text-anchor="middle" font-size="13" font-weight="bold" fill="#1D4ED8">체크리스트</text>
+
+  <rect x="420" y="454" width="154" height="48" rx="10" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="497" y="483" text-anchor="middle" font-size="13" font-weight="bold" fill="#1D4ED8">MOC</text>
+
+  <text x="330" y="523" text-anchor="middle" font-size="10.5" fill="#475569">같은 내용도 어떤 형태로 남기느냐에 따라 다음 사용성이 달라진다</text>
+
+  <rect x="640" y="338" width="260" height="200" rx="14" fill="#F0FDF4" stroke="#34D399" stroke-width="2"/>
+  <text x="770" y="368" text-anchor="middle" font-size="17" font-weight="bold" fill="#047857">좋은 Knowledge의 기준</text>
+  <text x="770" y="399" text-anchor="middle" font-size="11" fill="#059669">처음 보는 사람에게 설명할 수 있다</text>
+  <text x="770" y="422" text-anchor="middle" font-size="11" fill="#059669">다음 프로젝트에서 바로 참조할 수 있다</text>
+  <text x="770" y="445" text-anchor="middle" font-size="11" fill="#059669">새로운 판단의 기준으로 쓸 수 있다</text>
+  <text x="770" y="468" text-anchor="middle" font-size="11" fill="#059669">AI에게 넘길 컨텍스트 패키지에 포함할 수 있다</text>
+  <text x="770" y="500" text-anchor="middle" font-size="11" fill="#047857">분류보다 중요한 것은</text>
+  <text x="770" y="518" text-anchor="middle" font-size="11" font-weight="bold" fill="#047857">재사용성</text>
+
+  <path d="M600,436 L640,436" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <rect x="110" y="580" width="740" height="40" rx="10" fill="#FFFFFF" stroke="#D1D5DB"/>
+  <text x="480" y="605" text-anchor="middle" font-size="11" fill="#374151">독자가 가져가야 할 것은 폴더 구조가 아니라 Daily 후보 → 기존 검색 → 신규/업데이트 판단 → 적절한 노트 형태 → 연결의 방법이다</text>
+</svg>

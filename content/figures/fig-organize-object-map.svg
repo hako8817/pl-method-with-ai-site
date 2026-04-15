@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 980 560" width="980" height="560"
+     xmlns="http://www.w3.org/2000/svg"
+     font-family="'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Segoe UI', sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#6B7280"/>
+    </marker>
+  </defs>
+  <rect width="980" height="560" fill="#F8FAFC"/>
+
+  <text x="490" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Organize는 폴더보다 객체를 먼저 정한다</text>
+  <text x="490" y="58" text-anchor="middle" font-size="11" fill="#6B7280">입력이 어떤 객체가 되는지 먼저 정해져야 파일명, 메타데이터, 링크 규칙도 일관되게 붙는다</text>
+
+  <rect x="40" y="120" width="200" height="120" rx="12" fill="#EFF6FF" stroke="#60A5FA" stroke-width="2"/>
+  <text x="140" y="155" text-anchor="middle" font-size="18" font-weight="bold" fill="#1D4ED8">입력</text>
+  <text x="140" y="184" text-anchor="middle" font-size="12" fill="#2563EB">Daily Capture</text>
+  <text x="140" y="204" text-anchor="middle" font-size="12" fill="#2563EB">회의 메모</text>
+  <text x="140" y="224" text-anchor="middle" font-size="12" fill="#2563EB">로그와 관찰</text>
+
+  <rect x="320" y="90" width="220" height="74" rx="10" fill="#DBEAFE" stroke="#93C5FD" stroke-width="2"/>
+  <text x="430" y="120" text-anchor="middle" font-size="16" font-weight="bold" fill="#1D4ED8">Evidence Note</text>
+  <text x="430" y="144" text-anchor="middle" font-size="11" fill="#2563EB">사실, 관찰, 로그, 인터뷰</text>
+
+  <rect x="320" y="180" width="220" height="74" rx="10" fill="#EDE9FE" stroke="#C4B5FD" stroke-width="2"/>
+  <text x="430" y="210" text-anchor="middle" font-size="16" font-weight="bold" fill="#6D28D9">Decision Log</text>
+  <text x="430" y="234" text-anchor="middle" font-size="11" fill="#7C3AED">선택, 이유, 대안, 영향</text>
+
+  <rect x="320" y="270" width="220" height="74" rx="10" fill="#D1FAE5" stroke="#6EE7B7" stroke-width="2"/>
+  <text x="430" y="300" text-anchor="middle" font-size="16" font-weight="bold" fill="#047857">Knowledge Note</text>
+  <text x="430" y="324" text-anchor="middle" font-size="11" fill="#059669">개념, 원리, 기법, 체크리스트</text>
+
+  <rect x="320" y="360" width="220" height="74" rx="10" fill="#FFF7ED" stroke="#FCD34D" stroke-width="2"/>
+  <text x="430" y="390" text-anchor="middle" font-size="16" font-weight="bold" fill="#B45309">Result Note</text>
+  <text x="430" y="414" text-anchor="middle" font-size="11" fill="#C2410C">실행 결과, 차이, 발견</text>
+
+  <rect x="660" y="165" width="250" height="140" rx="12" fill="#F3F4F6" stroke="#9CA3AF" stroke-width="2"/>
+  <text x="785" y="198" text-anchor="middle" font-size="18" font-weight="bold" fill="#111827">Project / Hub / Index</text>
+  <text x="785" y="226" text-anchor="middle" font-size="11" fill="#4B5563">객체를 프로젝트 맥락으로 묶는다</text>
+  <text x="785" y="248" text-anchor="middle" font-size="11" fill="#4B5563">문제, 근거, 결정, 결과, 지식을</text>
+  <text x="785" y="266" text-anchor="middle" font-size="11" fill="#4B5563">한 번에 다시 찾게 한다</text>
+
+  <rect x="660" y="350" width="250" height="120" rx="12" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="2"/>
+  <text x="785" y="382" text-anchor="middle" font-size="16" font-weight="bold" fill="#111827">메타데이터 규칙</text>
+  <text x="785" y="408" text-anchor="middle" font-size="11" fill="#4B5563">파일명, frontmatter, 링크 기준</text>
+  <text x="785" y="426" text-anchor="middle" font-size="11" fill="#4B5563">반복 입력을 같은 방식으로 고정한다</text>
+
+  <line x1="240" y1="180" x2="320" y2="126" stroke="#6B7280" stroke-width="2.2" marker-end="url(#arr)"/>
+  <line x1="240" y1="200" x2="320" y2="216" stroke="#6B7280" stroke-width="2.2" marker-end="url(#arr)"/>
+  <line x1="240" y1="220" x2="320" y2="306" stroke="#6B7280" stroke-width="2.2" marker-end="url(#arr)"/>
+  <line x1="240" y1="240" x2="320" y2="396" stroke="#6B7280" stroke-width="2.2" marker-end="url(#arr)"/>
+
+  <line x1="540" y1="127" x2="660" y2="198" stroke="#6B7280" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="540" y1="217" x2="660" y2="222" stroke="#6B7280" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="540" y1="307" x2="660" y2="248" stroke="#6B7280" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="540" y1="397" x2="660" y2="272" stroke="#6B7280" stroke-width="2" marker-end="url(#arr)"/>
+
+  <line x1="430" y1="434" x2="430" y2="490" stroke="#9CA3AF" stroke-width="1.8"/>
+  <line x1="430" y1="490" x2="785" y2="490" stroke="#9CA3AF" stroke-width="1.8"/>
+  <line x1="785" y1="490" x2="785" y2="470" stroke="#9CA3AF" stroke-width="1.8" marker-end="url(#arr)"/>
+
+  <rect x="96" y="474" width="780" height="40" rx="8" fill="#FFFFFF" stroke="#D1D5DB"/>
+  <text x="486" y="499" text-anchor="middle" font-size="11" fill="#374151">Organize의 핵심은 저장 위치보다 객체 정의다. 객체가 정해져야 구조도 검색도 재사용도 쉬워진다</text>
+</svg>

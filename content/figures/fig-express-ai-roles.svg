@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 670" width="960" height="670"
+     xmlns="http://www.w3.org/2000/svg"
+     font-family="'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Segoe UI', sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#6B7280"/>
+    </marker>
+    <marker id="arr-blue" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2563EB"/>
+    </marker>
+    <marker id="arr-green" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#10B981"/>
+    </marker>
+    <marker id="arr-purple" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#7C3AED"/>
+    </marker>
+  </defs>
+
+  <rect width="960" height="670" fill="#F8FAFC"/>
+
+  <text x="480" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Express에서 AI는 검색, 조립, 초안, 비평, 비교를 돕는 보조자다</text>
+  <text x="480" y="58" text-anchor="middle" font-size="11.5" fill="#6B7280">무엇을 쓸지와 어떤 판단을 최종 채택할지는 사람의 몫이다. 좋은 Express는 빈 화면이 아니라 잘 묶인 컨텍스트 패키지에서 시작된다</text>
+
+  <rect x="60" y="94" width="220" height="108" rx="14" fill="#DBEAFE" stroke="#60A5FA" stroke-width="2"/>
+  <text x="170" y="126" text-anchor="middle" font-size="18" font-weight="bold" fill="#1D4ED8">Retrieval</text>
+  <text x="170" y="152" text-anchor="middle" font-size="11" fill="#2563EB">관련 Evidence, Decision,</text>
+  <text x="170" y="170" text-anchor="middle" font-size="11" fill="#2563EB">Knowledge, 오래된 유사 문서,</text>
+  <text x="170" y="188" text-anchor="middle" font-size="11" fill="#2563EB">기존 산출물을 빠르게 찾는다</text>
+
+  <rect x="320" y="84" width="320" height="128" rx="16" fill="#ECFDF5" stroke="#34D399" stroke-width="2"/>
+  <text x="480" y="118" text-anchor="middle" font-size="18" font-weight="bold" fill="#047857">컨텍스트 패키지</text>
+  <text x="480" y="144" text-anchor="middle" font-size="11" fill="#059669">찾은 조각을 이번 작업 목적에 맞게</text>
+  <text x="480" y="162" text-anchor="middle" font-size="11" fill="#059669">묶고, 제외할 것과 순서를 정한다</text>
+  <text x="480" y="180" text-anchor="middle" font-size="11" fill="#059669">Express의 품질은 검색 능력보다</text>
+  <text x="480" y="198" text-anchor="middle" font-size="11" fill="#059669">이 패키지 설계에 더 많이 좌우된다</text>
+
+  <rect x="680" y="94" width="220" height="108" rx="14" fill="#F5F3FF" stroke="#A78BFA" stroke-width="2"/>
+  <text x="790" y="126" text-anchor="middle" font-size="18" font-weight="bold" fill="#6D28D9">Draft</text>
+  <text x="790" y="152" text-anchor="middle" font-size="11" fill="#7C3AED">PRD, 제안서, 보고,</text>
+  <text x="790" y="170" text-anchor="middle" font-size="11" fill="#7C3AED">회의 안건, 온보딩 문서 같은</text>
+  <text x="790" y="188" text-anchor="middle" font-size="11" fill="#7C3AED">첫 번째 버전을 빠르게 만든다</text>
+
+  <path d="M280,148 L320,148" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+  <path d="M640,148 L680,148" fill="none" stroke="#10B981" stroke-width="2.5" marker-end="url(#arr-green)"/>
+
+  <rect x="150" y="266" width="280" height="116" rx="14" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.5"/>
+  <text x="290" y="298" text-anchor="middle" font-size="17" font-weight="bold" fill="#111827">Critic</text>
+  <text x="290" y="324" text-anchor="middle" font-size="11" fill="#475569">누락, 모순, 근거 부족,</text>
+  <text x="290" y="342" text-anchor="middle" font-size="11" fill="#475569">예외 처리 부재, 실행 불가능한 요구를</text>
+  <text x="290" y="360" text-anchor="middle" font-size="11" fill="#475569">검토한다</text>
+
+  <rect x="530" y="266" width="280" height="116" rx="14" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.5"/>
+  <text x="670" y="298" text-anchor="middle" font-size="17" font-weight="bold" fill="#111827">Alternative Compare</text>
+  <text x="670" y="324" text-anchor="middle" font-size="11" fill="#475569">서로 다른 구조, 우선순위,</text>
+  <text x="670" y="342" text-anchor="middle" font-size="11" fill="#475569">대안의 장단점을 비교하고</text>
+  <text x="670" y="360" text-anchor="middle" font-size="11" fill="#475569">선택지를 선명하게 만든다</text>
+
+  <path d="M790,202 C790,238 726,252 670,266" fill="none" stroke="#7C3AED" stroke-width="2.5" marker-end="url(#arr-purple)"/>
+  <path d="M790,202 C790,238 382,252 290,266" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <rect x="120" y="432" width="300" height="134" rx="14" fill="#FFF7ED" stroke="#F59E0B" stroke-width="2"/>
+  <text x="270" y="466" text-anchor="middle" font-size="17" font-weight="bold" fill="#B45309">사람의 최종 책임</text>
+  <text x="270" y="492" text-anchor="middle" font-size="11" fill="#C2410C">이 문서가 실제 문제를 정확히 다루는가</text>
+  <text x="270" y="510" text-anchor="middle" font-size="11" fill="#C2410C">근거와 결정이 충분히 반영되었는가</text>
+  <text x="270" y="528" text-anchor="middle" font-size="11" fill="#C2410C">지금 조직과 프로젝트 맥락에서</text>
+  <text x="270" y="546" text-anchor="middle" font-size="11" fill="#C2410C">실행 가능한가를 최종 확인한다</text>
+
+  <rect x="540" y="432" width="300" height="134" rx="14" fill="#F0FDF4" stroke="#34D399" stroke-width="2"/>
+  <text x="690" y="466" text-anchor="middle" font-size="17" font-weight="bold" fill="#047857">Express 결과는 다시 Capture로</text>
+  <text x="690" y="492" text-anchor="middle" font-size="11" fill="#059669">산출물 작성 중 생긴 새 쟁점,</text>
+  <text x="690" y="510" text-anchor="middle" font-size="11" fill="#059669">빠진 근거, 새 Decision, 대안 비교 결과는</text>
+  <text x="690" y="528" text-anchor="middle" font-size="11" fill="#059669">다시 다음 입력으로 돌아가야 한다</text>
+  <text x="690" y="546" text-anchor="middle" font-size="11" fill="#059669">그래야 순환 구조가 끊기지 않는다</text>
+
+  <path d="M480,212 L480,240 C480,250 380,250 290,266" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+  <path d="M670,382 L670,432" fill="none" stroke="#10B981" stroke-width="2.5" marker-end="url(#arr-green)"/>
+  <path d="M420,500 L540,500" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <rect x="120" y="604" width="720" height="28" rx="10" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.5"/>
+  <text x="480" y="623" text-anchor="middle" font-size="11" fill="#374151">Express에서 AI를 잘 쓰는 핵심은 프롬프트 기교보다 패키지 설계다. 좋은 Express는 좋은 구조와 좋은 Distill 위에서만 가능하다</text>
+</svg>

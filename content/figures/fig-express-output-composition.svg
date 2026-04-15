@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 640" width="960" height="640"
+     xmlns="http://www.w3.org/2000/svg"
+     font-family="'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Segoe UI', sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#6B7280"/>
+    </marker>
+    <marker id="arr-blue" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2563EB"/>
+    </marker>
+    <marker id="arr-purple" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#7C3AED"/>
+    </marker>
+    <marker id="arr-green" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#10B981"/>
+    </marker>
+    <marker id="arr-orange" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#F59E0B"/>
+    </marker>
+  </defs>
+
+  <rect width="960" height="640" fill="#F8FAFC"/>
+
+  <text x="480" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">지식을 산출물로 꺼내 쓴다는 것은 새로 쓰는 것이 아니라 조합하는 것이다</text>
+  <text x="480" y="58" text-anchor="middle" font-size="11.5" fill="#6B7280">PRD, 제안서, 보고 문서, 온보딩, Case Study는 형식은 달라도 같은 PKM 시스템에서 꺼낸 조각을 다른 방식으로 조합한 출력이다</text>
+
+  <rect x="70" y="96" width="170" height="86" rx="12" fill="#EFF6FF" stroke="#60A5FA" stroke-width="2"/>
+  <text x="155" y="126" text-anchor="middle" font-size="17" font-weight="bold" fill="#1D4ED8">Evidence</text>
+  <text x="155" y="149" text-anchor="middle" font-size="10.5" fill="#2563EB">왜 이 문제가</text>
+  <text x="155" y="165" text-anchor="middle" font-size="10.5" fill="#2563EB">중요한지 보여준다</text>
+
+  <rect x="270" y="96" width="170" height="86" rx="12" fill="#F5F3FF" stroke="#A78BFA" stroke-width="2"/>
+  <text x="355" y="126" text-anchor="middle" font-size="17" font-weight="bold" fill="#6D28D9">Decision</text>
+  <text x="355" y="149" text-anchor="middle" font-size="10.5" fill="#7C3AED">어떤 방향을 택했고</text>
+  <text x="355" y="165" text-anchor="middle" font-size="10.5" fill="#7C3AED">왜 그랬는지 남긴다</text>
+
+  <rect x="470" y="96" width="170" height="86" rx="12" fill="#ECFDF5" stroke="#34D399" stroke-width="2"/>
+  <text x="555" y="126" text-anchor="middle" font-size="17" font-weight="bold" fill="#047857">Knowledge</text>
+  <text x="555" y="149" text-anchor="middle" font-size="10.5" fill="#059669">다시 쓸 개념, 기준,</text>
+  <text x="555" y="165" text-anchor="middle" font-size="10.5" fill="#059669">체크리스트가 된다</text>
+
+  <rect x="670" y="96" width="170" height="86" rx="12" fill="#FFF7ED" stroke="#F59E0B" stroke-width="2"/>
+  <text x="755" y="126" text-anchor="middle" font-size="17" font-weight="bold" fill="#B45309">Result</text>
+  <text x="755" y="149" text-anchor="middle" font-size="10.5" fill="#C2410C">실행 이후의 차이와</text>
+  <text x="755" y="165" text-anchor="middle" font-size="10.5" fill="#C2410C">학습을 보강한다</text>
+
+  <rect x="250" y="236" width="460" height="116" rx="16" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.5"/>
+  <text x="480" y="268" text-anchor="middle" font-size="18" font-weight="bold" fill="#111827">컨텍스트 조합</text>
+  <text x="480" y="295" text-anchor="middle" font-size="11" fill="#475569">무엇을 해결하려는가</text>
+  <text x="480" y="313" text-anchor="middle" font-size="11" fill="#475569">어떤 근거가 있는가</text>
+  <text x="480" y="331" text-anchor="middle" font-size="11" fill="#475569">어떤 결정이 이미 내려졌는가</text>
+  <text x="480" y="349" text-anchor="middle" font-size="11" fill="#475569">어떤 지식을 다시 써야 하는가</text>
+
+  <path d="M155,182 C155,218 270,226 320,236" fill="none" stroke="#2563EB" stroke-width="2.2" marker-end="url(#arr-blue)"/>
+  <path d="M355,182 C355,218 390,226 430,236" fill="none" stroke="#7C3AED" stroke-width="2.2" marker-end="url(#arr-purple)"/>
+  <path d="M555,182 C555,218 570,226 590,236" fill="none" stroke="#10B981" stroke-width="2.2" marker-end="url(#arr-green)"/>
+  <path d="M755,182 C755,218 680,226 640,236" fill="none" stroke="#F59E0B" stroke-width="2.2" marker-end="url(#arr-orange)"/>
+
+  <rect x="70" y="412" width="170" height="96" rx="12" fill="#EFF6FF" stroke="#60A5FA" stroke-width="2"/>
+  <text x="155" y="444" text-anchor="middle" font-size="16" font-weight="bold" fill="#1D4ED8">PRD</text>
+  <text x="155" y="468" text-anchor="middle" font-size="10.5" fill="#2563EB">문제, 근거, 결정,</text>
+  <text x="155" y="484" text-anchor="middle" font-size="10.5" fill="#2563EB">요구사항과 예외</text>
+
+  <rect x="270" y="412" width="170" height="96" rx="12" fill="#F5F3FF" stroke="#A78BFA" stroke-width="2"/>
+  <text x="355" y="444" text-anchor="middle" font-size="16" font-weight="bold" fill="#6D28D9">제안서 / 보고</text>
+  <text x="355" y="468" text-anchor="middle" font-size="10.5" fill="#7C3AED">판단과 근거를</text>
+  <text x="355" y="484" text-anchor="middle" font-size="10.5" fill="#7C3AED">재설명하는 형식</text>
+
+  <rect x="470" y="412" width="170" height="96" rx="12" fill="#ECFDF5" stroke="#34D399" stroke-width="2"/>
+  <text x="555" y="444" text-anchor="middle" font-size="16" font-weight="bold" fill="#047857">온보딩 / Case Study</text>
+  <text x="555" y="468" text-anchor="middle" font-size="10.5" fill="#059669">재사용 지식과 패턴을</text>
+  <text x="555" y="484" text-anchor="middle" font-size="10.5" fill="#059669">다음 사람에게 전달</text>
+
+  <rect x="670" y="412" width="170" height="96" rx="12" fill="#F0FDF4" stroke="#10B981" stroke-width="2"/>
+  <text x="755" y="444" text-anchor="middle" font-size="16" font-weight="bold" fill="#065F46">공통 원리</text>
+  <text x="755" y="468" text-anchor="middle" font-size="10.5" fill="#059669">형식은 달라도</text>
+  <text x="755" y="484" text-anchor="middle" font-size="10.5" fill="#059669">retrieval과 조합이 핵심</text>
+
+  <line x1="480" y1="352" x2="480" y2="388" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+  <line x1="480" y1="388" x2="155" y2="412" stroke="#2563EB" stroke-width="2" marker-end="url(#arr-blue)"/>
+  <line x1="480" y1="388" x2="355" y2="412" stroke="#7C3AED" stroke-width="2" marker-end="url(#arr-purple)"/>
+  <line x1="480" y1="388" x2="555" y2="412" stroke="#10B981" stroke-width="2" marker-end="url(#arr-green)"/>
+  <line x1="480" y1="388" x2="755" y2="412" stroke="#10B981" stroke-width="2" marker-end="url(#arr-green)"/>
+
+  <rect x="140" y="550" width="680" height="48" rx="12" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.5"/>
+  <text x="480" y="574" text-anchor="middle" font-size="11" fill="#374151">좋은 산출물은 빈 화면에서 시작하지 않는다. Express의 경쟁력은 쓰는 속도보다 어떤 맥락을 얼마나 잘 꺼내 조합해 넘길 수 있는가에 있다</text>
+</svg>

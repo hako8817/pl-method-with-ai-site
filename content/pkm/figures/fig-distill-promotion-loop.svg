@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 640" width="960" height="640"
+     xmlns="http://www.w3.org/2000/svg"
+     font-family="'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Segoe UI', sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#6B7280"/>
+    </marker>
+    <marker id="arr-purple" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#7C3AED"/>
+    </marker>
+    <marker id="arr-green" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#10B981"/>
+    </marker>
+  </defs>
+
+  <rect width="960" height="640" fill="#F8FAFC"/>
+
+  <text x="480" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Distill은 요약이 아니라 승격이다</text>
+  <text x="480" y="58" text-anchor="middle" font-size="11.5" fill="#6B7280">기록을 짧게 만드는 것이 아니라, 연결된 사례에서 반복 패턴을 발견해 다음에도 다시 쓸 수 있는 기준으로 끌어올리는 단계다</text>
+
+  <rect x="70" y="96" width="200" height="92" rx="12" fill="#EFF6FF" stroke="#60A5FA" stroke-width="2"/>
+  <text x="170" y="128" text-anchor="middle" font-size="18" font-weight="bold" fill="#1D4ED8">요약</text>
+  <text x="170" y="154" text-anchor="middle" font-size="11" fill="#2563EB">현재 문서를 읽기 쉽게</text>
+  <text x="170" y="172" text-anchor="middle" font-size="11" fill="#2563EB">짧게 압축한다</text>
+
+  <rect x="370" y="84" width="220" height="116" rx="14" fill="#F5F3FF" stroke="#A78BFA" stroke-width="2"/>
+  <text x="480" y="118" text-anchor="middle" font-size="19" font-weight="bold" fill="#6D28D9">Distill</text>
+  <text x="480" y="145" text-anchor="middle" font-size="11" fill="#7C3AED">떨어진 기록을 연결하고</text>
+  <text x="480" y="163" text-anchor="middle" font-size="11" fill="#7C3AED">반복 패턴을 발견하고</text>
+  <text x="480" y="181" text-anchor="middle" font-size="11" fill="#7C3AED">재사용 가능한 기준으로 끌어올린다</text>
+
+  <rect x="690" y="96" width="200" height="92" rx="12" fill="#ECFDF5" stroke="#34D399" stroke-width="2"/>
+  <text x="790" y="128" text-anchor="middle" font-size="18" font-weight="bold" fill="#047857">승격</text>
+  <text x="790" y="154" text-anchor="middle" font-size="11" fill="#059669">미래의 판단을 쉽게 만드는</text>
+  <text x="790" y="172" text-anchor="middle" font-size="11" fill="#059669">재사용 가능한 자산이 된다</text>
+
+  <path d="M270,142 L370,142" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+  <path d="M590,142 L690,142" fill="none" stroke="#10B981" stroke-width="2.5" marker-end="url(#arr-green)"/>
+  <text x="320" y="129" text-anchor="middle" font-size="10.5" fill="#4B5563">길이를 줄이는 일</text>
+  <text x="640" y="129" text-anchor="middle" font-size="10.5" fill="#059669">재사용성을 높이는 일</text>
+
+  <rect x="150" y="250" width="660" height="64" rx="12" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.5"/>
+  <text x="480" y="276" text-anchor="middle" font-size="15" font-weight="bold" fill="#111827">Distill의 출발점은 연결이다</text>
+  <text x="480" y="298" text-anchor="middle" font-size="10.5" fill="#475569">비슷한 Decision, Evidence, Result를 함께 보아야 우연이 아니라 패턴이라는 판단이 가능해진다</text>
+
+  <line x1="480" y1="200" x2="480" y2="250" stroke="#7C3AED" stroke-width="2.5" marker-end="url(#arr-purple)"/>
+
+  <rect x="70" y="366" width="240" height="142" rx="14" fill="#DBEAFE" stroke="#60A5FA" stroke-width="2"/>
+  <text x="190" y="399" text-anchor="middle" font-size="17" font-weight="bold" fill="#1D4ED8">승격 후보</text>
+  <text x="190" y="426" text-anchor="middle" font-size="11" fill="#2563EB">반복되는 의사결정 기준</text>
+  <text x="190" y="444" text-anchor="middle" font-size="11" fill="#2563EB">공통으로 쓰인 접근 방식</text>
+  <text x="190" y="462" text-anchor="middle" font-size="11" fill="#2563EB">반복 액션에서 드러난 체크 순서</text>
+  <text x="190" y="480" text-anchor="middle" font-size="11" fill="#2563EB">자주 틀리는 개념과 해석 기준</text>
+
+  <rect x="360" y="366" width="240" height="142" rx="14" fill="#F5F3FF" stroke="#A78BFA" stroke-width="2"/>
+  <text x="480" y="399" text-anchor="middle" font-size="17" font-weight="bold" fill="#6D28D9">승격 기준</text>
+  <text x="480" y="426" text-anchor="middle" font-size="11" fill="#7C3AED">중요한가보다</text>
+  <text x="480" y="444" text-anchor="middle" font-size="11" fill="#7C3AED">다음에도 다시 쓸 수 있는가</text>
+  <text x="480" y="462" text-anchor="middle" font-size="11" fill="#7C3AED">즉 재사용 가능성이 핵심이다</text>
+
+  <rect x="650" y="366" width="240" height="142" rx="14" fill="#F0FDF4" stroke="#34D399" stroke-width="2"/>
+  <text x="770" y="399" text-anchor="middle" font-size="17" font-weight="bold" fill="#047857">Distill 산출물</text>
+  <text x="770" y="426" text-anchor="middle" font-size="11" fill="#059669">체크리스트</text>
+  <text x="770" y="444" text-anchor="middle" font-size="11" fill="#059669">가이드 / 방법론</text>
+  <text x="770" y="462" text-anchor="middle" font-size="11" fill="#059669">판단 기준 문서</text>
+  <text x="770" y="480" text-anchor="middle" font-size="11" fill="#059669">컨텍스트 패키지 후보</text>
+
+  <path d="M310,438 L360,438" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+  <path d="M600,438 L650,438" fill="none" stroke="#10B981" stroke-width="2.5" marker-end="url(#arr-green)"/>
+
+  <rect x="130" y="550" width="700" height="48" rx="12" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.5"/>
+  <text x="480" y="574" text-anchor="middle" font-size="11" fill="#374151">Distill이 있어야 경험은 자산이 된다. 많이 겪는 것보다, 겪은 것에서 기준을 뽑아내는 능력을 시스템으로 만드는 단계다</text>
+</svg>

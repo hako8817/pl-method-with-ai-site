@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 560" width="960" height="560"
+     xmlns="http://www.w3.org/2000/svg"
+     font-family="'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Segoe UI', sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#6B7280"/>
+    </marker>
+    <marker id="arr-purple" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#7C3AED"/>
+    </marker>
+    <marker id="arr-blue" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2563EB"/>
+    </marker>
+  </defs>
+
+  <rect width="960" height="560" fill="#F8FAFC"/>
+
+  <text x="480" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Decision OS는 근거와 결정을 다시 연결하는 방법이다</text>
+  <text x="480" y="58" text-anchor="middle" font-size="11.5" fill="#6B7280">폴더 소개가 아니라, 근거를 먼저 남기고 결정을 그 근거와 연결해 재설명 가능하게 만드는 운영 방식이다</text>
+
+  <rect x="80" y="100" width="200" height="96" rx="12" fill="#DBEAFE" stroke="#60A5FA" stroke-width="2"/>
+  <text x="180" y="132" text-anchor="middle" font-size="18" font-weight="bold" fill="#1D4ED8">Daily Capture</text>
+  <text x="180" y="157" text-anchor="middle" font-size="11" fill="#2563EB">하루의 메모가 먼저 모이는</text>
+  <text x="180" y="175" text-anchor="middle" font-size="11" fill="#2563EB">입력 허브</text>
+  <text x="180" y="193" text-anchor="middle" font-size="10" fill="#3B82F6">입력 단계와 구조화 단계를 분리한다</text>
+
+  <rect x="340" y="88" width="260" height="126" rx="14" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+  <text x="470" y="122" text-anchor="middle" font-size="19" font-weight="bold" fill="#1E40AF">Evidence Note</text>
+  <text x="470" y="148" text-anchor="middle" font-size="11" fill="#2563EB">판단의 근거가 되는 사실과 관찰</text>
+  <text x="470" y="167" text-anchor="middle" font-size="11" fill="#2563EB">출처와 맥락이 남아 있어야 한다</text>
+  <text x="470" y="186" text-anchor="middle" font-size="10" fill="#3B82F6">나중에 다른 결정과도 다시 연결할 수 있는 상태</text>
+
+  <rect x="340" y="250" width="260" height="146" rx="14" fill="#F5F3FF" stroke="#A78BFA" stroke-width="2"/>
+  <text x="470" y="286" text-anchor="middle" font-size="19" font-weight="bold" fill="#6D28D9">Decision Log</text>
+  <text x="470" y="312" text-anchor="middle" font-size="11" fill="#7C3AED">선택, 이유, 대안, 영향이 남는 기록</text>
+  <text x="470" y="330" text-anchor="middle" font-size="11" fill="#7C3AED">결론만이 아니라 판단 과정을 남긴다</text>
+  <text x="470" y="352" text-anchor="middle" font-size="10.5" fill="#8B5CF6">무엇을 결정했고 왜 그렇게 결정했는가</text>
+  <text x="470" y="369" text-anchor="middle" font-size="10.5" fill="#8B5CF6">어떤 근거를 봤는가</text>
+  <text x="470" y="386" text-anchor="middle" font-size="10.5" fill="#8B5CF6">어떤 대안을 검토했고 어떤 영향을 감수했는가</text>
+
+  <rect x="670" y="146" width="220" height="184" rx="14" fill="#ECFDF5" stroke="#34D399" stroke-width="2"/>
+  <text x="780" y="180" text-anchor="middle" font-size="18" font-weight="bold" fill="#047857">재설명 가능성</text>
+  <text x="780" y="207" text-anchor="middle" font-size="11" fill="#059669">왜 이런 결정을 했는지</text>
+  <text x="780" y="225" text-anchor="middle" font-size="11" fill="#059669">다시 설명할 수 있다</text>
+  <text x="780" y="251" text-anchor="middle" font-size="11" fill="#059669">비슷한 논의가 다시 열려도</text>
+  <text x="780" y="269" text-anchor="middle" font-size="11" fill="#059669">출발점을 잃지 않는다</text>
+  <text x="780" y="295" text-anchor="middle" font-size="11" fill="#059669">새로운 이해관계자와 AI에게도</text>
+  <text x="780" y="313" text-anchor="middle" font-size="11" fill="#059669">정확한 맥락을 넘길 수 있다</text>
+
+  <path d="M280,148 C304,148 316,151 340,151" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+  <text x="306" y="132" text-anchor="middle" font-size="10.5" fill="#4B5563">판단의 재료를 분리</text>
+
+  <path d="M280,186 C314,196 316,318 340,336" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+  <text x="258" y="256" text-anchor="middle" font-size="10.5" fill="#4B5563">선택과 합의를 분리</text>
+
+  <path d="M470,214 L470,250" fill="none" stroke="#7C3AED" stroke-width="2.8" marker-end="url(#arr-purple)"/>
+  <text x="575" y="225" text-anchor="middle" font-size="11" fill="#6D28D9">근거 → 결정</text>
+  <text x="575" y="240" text-anchor="middle" font-size="10" fill="#8B5CF6">Decision OS의 기본 원리</text>
+
+  <path d="M600,150 C626,150 646,176 670,204" fill="none" stroke="#2563EB" stroke-width="2.5" marker-end="url(#arr-blue)"/>
+  <path d="M600,320 C626,320 646,292 670,268" fill="none" stroke="#7C3AED" stroke-width="2.5" marker-end="url(#arr-purple)"/>
+  <text x="640" y="141" text-anchor="middle" font-size="10.5" fill="#2563EB">근거를 다시 확인</text>
+  <text x="640" y="356" text-anchor="middle" font-size="10.5" fill="#7C3AED">결정을 다시 설명</text>
+
+  <path d="M470,396 C390,432 288,420 240,364 C204,322 236,244 440,214" fill="none" stroke="#94A3B8" stroke-width="2" stroke-dasharray="6,4" marker-end="url(#arr)"/>
+  <text x="480" y="442" text-anchor="middle" font-size="11" fill="#475569">나중에는 결정에서 다시 근거로 거슬러 올라갈 수 있어야 한다</text>
+
+  <rect x="100" y="468" width="760" height="60" rx="10" fill="#FFFFFF" stroke="#D1D5DB"/>
+  <text x="480" y="493" text-anchor="middle" font-size="11" fill="#374151">Decision OS의 질문은 "무엇을 저장할까?"가 아니라 "어떻게 근거와 결정을 다시 이어서 꺼낼 수 있게 만들까?"다</text>
+  <text x="480" y="512" text-anchor="middle" font-size="11" fill="#374151">그래서 핵심은 저장소 이름이 아니라, Evidence Note와 Decision Log를 한 흐름으로 묶는 운영 방법이다</text>
+</svg>

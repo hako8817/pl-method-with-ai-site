@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 640" width="960" height="640"
+     xmlns="http://www.w3.org/2000/svg"
+     font-family="'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Segoe UI', sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#6B7280"/>
+    </marker>
+    <marker id="arr-blue" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2563EB"/>
+    </marker>
+    <marker id="arr-green" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#10B981"/>
+    </marker>
+  </defs>
+
+  <rect width="960" height="640" fill="#F8FAFC"/>
+
+  <text x="480" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Knowledge Tree와 객체별 운영 규칙으로 구조를 고정한다</text>
+  <text x="480" y="58" text-anchor="middle" font-size="11.5" fill="#6B7280">구조는 사람의 기억에 두는 것이 아니라 파일명, 위치, 메타데이터, 링크 규칙으로 외부화되어야 한다</text>
+
+  <rect x="50" y="106" width="210" height="118" rx="14" fill="#DBEAFE" stroke="#60A5FA" stroke-width="2"/>
+  <text x="155" y="140" text-anchor="middle" font-size="18" font-weight="bold" fill="#1D4ED8">새 입력과 예외</text>
+  <text x="155" y="167" text-anchor="middle" font-size="11" fill="#2563EB">매일 새 입력이 들어오고</text>
+  <text x="155" y="185" text-anchor="middle" font-size="11" fill="#2563EB">프로젝트가 바뀌고</text>
+  <text x="155" y="203" text-anchor="middle" font-size="11" fill="#2563EB">새 유형과 예외가 생긴다</text>
+
+  <rect x="300" y="86" width="380" height="382" rx="16" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.5"/>
+  <text x="490" y="116" text-anchor="middle" font-size="18" font-weight="bold" fill="#111827">구조를 고정하는 4가지 규칙</text>
+
+  <rect x="332" y="140" width="316" height="68" rx="12" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="490" y="166" text-anchor="middle" font-size="15" font-weight="bold" fill="#1D4ED8">1. Knowledge Tree</text>
+  <text x="490" y="187" text-anchor="middle" font-size="10.5" fill="#2563EB">재사용 지식을 어떤 축으로 둘지 정하는 기준축</text>
+  <text x="490" y="203" text-anchor="middle" font-size="10.5" fill="#2563EB">지금 둘 위치와 나중에 모아볼 연결 기준을 제공한다</text>
+
+  <rect x="332" y="224" width="316" height="68" rx="12" fill="#F5F3FF" stroke="#A78BFA" stroke-width="1.5"/>
+  <text x="490" y="250" text-anchor="middle" font-size="15" font-weight="bold" fill="#6D28D9">2. 파일명 규칙</text>
+  <text x="490" y="271" text-anchor="middle" font-size="10.5" fill="#7C3AED">용어-, 개념-, 산출물-, 프레임워크- 같은 규칙</text>
+  <text x="490" y="287" text-anchor="middle" font-size="10.5" fill="#7C3AED">입력 순간의 판단을 단순하게 만든다</text>
+
+  <rect x="332" y="308" width="316" height="68" rx="12" fill="#ECFDF5" stroke="#34D399" stroke-width="1.5"/>
+  <text x="490" y="334" text-anchor="middle" font-size="15" font-weight="bold" fill="#047857">3. 메타데이터 규칙</text>
+  <text x="490" y="355" text-anchor="middle" font-size="10.5" fill="#059669">유형, 축, 상태 같은 최소 속성을 일정하게 남긴다</text>
+  <text x="490" y="371" text-anchor="middle" font-size="10.5" fill="#059669">반복 가능한 탐색, 정렬, 자동화를 가능하게 한다</text>
+
+  <rect x="332" y="392" width="316" height="68" rx="12" fill="#FFF7ED" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="490" y="418" text-anchor="middle" font-size="15" font-weight="bold" fill="#B45309">4. 링크와 허브</text>
+  <text x="490" y="439" text-anchor="middle" font-size="10.5" fill="#C2410C">관련 노트, Decision, Evidence, MOC를 연결한다</text>
+  <text x="490" y="455" text-anchor="middle" font-size="10.5" fill="#C2410C">저장보다 연결이 중요하다는 원칙을 구현한다</text>
+
+  <path d="M260,166 L300,166" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+  <path d="M260,184 C282,184 292,258 332,258" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+  <path d="M260,202 C282,202 292,342 332,342" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <rect x="720" y="112" width="190" height="138" rx="14" fill="#F0FDF4" stroke="#34D399" stroke-width="2"/>
+  <text x="815" y="146" text-anchor="middle" font-size="17" font-weight="bold" fill="#047857">안정적 운영</text>
+  <text x="815" y="173" text-anchor="middle" font-size="11" fill="#059669">사람이 매번 새로 고민하지 않아도</text>
+  <text x="815" y="191" text-anchor="middle" font-size="11" fill="#059669">같은 방식으로 넣고 찾고 연결한다</text>
+  <text x="815" y="209" text-anchor="middle" font-size="11" fill="#059669">구조가 흔들리지 않는다</text>
+
+  <rect x="720" y="278" width="190" height="138" rx="14" fill="#ECFDF5" stroke="#10B981" stroke-width="2"/>
+  <text x="815" y="312" text-anchor="middle" font-size="17" font-weight="bold" fill="#065F46">AI와의 협업 안정성</text>
+  <text x="815" y="339" text-anchor="middle" font-size="11" fill="#059669">기존 업데이트인지 신규 생성인지</text>
+  <text x="815" y="357" text-anchor="middle" font-size="11" fill="#059669">어느 축, 어떤 유형이 맞는지</text>
+  <text x="815" y="375" text-anchor="middle" font-size="11" fill="#059669">더 일관되게 제안할 수 있다</text>
+
+  <path d="M680,208 C706,208 708,182 720,182" fill="none" stroke="#2563EB" stroke-width="2.5" marker-end="url(#arr-blue)"/>
+  <path d="M680,392 C706,392 708,348 720,348" fill="none" stroke="#10B981" stroke-width="2.5" marker-end="url(#arr-green)"/>
+
+  <rect x="110" y="514" width="740" height="84" rx="14" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.5"/>
+  <text x="480" y="544" text-anchor="middle" font-size="16" font-weight="bold" fill="#111827">좋은 구조는 확장을 막지 않고 확장을 흡수한다</text>
+  <text x="480" y="568" text-anchor="middle" font-size="11" fill="#475569">새로운 유형이나 예외가 생겨도 기본 규칙 위에서 어디에 둘지 판단할 수 있어야 한다</text>
+  <text x="480" y="586" text-anchor="middle" font-size="11" fill="#475569">반복 패턴이 보이면 체크리스트, 가이드, MOC 같은 새 형태로 승격할 수 있어야 한다</text>
+</svg>

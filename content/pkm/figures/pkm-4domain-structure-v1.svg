@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1000 680" width="1000" height="680"
+     xmlns="http://www.w3.org/2000/svg"
+     font-family="'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Segoe UI', sans-serif">
+
+<defs>
+  <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <path d="M0,0 L8,3 L0,6 Z" fill="#6B7280"/>
+  </marker>
+  <marker id="arr-dash" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <path d="M0,0 L8,3 L0,6 Z" fill="#C4B5FD"/>
+  </marker>
+</defs>
+
+<!-- Background -->
+<rect width="1000" height="680" fill="#F8FAFC"/>
+
+<!-- ===== TITLE ===== -->
+<text x="500" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">PM/PO를 위한 PKM 시스템 구조</text>
+<text x="500" y="58" text-anchor="middle" font-size="11" fill="#6B7280">지식 4영역의 관계와 판단력 형성 흐름을 한 장으로 보여준다</text>
+
+<!-- ===== ROW 1: 수집 (Capture) ===== -->
+<rect x="40" y="66" width="920" height="82" rx="8" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+<!-- Row label -->
+<text x="58" y="85" font-size="10" font-weight="bold" fill="#1D4ED8">STEP 0. 수집 (Capture)</text>
+<text x="58" y="99" font-size="9.5" fill="#3B82F6">어디서든 들어온다 — 읽기, 회의, 결정, 관찰</text>
+
+<!-- Source box 1 -->
+<rect x="68" y="103" width="195" height="42" rx="5" fill="#DBEAFE" stroke="#93C5FD" stroke-width="1"/>
+<text x="165" y="118" text-anchor="middle" font-size="11" font-weight="bold" fill="#1E40AF">읽기 · 독서</text>
+<text x="165" y="132" text-anchor="middle" font-size="9" fill="#3B82F6">아티클 · 책 · 릴리즈노트</text>
+
+<!-- Source box 2 -->
+<rect x="281" y="103" width="195" height="42" rx="5" fill="#DBEAFE" stroke="#93C5FD" stroke-width="1"/>
+<text x="378" y="118" text-anchor="middle" font-size="11" font-weight="bold" fill="#1E40AF">회의 · 대화</text>
+<text x="378" y="132" text-anchor="middle" font-size="9" fill="#3B82F6">회의록 · 인터뷰 · 슬랙</text>
+
+<!-- Source box 3 -->
+<rect x="494" y="103" width="195" height="42" rx="5" fill="#DBEAFE" stroke="#93C5FD" stroke-width="1"/>
+<text x="591" y="118" text-anchor="middle" font-size="11" font-weight="bold" fill="#1E40AF">결정 순간</text>
+<text x="591" y="132" text-anchor="middle" font-size="9" fill="#3B82F6">스프린트 · 기획회의 · 이슈</text>
+
+<!-- Source box 4 -->
+<rect x="707" y="103" width="218" height="42" rx="5" fill="#DBEAFE" stroke="#93C5FD" stroke-width="1"/>
+<text x="816" y="118" text-anchor="middle" font-size="11" font-weight="bold" fill="#1E40AF">현장 관찰</text>
+<text x="816" y="132" text-anchor="middle" font-size="9" fill="#3B82F6">사용자 반응 · 데이터 · 장애</text>
+
+<!-- Arrow 1→2 -->
+<line x1="500" y1="148" x2="500" y2="167" stroke="#9CA3AF" stroke-width="1.5" marker-end="url(#arr)"/>
+
+<!-- ===== ROW 2: 지식 (Knowledge = 도메인 + 기술이해) ===== -->
+<!-- Outer bracket -->
+<rect x="40" y="170" width="920" height="110" rx="8" fill="#FAFAFA" stroke="#7C3AED" stroke-width="2"/>
+<!-- Label badge -->
+<rect x="40" y="170" width="182" height="28" rx="4" fill="#7C3AED"/>
+<text x="50" y="186" font-size="11" font-weight="bold" fill="white">지식 (Knowledge)</text>
+<text x="240" y="184" font-size="9.5" fill="#8B5CF6">① 도메인 · ② 비즈니스/전략 · ⑤ 개발</text>
+<text x="240" y="198" font-size="9.5" fill="#8B5CF6">현장 6개 영역 중 콘텐츠 지식을 여기서 관리한다</text>
+
+<!-- 도메인 box -->
+<rect x="58" y="200" width="398" height="68" rx="6" fill="#EDE9FE" stroke="#A78BFA" stroke-width="1.5"/>
+<text x="257" y="222" text-anchor="middle" font-size="12" font-weight="bold" fill="#4C1D95">도메인 지식</text>
+<text x="257" y="241" text-anchor="middle" font-size="10.5" fill="#6D28D9">사용자 · 시장 · 비즈니스 · 경쟁사</text>
+<text x="257" y="258" text-anchor="middle" font-size="9" fill="#9333EA">PART 2 — Ch4(네 영역) · Ch6</text>
+
+<!-- Plus sign between boxes -->
+<text x="500" y="239" text-anchor="middle" font-size="18" font-weight="bold" fill="#C4B5FD">+</text>
+
+<!-- 기술이해 box -->
+<rect x="544" y="200" width="398" height="68" rx="6" fill="#EDE9FE" stroke="#A78BFA" stroke-width="1.5"/>
+<text x="743" y="222" text-anchor="middle" font-size="12" font-weight="bold" fill="#4C1D95">기술이해</text>
+<text x="743" y="241" text-anchor="middle" font-size="10.5" fill="#6D28D9">개발 · 아키텍처 · 기술부채 · ADR</text>
+<text x="743" y="258" text-anchor="middle" font-size="9" fill="#9333EA">PART 2 — Ch4(네 영역) · Ch6</text>
+
+<!-- Arrow 2→3 -->
+<line x1="500" y1="280" x2="500" y2="299" stroke="#9CA3AF" stroke-width="1.5" marker-end="url(#arr)"/>
+
+<!-- ===== ROW 3: 지식 관리 — Obsidian PKM ===== -->
+<rect x="100" y="302" width="800" height="80" rx="8" fill="#F0FDF4" stroke="#10B981" stroke-width="2"/>
+<!-- Left accent bar -->
+<rect x="100" y="302" width="7" height="80" rx="4" fill="#10B981"/>
+<!-- Label -->
+<text x="500" y="328" text-anchor="middle" font-size="14" font-weight="bold" fill="#065F46">지식 관리 — Obsidian PKM</text>
+<text x="500" y="348" text-anchor="middle" font-size="11" fill="#059669">객체 설계  ·  태그 &amp; 링크  ·  구조화  ·  검색과 조회</text>
+<text x="500" y="367" text-anchor="middle" font-size="9.5" fill="#065F46">PART 4 — Ch10·11·12 + BASE B3·10·11</text>
+
+<!-- Annotation: 지식을 어떻게 관리하는가 -->
+<rect x="790" y="316" width="128" height="46" rx="8" fill="#FFFFFF" stroke="#D1D5DB"/>
+<text x="854" y="333" text-anchor="middle" font-size="9.5" fill="#6B7280" font-style="italic">지식을</text>
+<text x="854" y="347" text-anchor="middle" font-size="9.5" fill="#6B7280" font-style="italic">어떻게 관리하는가</text>
+
+<!-- Split Arrows 3→4 -->
+<line x1="300" y1="382" x2="235" y2="415" stroke="#9CA3AF" stroke-width="1.5" marker-end="url(#arr)"/>
+<line x1="700" y1="382" x2="765" y2="415" stroke="#9CA3AF" stroke-width="1.5" marker-end="url(#arr)"/>
+
+<!-- ===== ROW 4: 맥락 + 관계 ===== -->
+
+<!-- 맥락 box -->
+<rect x="40" y="418" width="430" height="104" rx="8" fill="#ECFDF5" stroke="#34D399" stroke-width="1.5"/>
+<!-- Left accent -->
+<rect x="40" y="418" width="6" height="98" rx="3" fill="#10B981"/>
+<text x="255" y="440" text-anchor="middle" font-size="13" font-weight="bold" fill="#065F46">맥락 지식</text>
+<text x="255" y="458" text-anchor="middle" font-size="10.5" fill="#047857">결정 근거 · Decision Log · Evidence Note</text>
+<text x="255" y="474" text-anchor="middle" font-size="10.5" fill="#047857">의사결정 추적 · 판단 이력 관리</text>
+<text x="255" y="491" text-anchor="middle" font-size="9.5" fill="#6EE7B7">PART 2 Ch5 · PART 3 Ch8·9 · PART 4 Ch10</text>
+<text x="255" y="507" text-anchor="middle" font-size="9" fill="#A7F3D0">③ 기획의 결정과 근거를 여기서 관리한다</text>
+
+<!-- 관계 box -->
+<rect x="530" y="418" width="430" height="104" rx="8" fill="#FFF7ED" stroke="#FBBF24" stroke-width="1.5"/>
+<!-- Left accent -->
+<rect x="530" y="418" width="6" height="98" rx="3" fill="#F59E0B"/>
+<text x="745" y="440" text-anchor="middle" font-size="13" font-weight="bold" fill="#92400E">관계 지식</text>
+<text x="745" y="458" text-anchor="middle" font-size="10.5" fill="#B45309">이해관계자 · 팀 · 조직 패턴</text>
+<text x="745" y="474" text-anchor="middle" font-size="10.5" fill="#B45309">협업 패턴 · 갈등 이력 · 의사결정자 맵</text>
+<text x="745" y="491" text-anchor="middle" font-size="9.5" fill="#92400E">PART 7 — Ch20(팀) · Ch21(이식)</text>
+<text x="745" y="507" text-anchor="middle" font-size="9" fill="#FDE68A">④ 디자인 + ⑥ 운영의 협업 패턴을 여기서 관리한다</text>
+
+<!-- Cross-connection: 맥락 ↔ 관계 (dashed) -->
+<line x1="473" y1="467" x2="527" y2="467" stroke="#C4B5FD" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arr-dash)"/>
+<line x1="527" y1="479" x2="473" y2="479" stroke="#C4B5FD" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arr-dash)"/>
+<text x="500" y="460" text-anchor="middle" font-size="9.5" fill="#7C3AED">연결</text>
+
+<!-- Converging Arrows 4→5 -->
+<line x1="255" y1="516" x2="420" y2="560" stroke="#9CA3AF" stroke-width="1.5" marker-end="url(#arr)"/>
+<line x1="745" y1="516" x2="580" y2="560" stroke="#9CA3AF" stroke-width="1.5" marker-end="url(#arr)"/>
+
+<!-- ===== ROW 5: 판단력 ===== -->
+<rect x="175" y="564" width="650" height="82" rx="8" fill="#FEF9C3" stroke="#EAB308" stroke-width="2.5"/>
+<!-- Left gold bar -->
+<rect x="175" y="564" width="8" height="82" rx="4" fill="#EAB308"/>
+<!-- Small star badge -->
+<rect x="774" y="568" width="50" height="26" rx="4" fill="#EAB308"/>
+<text x="799" y="585" text-anchor="middle" font-size="9" font-weight="bold" fill="white">목적지</text>
+
+<text x="495" y="594" text-anchor="middle" font-size="17" font-weight="bold" fill="#713F12">판단력</text>
+<text x="495" y="616" text-anchor="middle" font-size="11" fill="#92400E">기록 → 연결 → 패턴 인식 → 다음 결정의 기반</text>
+<text x="495" y="635" text-anchor="middle" font-size="9.5" fill="#A16207">지식 4영역이 통합된 결과. 메모가 아니라 꺼내 쓰는 것이 목적이다.</text>
+
+<!-- ===== SIDE ANNOTATION REMOVED FOR STABLE RENDERING ===== -->
+
+</svg>
+

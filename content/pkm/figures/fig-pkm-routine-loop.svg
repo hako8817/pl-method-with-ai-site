@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 540" width="960" height="540"
+     xmlns="http://www.w3.org/2000/svg"
+     font-family="'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Segoe UI', sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#6B7280"/>
+    </marker>
+  </defs>
+  <rect width="960" height="540" fill="#F8FAFC"/>
+  <text x="480" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">개인 PKM 운영 루틴은 Daily, Weekly, Monthly의 루프다</text>
+  <text x="480" y="58" text-anchor="middle" font-size="11" fill="#6B7280">Daily는 입력을 놓치지 않고, Weekly는 연결과 Distill을 하고, Monthly는 구조 상태를 점검한다</text>
+
+  <circle cx="480" cy="270" r="168" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="2"/>
+
+  <rect x="375" y="92" width="210" height="92" rx="12" fill="#DBEAFE" stroke="#60A5FA" stroke-width="2"/>
+  <text x="480" y="123" text-anchor="middle" font-size="18" font-weight="bold" fill="#1D4ED8">Daily</text>
+  <text x="480" y="148" text-anchor="middle" font-size="11" fill="#2563EB">사실, 결정, 지식 후보,</text>
+  <text x="480" y="166" text-anchor="middle" font-size="11" fill="#2563EB">실행 결과를 놓치지 않고 Capture</text>
+
+  <rect x="650" y="230" width="210" height="92" rx="12" fill="#ECFDF5" stroke="#34D399" stroke-width="2"/>
+  <text x="755" y="261" text-anchor="middle" font-size="18" font-weight="bold" fill="#047857">Weekly</text>
+  <text x="755" y="286" text-anchor="middle" font-size="11" fill="#059669">중요한 Decision 확인,</text>
+  <text x="755" y="304" text-anchor="middle" font-size="11" fill="#059669">Knowledge 후보, 고립 노트 연결</text>
+
+  <rect x="375" y="356" width="210" height="92" rx="12" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2"/>
+  <text x="480" y="387" text-anchor="middle" font-size="18" font-weight="bold" fill="#B45309">Monthly</text>
+  <text x="480" y="412" text-anchor="middle" font-size="11" fill="#C2410C">구조와 축의 상태, 오래된 Decision,</text>
+  <text x="480" y="430" text-anchor="middle" font-size="11" fill="#C2410C">Knowledge 구조를 점검</text>
+
+  <path d="M586,136 C668,154 714,188 732,230" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+  <path d="M754,322 C728,372 644,410 586,404" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+  <path d="M374,404 C290,394 224,346 212,268 C206,228 226,168 374,136" fill="none" stroke="#6B7280" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <rect x="118" y="214" width="180" height="108" rx="12" fill="#F3F4F6" stroke="#9CA3AF" stroke-width="2"/>
+  <text x="208" y="244" text-anchor="middle" font-size="16" font-weight="bold" fill="#111827">최소 유지 원칙</text>
+  <text x="208" y="270" text-anchor="middle" font-size="11" fill="#4B5563">바쁠 때는 Daily 입력만</text>
+  <text x="208" y="288" text-anchor="middle" font-size="11" fill="#4B5563">Weekly는 active Decision만</text>
+  <text x="208" y="306" text-anchor="middle" font-size="11" fill="#4B5563">Monthly는 현재 프로젝트만 점검</text>
+
+  <rect x="248" y="476" width="464" height="34" rx="8" fill="#FFFFFF" stroke="#D1D5DB"/>
+  <text x="480" y="498" text-anchor="middle" font-size="11" fill="#374151">루틴의 목적은 생산성 관리가 아니라 판단 흐름을 끊기지 않게 유지하는 것이다</text>
+</svg>
