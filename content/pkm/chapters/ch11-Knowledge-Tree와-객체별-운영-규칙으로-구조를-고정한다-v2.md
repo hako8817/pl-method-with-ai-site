@@ -29,7 +29,7 @@ based_on: Knowledge README, Knowledge AGENTS, Knowledge process docs, 90.archive
 Evidence와 Decision도 같은 원리로 구조화되어야 Organize 전체가 흔들리지 않는다.
 
 > **[도식: fig-knowledge-tree-structure-lock]** — Knowledge Tree, 파일명, 메타데이터, 링크 규칙이 함께 구조를 고정한다
-> ![](../../figures/fig-knowledge-tree-structure-lock.svg)
+> ![](./figures/fig-knowledge-tree-structure-lock.svg)
 
 ## Knowledge Tree는 지식을 축적하는 기준축이다
 

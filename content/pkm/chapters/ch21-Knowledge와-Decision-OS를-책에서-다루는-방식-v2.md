@@ -20,7 +20,7 @@ based_on: Knowledge README, Decision OS README, project README, user direction f
 다른 하나는 독자가 자기 환경에서 비슷한 구조를 만들어갈 때 참고할 수 있는 기준이다.
 
 > **[도식: fig-knowledge-decision-book-scope]** — Knowledge와 Decision OS를 자기 환경으로 옮기는 이식 경로
-> ![](../../figures/fig-knowledge-decision-book-scope.svg)
+> ![](./figures/fig-knowledge-decision-book-scope.svg)
 
 이 두 시스템을 이식할 때 중요한 것은 구조의 복사가 아니라 원리의 이해다.
 파일 이름, 폴더 구조, 속성 이름을 그대로 따라 해도 운영 방식을 이해하지 못하면 곧 작동을 멈춘다.

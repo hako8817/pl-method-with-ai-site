@@ -23,7 +23,7 @@ Capture 단계에서 AI의 역할이 입력 정리와 1차 분기였다면, Orga
 반대로 객체 정의, 파일명 규칙, 메타데이터 규칙, 분류 축이 먼저 정해져 있으면 AI는 강한 운영 보조자가 된다.
 
 > **[도식: fig-organize-ai-roles]** — Organize에서 AI는 구조를 제안하고 사람은 구조를 승인한다
-> ![](../../figures/fig-organize-ai-roles.svg)
+> ![](./figures/fig-organize-ai-roles.svg)
 
 ## Organize에서 AI가 맡는 일은 네 가지다
 

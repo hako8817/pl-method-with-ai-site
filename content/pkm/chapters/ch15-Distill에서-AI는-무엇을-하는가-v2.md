@@ -23,7 +23,7 @@ Capture에서 AI의 역할이 입력 정리와 분기였다면, Distill에서의
 Distill에서 AI를 쓰는 이유는 바로 이 탐색 비용을 줄이기 위해서다.
 
 > **[도식: fig-distill-ai-roles]** — Distill에서 AI는 패턴 탐지와 승격 후보 제안을 돕는 보조자다
-> ![](../../figures/fig-distill-ai-roles.svg)
+> ![](./figures/fig-distill-ai-roles.svg)
 
 ## Distill에서 AI가 맡는 일은 네 가지다
 

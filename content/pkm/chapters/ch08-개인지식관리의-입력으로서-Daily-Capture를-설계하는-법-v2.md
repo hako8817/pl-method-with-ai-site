@@ -1,4 +1,4 @@
-﻿---
+---
 type: manuscript
 chapter: Ch8
 title: Daily Capture 설계법
@@ -31,7 +31,7 @@ PKM에서 Daily 노트는 일기의 페이지가 아니다.
 Daily 노트가 강해질수록 이후 Organize와 Distill의 비용도 함께 내려간다.
 
 > **[도식: fig-daily-capture-branching]** — Daily 노트가 입력 허브가 되어 각 영역으로 분기되는 구조
-> ![](../../figures/fig-daily-capture-branching.svg)
+> ![](./figures/fig-daily-capture-branching.svg)
 
 ## Daily 노트를 일기로 쓰면 왜 지식이 쌓이지 않는가
 

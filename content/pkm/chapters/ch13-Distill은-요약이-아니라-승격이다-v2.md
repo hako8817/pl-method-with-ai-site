@@ -24,7 +24,7 @@ Distill은 저장된 노트를 짧게 압축하는 일이 아니다.
 서로 떨어져 있는 기록을 연결하고, 반복 패턴을 발견하고, 다음에도 다시 쓸 수 있는 기준으로 끌어올리는 일이다.
 
 > **[도식: fig-distill-promotion-loop]** — Distill은 요약이 아니라 연결에서 패턴을 찾아 재사용 가능한 기준으로 승격하는 단계다
-> ![](../../figures/fig-distill-promotion-loop.svg)
+> ![](./figures/fig-distill-promotion-loop.svg)
 
 ## 요약은 길이를 줄이지만, Distill은 재사용성을 높인다
 
