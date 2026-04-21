@@ -10,8 +10,6 @@ cssclasses: [hide-folder-listing]
 
 프롤로그, 파트 요약, 상세 장을 읽는 순서대로 정리한 목록이다.
 
-## 프롤로그
-- [[prologue-v2|AI 시대 기획자의 PKM]]
 
 ## PART 1
 - [[part01-왜-기획자의-개인지식관리가-필요한가-intro|왜 PKM인가]]
