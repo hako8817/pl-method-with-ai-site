@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <marker id="arrow16" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#245454"/>
+    </marker>
+    <style>
+      .title{font:700 38px Arial,sans-serif;fill:#22313a}
+      .subtitle{font:500 20px Arial,sans-serif;fill:#58666e}
+      .head{font:700 22px Arial,sans-serif;fill:#22313a}
+      .sub{font:700 18px Arial,sans-serif;fill:#22313a}
+      .body{font:500 16px Arial,sans-serif;fill:#58666e}
+      .label{font:500 15px Arial,sans-serif;fill:#7b8790}
+      .tag{font:700 13px Arial,sans-serif;fill:#245454}
+      .white{font:700 20px Arial,sans-serif;fill:#ffffff}
+      .whitesm{font:500 15px Arial,sans-serif;fill:#cce0e0}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="#f7f5ef"/>
+
+  <!-- Title -->
+  <text x="90" y="78" class="title">정책서 산출물 체인: PRD → 정책서 → BPMN·DMN</text>
+  <text x="90" y="114" class="subtitle">정책서는 PRD의 방향을 구체적 규칙으로 변환하고, BPMN·DMN의 원천 기준이 된다</text>
+
+  <!-- PRD INPUT BOX -->
+  <rect x="60" y="148" width="240" height="580" rx="16" fill="#eef7f7" stroke="#73a4a4" stroke-width="2.5"/>
+  <rect x="60" y="148" width="240" height="52" rx="16" fill="#73a4a4"/>
+  <text x="180" y="182" text-anchor="middle" class="white">PRD 입력</text>
+  <text x="85" y="230" class="body">핵심 시나리오</text>
+  <text x="85" y="258" class="label">→ 회원가입 성공/실패</text>
+  <text x="85" y="280" class="label">→ 소셜 로그인 연동</text>
+  <text x="85" y="302" class="label">→ 이메일 인증 흐름</text>
+  <text x="85" y="340" class="body">성공 기준</text>
+  <text x="85" y="368" class="label">→ 전환율 X% 달성</text>
+  <text x="85" y="390" class="label">→ 이탈 지점 제거</text>
+  <text x="85" y="428" class="body">범위 결정</text>
+  <text x="85" y="456" class="label">→ 이번 범위: 이메일+소셜</text>
+  <text x="85" y="478" class="label">→ 제외: 전화번호 인증</text>
+  <text x="85" y="516" class="body">제약 사항</text>
+  <text x="85" y="544" class="label">→ 인증 서버 제약</text>
+  <text x="85" y="566" class="label">→ 규제 요건 (개인정보)</text>
+
+  <!-- Arrow PRD → Policy -->
+  <line x1="302" y1="440" x2="380" y2="440" stroke="#245454" stroke-width="3" marker-end="url(#arrow16)"/>
+  <text x="341" y="428" text-anchor="middle" class="label">변환</text>
+
+  <!-- POLICY CENTER BOX -->
+  <rect x="380" y="148" width="840" height="580" rx="16" fill="#ffffff" stroke="#245454" stroke-width="3"/>
+  <rect x="380" y="148" width="840" height="52" rx="16" fill="#245454"/>
+  <text x="800" y="182" text-anchor="middle" class="white">정책서 (Policy Document)</text>
+  <text x="800" y="206" text-anchor="middle" class="whitesm">PRD 방향을 구체적 규칙·조건·예외·책임으로 변환하는 문서</text>
+
+  <!-- Policy Section 1: 정책 규칙 -->
+  <rect x="405" y="228" width="240" height="460" rx="10" fill="#f4faff" stroke="#245454" stroke-width="1.5"/>
+  <text x="525" y="258" text-anchor="middle" class="sub">정책 규칙</text>
+  <text x="425" y="288" class="label">이메일 형식 검증</text>
+  <text x="425" y="312" class="label">→ RFC 5322 기준</text>
+  <text x="425" y="348" class="label">비밀번호 규칙</text>
+  <text x="425" y="372" class="label">→ 영문+숫자 8자↑</text>
+  <text x="425" y="396" class="label">→ 특수문자 1개↑ 권장</text>
+  <text x="425" y="432" class="label">인증 메일 유효 시간</text>
+  <text x="425" y="456" class="label">→ 발송 후 24시간</text>
+  <text x="425" y="492" class="label">재가입 허용 조건</text>
+  <text x="425" y="516" class="label">→ 탈퇴 후 30일 경과</text>
+  <text x="425" y="552" class="label">중복 가입 처리</text>
+  <text x="425" y="576" class="label">→ 기존 계정 안내</text>
+  <text x="425" y="600" class="label">→ 비밀번호 찾기 유도</text>
+  <text x="425" y="636" class="label">소셜 계정 충돌</text>
+  <text x="425" y="660" class="label">→ 이메일 일치 시 연동</text>
+
+  <!-- Policy Section 2: 예외 처리 -->
+  <rect x="660" y="228" width="240" height="460" rx="10" fill="#f4faff" stroke="#245454" stroke-width="1.5"/>
+  <text x="780" y="258" text-anchor="middle" class="sub">예외 처리</text>
+  <text x="680" y="288" class="label">인증 메일 미수신</text>
+  <text x="680" y="312" class="label">→ 재발송: 5분 후 가능</text>
+  <text x="680" y="336" class="label">→ 최대 3회</text>
+  <text x="680" y="372" class="label">비밀번호 연속 실패</text>
+  <text x="680" y="396" class="label">→ 5회 실패 시 잠금</text>
+  <text x="680" y="420" class="label">→ 30분 후 자동 해제</text>
+  <text x="680" y="456" class="label">세션 만료</text>
+  <text x="680" y="480" class="label">→ 로그인 페이지 리다이렉트</text>
+  <text x="680" y="504" class="label">→ 입력 내용 유지 불가</text>
+  <text x="680" y="540" class="label">인증 링크 만료</text>
+  <text x="680" y="564" class="label">→ 재발송 가능 안내</text>
+  <text x="680" y="600" class="label">탈퇴 유예 기간 내</text>
+  <text x="680" y="624" class="label">재가입 시도</text>
+  <text x="680" y="648" class="label">→ 유예 기간 안내</text>
+
+  <!-- Policy Section 3: 책임 분리 -->
+  <rect x="915" y="228" width="280" height="460" rx="10" fill="#f4faff" stroke="#245454" stroke-width="1.5"/>
+  <text x="1055" y="258" text-anchor="middle" class="sub">책임 분리</text>
+  <text x="935" y="288" class="label">시스템 자동 처리</text>
+  <text x="935" y="312" class="label">→ 이메일 형식 검증</text>
+  <text x="935" y="336" class="label">→ 중복 계정 감지</text>
+  <text x="935" y="360" class="label">→ 비밀번호 해싱</text>
+  <text x="935" y="384" class="label">→ 인증 토큰 발급</text>
+  <text x="935" y="420" class="label">운영자 개입 필요</text>
+  <text x="935" y="444" class="label">→ 비정상 가입 패턴</text>
+  <text x="935" y="468" class="label">→ 계정 잠금 해제</text>
+  <text x="935" y="492" class="label">→ 예외 승인</text>
+  <text x="935" y="528" class="label">법적 보존 의무</text>
+  <text x="935" y="552" class="label">→ 탈퇴 후 X일 보존</text>
+  <text x="935" y="576" class="label">→ 개인정보 파기 기준</text>
+  <text x="935" y="612" class="label">Source of Truth</text>
+  <text x="935" y="636" class="label">→ 정책서 = 최종 기준</text>
+  <text x="935" y="660" class="label">→ 코드·FAQ보다 우선</text>
+
+  <!-- Arrows Policy → Outputs -->
+  <line x1="1222" y1="360" x2="1300" y2="310" stroke="#245454" stroke-width="3" marker-end="url(#arrow16)"/>
+  <line x1="1222" y1="440" x2="1300" y2="440" stroke="#245454" stroke-width="3" marker-end="url(#arrow16)"/>
+  <line x1="1222" y1="520" x2="1300" y2="570" stroke="#245454" stroke-width="3" marker-end="url(#arrow16)"/>
+
+  <!-- OUTPUT BOXES -->
+  <rect x="1300" y="238" width="240" height="130" rx="12" fill="#fff5e8" stroke="#c8914b" stroke-width="2.5"/>
+  <text x="1420" y="272" text-anchor="middle" class="sub">BPMN</text>
+  <text x="1316" y="302" class="label">정책 규칙 → 흐름 구조화</text>
+  <text x="1316" y="326" class="label">시스템/운영자 역할 풀</text>
+  <text x="1316" y="350" class="label">예외 분기점 명시</text>
+
+  <rect x="1300" y="390" width="240" height="110" rx="12" fill="#fff5e8" stroke="#c8914b" stroke-width="2.5"/>
+  <text x="1420" y="424" text-anchor="middle" class="sub">DMN</text>
+  <text x="1316" y="454" class="label">조건·결과 판단 테이블</text>
+  <text x="1316" y="478" class="label">예외 조건 → 규칙 변환</text>
+
+  <rect x="1300" y="520" width="240" height="130" rx="12" fill="#fff5e8" stroke="#c8914b" stroke-width="2.5"/>
+  <text x="1420" y="554" text-anchor="middle" class="sub">사양서·TC</text>
+  <text x="1316" y="584" class="label">책임 분리 → 구현 조건</text>
+  <text x="1316" y="608" class="label">예외 처리 → 테스트 케이스</text>
+  <text x="1316" y="632" class="label">정책 충돌 방지 기준</text>
+
+  <!-- Bottom note -->
+  <text x="800" y="858" text-anchor="middle" class="label">정책서는 PRD 방향을 규칙으로 변환하는 중간 레이어다. 정책서 없이 BPMN·DMN을 그리면 판단 기준이 팀마다 달라지고, AI가 생성한 초안도 흔들린다.</text>
+</svg>

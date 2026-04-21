@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <!-- Background -->
+  <rect width="1600" height="900" fill="#f7f5ef"/>
+
+  <!-- Title -->
+  <text x="90" y="90" font="700 38px Arial,sans-serif" font-family="Arial,sans-serif" font-size="38" font-weight="700" fill="#22313a">테스트케이스: 설계와 검증을 잇는 문서</text>
+  <text x="90" y="126" font="500 20px Arial,sans-serif" font-family="Arial,sans-serif" font-size="20" font-weight="500" fill="#58666e">DMN 의사결정 규칙 행 하나는 TC 하나에 직접 대응한다 — 각 산출물이 TC의 입력이 되어 검증 문서로 이어진다</text>
+
+  <!-- ===== INPUT GROUP (left) ===== -->
+  <!-- Group box -->
+  <rect x="60" y="170" width="390" height="590" rx="24" fill="#eef3ea" stroke="#7b9271" stroke-width="2.8"/>
+  <text x="255" y="202" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#3a5c3a" text-anchor="middle">설계 입력</text>
+
+  <!-- AC box -->
+  <rect x="90" y="220" width="330" height="72" rx="14" fill="#ffffff" stroke="#7b9271" stroke-width="2.2"/>
+  <text x="255" y="250" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#22313a" text-anchor="middle">AC (인수 조건)</text>
+  <text x="255" y="272" font-family="Arial,sans-serif" font-size="14" font-weight="500" fill="#58666e" text-anchor="middle">사용자 스토리 기반 합격 기준</text>
+
+  <!-- 정책서 box -->
+  <rect x="90" y="308" width="330" height="72" rx="14" fill="#ffffff" stroke="#7b9271" stroke-width="2.2"/>
+  <text x="255" y="338" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#22313a" text-anchor="middle">정책서</text>
+  <text x="255" y="360" font-family="Arial,sans-serif" font-size="14" font-weight="500" fill="#58666e" text-anchor="middle">비즈니스 규칙 · 예외 처리 기준</text>
+
+  <!-- BPMN box -->
+  <rect x="90" y="396" width="330" height="72" rx="14" fill="#ffffff" stroke="#7b9271" stroke-width="2.2"/>
+  <text x="255" y="426" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#22313a" text-anchor="middle">BPMN</text>
+  <text x="255" y="448" font-family="Arial,sans-serif" font-size="14" font-weight="500" fill="#58666e" text-anchor="middle">프로세스 흐름 · 분기 · 예외 경로</text>
+
+  <!-- DMN box (highlighted) -->
+  <rect x="90" y="484" width="330" height="80" rx="14" fill="#fff5e8" stroke="#c8914b" stroke-width="2.8"/>
+  <text x="255" y="516" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#8a4a00" text-anchor="middle">DMN ★</text>
+  <text x="255" y="538" font-family="Arial,sans-serif" font-size="14" font-weight="500" fill="#8a4a00" text-anchor="middle">의사결정 테이블 규칙 행</text>
+  <text x="255" y="556" font-family="Arial,sans-serif" font-size="13" font-weight="500" fill="#c8914b" text-anchor="middle">→ TC 1:1 직접 대응</text>
+
+  <!-- 사양서 box -->
+  <rect x="90" y="580" width="330" height="72" rx="14" fill="#ffffff" stroke="#7b9271" stroke-width="2.2"/>
+  <text x="255" y="610" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#22313a" text-anchor="middle">기능 사양서 (Spec)</text>
+  <text x="255" y="632" font-family="Arial,sans-serif" font-size="14" font-weight="500" fill="#58666e" text-anchor="middle">화면·API·데이터 명세</text>
+
+  <!-- 프로토타입 box -->
+  <rect x="90" y="668" width="330" height="72" rx="14" fill="#ffffff" stroke="#7b9271" stroke-width="2.2"/>
+  <text x="255" y="698" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#22313a" text-anchor="middle">프로토타입</text>
+  <text x="255" y="720" font-family="Arial,sans-serif" font-size="14" font-weight="500" fill="#58666e" text-anchor="middle">UI 흐름 검증 · 경계 케이스 발견</text>
+
+  <!-- ===== ARROWS from inputs to TC ===== -->
+  <!-- Normal arrows (green) -->
+  <line x1="420" y1="256" x2="580" y2="430" stroke="#7b9271" stroke-width="3.5" marker-end="url(#arrowGreen)"/>
+  <line x1="420" y1="344" x2="580" y2="450" stroke="#7b9271" stroke-width="3.5" marker-end="url(#arrowGreen)"/>
+  <line x1="420" y1="432" x2="580" y2="465" stroke="#7b9271" stroke-width="3.5" marker-end="url(#arrowGreen)"/>
+  <line x1="420" y1="616" x2="580" y2="500" stroke="#7b9271" stroke-width="3.5" marker-end="url(#arrowGreen)"/>
+  <line x1="420" y1="704" x2="580" y2="515" stroke="#7b9271" stroke-width="3.5" marker-end="url(#arrowGreen)"/>
+  <!-- DMN arrow (orange, thicker) -->
+  <line x1="420" y1="524" x2="580" y2="480" stroke="#c8914b" stroke-width="4.5" marker-end="url(#arrowOrange)"/>
+  <!-- 1:1 badge -->
+  <rect x="460" y="490" width="86" height="24" rx="8" fill="#c8914b"/>
+  <text x="503" y="507" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">규칙 행 1:1</text>
+
+  <!-- ===== TC CENTER BOX ===== -->
+  <rect x="580" y="320" width="440" height="320" rx="28" fill="#eef7f7" stroke="#245454" stroke-width="3.2"/>
+  <text x="800" y="368" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#245454" text-anchor="middle">테스트케이스 (TC)</text>
+
+  <!-- TC inner content -->
+  <rect x="610" y="385" width="380" height="48" rx="10" fill="#ffffff" stroke="#245454" stroke-width="1.8"/>
+  <text x="800" y="413" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#22313a" text-anchor="middle">TC-ID · 유형 · 사전조건</text>
+
+  <rect x="610" y="443" width="380" height="48" rx="10" fill="#ffffff" stroke="#245454" stroke-width="1.8"/>
+  <text x="800" y="471" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#22313a" text-anchor="middle">입력값 · 실행 절차 · 기대 결과</text>
+
+  <rect x="610" y="501" width="380" height="48" rx="10" fill="#ffffff" stroke="#245454" stroke-width="1.8"/>
+  <text x="800" y="529" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#22313a" text-anchor="middle">우선순위 · 산출물 참조 링크</text>
+
+  <!-- TC types row -->
+  <rect x="610" y="563" width="112" height="40" rx="10" fill="#e8f5f5" stroke="#245454" stroke-width="1.6"/>
+  <text x="666" y="588" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#245454" text-anchor="middle">정상</text>
+  <rect x="734" y="563" width="112" height="40" rx="10" fill="#e8f5f5" stroke="#245454" stroke-width="1.6"/>
+  <text x="790" y="588" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#245454" text-anchor="middle">경계값</text>
+  <rect x="858" y="563" width="112" height="40" rx="10" fill="#e8f5f5" stroke="#245454" stroke-width="1.6"/>
+  <text x="914" y="588" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#245454" text-anchor="middle">예외·회귀</text>
+
+  <!-- ===== ARROWS from TC to outputs ===== -->
+  <line x1="1020" y1="430" x2="1150" y2="340" stroke="#245454" stroke-width="3.5" marker-end="url(#arrowTeal)"/>
+  <line x1="1020" y1="480" x2="1150" y2="490" stroke="#245454" stroke-width="3.5" marker-end="url(#arrowTeal)"/>
+  <line x1="1020" y1="530" x2="1150" y2="620" stroke="#245454" stroke-width="3.5" marker-end="url(#arrowTeal)"/>
+
+  <!-- ===== OUTPUT GROUP (right) ===== -->
+  <rect x="1150" y="170" width="390" height="590" rx="24" fill="#f0f6ff" stroke="#4a6fa5" stroke-width="2.8"/>
+  <text x="1345" y="202" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#22365a" text-anchor="middle">검증 연결</text>
+
+  <!-- RTM box -->
+  <rect x="1180" y="220" width="330" height="90" rx="14" fill="#ffffff" stroke="#4a6fa5" stroke-width="2.2"/>
+  <text x="1345" y="252" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#22313a" text-anchor="middle">RTM</text>
+  <text x="1345" y="274" font-family="Arial,sans-serif" font-size="14" font-weight="500" fill="#58666e" text-anchor="middle">요구사항 ↔ TC ↔ 결과 추적</text>
+  <text x="1345" y="294" font-family="Arial,sans-serif" font-size="13" font-weight="500" fill="#7b8790" text-anchor="middle">커버리지 검증 기준</text>
+
+  <!-- DoD box -->
+  <rect x="1180" y="430" width="330" height="90" rx="14" fill="#ffffff" stroke="#4a6fa5" stroke-width="2.2"/>
+  <text x="1345" y="462" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#22313a" text-anchor="middle">DoD (완료 정의)</text>
+  <text x="1345" y="484" font-family="Arial,sans-serif" font-size="14" font-weight="500" fill="#58666e" text-anchor="middle">TC 통과 = 스프린트 완료 조건</text>
+  <text x="1345" y="504" font-family="Arial,sans-serif" font-size="13" font-weight="500" fill="#7b8790" text-anchor="middle">릴리즈 게이트 연동</text>
+
+  <!-- 운영 정책서 box -->
+  <rect x="1180" y="570" width="330" height="90" rx="14" fill="#ffffff" stroke="#4a6fa5" stroke-width="2.2"/>
+  <text x="1345" y="602" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#22313a" text-anchor="middle">운영 정책서</text>
+  <text x="1345" y="624" font-family="Arial,sans-serif" font-size="14" font-weight="500" fill="#58666e" text-anchor="middle">TC 결과 → 운영 정책 보완</text>
+  <text x="1345" y="644" font-family="Arial,sans-serif" font-size="13" font-weight="500" fill="#7b8790" text-anchor="middle">예외 발견 시 정책서 환류</text>
+
+  <!-- ===== AI assist note ===== -->
+  <rect x="580" y="680" width="440" height="60" rx="14" fill="#fffbf0" stroke="#c8914b" stroke-width="2"/>
+  <text x="800" y="706" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#8a4a00" text-anchor="middle">AI 역할: DMN→TC 변환 · 누락 케이스 보완 · 회귀 TC 분류</text>
+  <text x="800" y="726" font-family="Arial,sans-serif" font-size="13" font-weight="500" fill="#c8914b" text-anchor="middle">PM 책임: 우선순위 결정 · 예외 정의 · 실행 기준 승인</text>
+
+  <!-- ===== Arrow markers ===== -->
+  <defs>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7b9271"/>
+    </marker>
+    <marker id="arrowOrange" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#c8914b"/>
+    </marker>
+    <marker id="arrowTeal" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#245454"/>
+    </marker>
+  </defs>
+
+  <!-- Footer -->
+  <text x="90" y="830" font-family="Arial,sans-serif" font-size="14" font-weight="500" fill="#7b8790">21장 — 테스트케이스 | AI 시대 기획 산출물의 재설계</text>
+  <text x="1510" y="830" font-family="Arial,sans-serif" font-size="14" font-weight="500" fill="#7b8790" text-anchor="end">fig-21-tc-connection</text>
+</svg>

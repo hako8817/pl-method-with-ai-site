@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1180" viewBox="0 0 1600 1180">
+  <defs>
+    <marker id="arr29" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#245454"/>
+    </marker>
+    <style>
+      .bg { fill: #f6f3ea; }
+      .title { font: 700 36px Arial, sans-serif; fill: #21323a; }
+      .subtitle { font: 500 18px Arial, sans-serif; fill: #5d6a71; }
+      .panel-title { font: 700 22px Arial, sans-serif; fill: #21323a; }
+      .panel-body { font: 500 16px Arial, sans-serif; fill: #45545c; }
+      .level-title { font: 700 22px Arial, sans-serif; fill: #ffffff; }
+      .level-sub { font: 500 15px Arial, sans-serif; fill: #f1f7f7; }
+      .level-body { font: 500 15px Arial, sans-serif; fill: #33434a; }
+      .small { font: 500 14px Arial, sans-serif; fill: #6c7a82; }
+      .chip { font: 700 13px Arial, sans-serif; }
+      .arrow-text { font: 600 14px Arial, sans-serif; fill: #245454; }
+      .fig { font: 500 13px Arial, sans-serif; fill: #8a989e; }
+      .stroke { stroke: #d4dcdf; stroke-width: 2; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1180" class="bg"/>
+
+  <text x="80" y="72" class="title">최소 세트와 확장 세트 선택 지도</text>
+  <text x="80" y="106" class="subtitle">도메인 복잡도와 협업 복잡도를 먼저 보고, 그다음 필요한 세트 크기와 확장 트리거를 판단한다</text>
+
+  <rect x="70" y="150" width="705" height="250" rx="24" fill="#eaf1fb" class="stroke"/>
+  <text x="110" y="196" class="panel-title">1. 도메인 복잡도</text>
+  <text x="110" y="236" class="panel-body">• 규칙과 예외가 많은가</text>
+  <text x="110" y="270" class="panel-body">• 상태 전이와 분기 판단이 많은가</text>
+  <text x="110" y="304" class="panel-body">• 운영/정책과 기능 구현이 강하게 얽혀 있는가</text>
+  <rect x="110" y="334" width="220" height="34" rx="17" fill="#5a8db8" opacity="0.14"/>
+  <text x="220" y="357" text-anchor="middle" class="chip" fill="#395f7e">규칙 · 상태 · 예외</text>
+
+  <rect x="825" y="150" width="705" height="250" rx="24" fill="#eef7f3" class="stroke"/>
+  <text x="865" y="196" class="panel-title">2. 협업 복잡도</text>
+  <text x="865" y="236" class="panel-body">• 이해관계자가 많은가</text>
+  <text x="865" y="270" class="panel-body">• 개발, QA, 운영, 디자인 등 여러 역할이 함께 움직이는가</text>
+  <text x="865" y="304" class="panel-body">• 변경 이력과 승인 구조가 중요한가</text>
+  <rect x="865" y="334" width="248" height="34" rx="17" fill="#4f8b5f" opacity="0.14"/>
+  <text x="989" y="357" text-anchor="middle" class="chip" fill="#355e40">역할 · 승인 · 추적</text>
+
+  <line x1="800" y1="430" x2="800" y2="490" stroke="#245454" stroke-width="4" marker-end="url(#arr29)"/>
+  <text x="820" y="468" class="arrow-text">복잡도 진단</text>
+
+  <rect x="80" y="520" width="260" height="290" rx="24" fill="#d8efe3" class="stroke"/>
+  <rect x="80" y="520" width="260" height="74" rx="24" fill="#5e9b73"/>
+  <text x="210" y="560" text-anchor="middle" class="level-title">L1 → 3개 세트</text>
+  <text x="210" y="582" text-anchor="middle" class="level-sub">단순 기능 · 개인 과제</text>
+  <text x="110" y="638" class="level-body">• RIB(축약형)</text>
+  <text x="110" y="670" class="level-body">• PRD(축약형)</text>
+  <text x="110" y="702" class="level-body">• 최소 사양 또는 완료 기준</text>
+  <text x="110" y="752" class="small">다음 세트로 가는 신호</text>
+  <text x="110" y="782" class="level-body">정책 충돌 / 구두 테스트 /</text>
+  <text x="110" y="808" class="level-body">구현 기준 암묵 보완</text>
+
+  <rect x="380" y="520" width="260" height="290" rx="24" fill="#e7f3e8" class="stroke"/>
+  <rect x="380" y="520" width="260" height="74" rx="24" fill="#6aa36b"/>
+  <text x="510" y="560" text-anchor="middle" class="level-title">L2 → 10개 세트</text>
+  <text x="510" y="582" text-anchor="middle" class="level-sub">소규모 팀 · 스프린트 과제</text>
+  <text x="410" y="638" class="level-body">• RIB / 문제 / 범위 / PRD</text>
+  <text x="410" y="670" class="level-body">• NFR / 시나리오 / AC</text>
+  <text x="410" y="702" class="level-body">• 사양서 / TC / Decision Log</text>
+  <text x="410" y="752" class="small">다음 세트로 가는 신호</text>
+  <text x="410" y="782" class="level-body">화면 검토 불안정 /</text>
+  <text x="410" y="808" class="level-body">정책 분리 필요 / 우선순위 충돌</text>
+
+  <rect x="680" y="520" width="260" height="290" rx="24" fill="#fff2df" class="stroke"/>
+  <rect x="680" y="520" width="260" height="74" rx="24" fill="#d39b4a"/>
+  <text x="810" y="560" text-anchor="middle" class="level-title">L2 확장 → 12개 세트</text>
+  <text x="810" y="582" text-anchor="middle" class="level-sub">정책 · API · 화면 검토 보강</text>
+  <text x="710" y="638" class="level-body">• 기능 분류 체계 / 우선순위</text>
+  <text x="710" y="670" class="level-body">• 정책서 / API 명세서</text>
+  <text x="710" y="702" class="level-body">• UI/UX 프로토타입</text>
+  <text x="710" y="752" class="small">다음 세트로 가는 신호</text>
+  <text x="710" y="782" class="level-body">예외·분기 증가 / 상태 전이 /</text>
+  <text x="710" y="808" class="level-body">데이터·연동 설계 필요</text>
+
+  <rect x="980" y="520" width="260" height="290" rx="24" fill="#fdf0f2" class="stroke"/>
+  <rect x="980" y="520" width="260" height="74" rx="24" fill="#cc6b78"/>
+  <text x="1110" y="560" text-anchor="middle" class="level-title">L3 → 30개 세트</text>
+  <text x="1110" y="582" text-anchor="middle" class="level-sub">중규모 팀 · 정합성/추적성 필요</text>
+  <text x="1010" y="638" class="level-body">• 정책 / BPMN / DMN 분리</text>
+  <text x="1010" y="670" class="level-body">• IA / ERD / SAD / API / FS</text>
+  <text x="1010" y="702" class="level-body">• RTM / DoR / DoD / OPD</text>
+  <text x="1010" y="752" class="small">다음 세트로 가는 신호</text>
+  <text x="1010" y="782" class="level-body">배포·롤백·운영 전환이</text>
+  <text x="1010" y="808" class="level-body">별도 문서 없이 위험해짐</text>
+
+  <rect x="1280" y="520" width="260" height="290" rx="24" fill="#efeafb" class="stroke"/>
+  <rect x="1280" y="520" width="260" height="74" rx="24" fill="#7d69b4"/>
+  <text x="1410" y="560" text-anchor="middle" class="level-title">L4 → 35개 세트</text>
+  <text x="1410" y="582" text-anchor="middle" class="level-sub">플랫폼 · 장기 운영 · 전환 리스크</text>
+  <text x="1310" y="638" class="level-body">• 이해관계자 맵</text>
+  <text x="1310" y="670" class="level-body">• 가정·제약사항 목록</text>
+  <text x="1310" y="702" class="level-body">• 배포 계획 / 롤백 계획 / 런북</text>
+  <text x="1310" y="752" class="small">그다음 확장 후보</text>
+  <text x="1310" y="782" class="level-body">리스크 레지스터 / CR / TSR /</text>
+  <text x="1310" y="808" class="level-body">모니터링 계획서</text>
+
+  <line x1="340" y1="665" x2="370" y2="665" stroke="#245454" stroke-width="3.5" marker-end="url(#arr29)"/>
+  <line x1="640" y1="665" x2="670" y2="665" stroke="#245454" stroke-width="3.5" marker-end="url(#arr29)"/>
+  <line x1="940" y1="665" x2="970" y2="665" stroke="#245454" stroke-width="3.5" marker-end="url(#arr29)"/>
+  <line x1="1240" y1="665" x2="1270" y2="665" stroke="#245454" stroke-width="3.5" marker-end="url(#arr29)"/>
+
+  <rect x="80" y="864" width="1460" height="220" rx="24" fill="#ffffff" class="stroke"/>
+  <text x="120" y="912" class="panel-title">판단 원칙</text>
+  <text x="120" y="952" class="panel-body">• 세트는 숫자 목표가 아니라, 복잡도에 맞는 최소 안전 장치다.</text>
+  <text x="120" y="986" class="panel-body">• 앞 세트에서 해석 비용이 커지면 다음 세트로 넘어간다.</text>
+  <text x="120" y="1020" class="panel-body">• 세트가 커질수록 문서 수가 늘어나는 것이 아니라, 레이어 분리가 더 엄격해진다.</text>
+  <rect x="1110" y="914" width="370" height="164" rx="18" fill="#f6f3ea" stroke="#d4dcdf" stroke-width="1.5"/>
+  <text x="1140" y="960" class="panel-title" font-size="18">한 줄 기준</text>
+  <text x="1140" y="996" class="panel-body">L1: 빠르게 시작</text>
+  <text x="1140" y="1026" class="panel-body">L2: 기본 협업 가능</text>
+  <text x="1140" y="1056" class="panel-body">L3: 추적 가능한 설계 체계</text>
+
+  <text x="800" y="1144" text-anchor="middle" class="fig">fig-29 | 최소 세트와 확장 세트 선택 지도</text>
+</svg>

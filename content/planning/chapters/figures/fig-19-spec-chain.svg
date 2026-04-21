@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <marker id="arrow19" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#245454"/>
+    </marker>
+    <style>
+      .title{font:700 38px Arial,sans-serif;fill:#22313a}
+      .subtitle{font:500 20px Arial,sans-serif;fill:#58666e}
+      .head{font:700 22px Arial,sans-serif;fill:#22313a}
+      .sub{font:700 18px Arial,sans-serif;fill:#22313a}
+      .body{font:500 16px Arial,sans-serif;fill:#58666e}
+      .label{font:500 15px Arial,sans-serif;fill:#7b8790}
+      .white{font:700 20px Arial,sans-serif;fill:#ffffff}
+      .whitesm{font:500 14px Arial,sans-serif;fill:#cce0e0}
+      .main{fill:#ffffff;stroke:#245454;stroke-width:3}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="#f7f5ef"/>
+
+  <!-- Title -->
+  <text x="90" y="78" class="title">사양서 산출물 체인: BPMN·DMN → 사양서 → 개발·TC</text>
+  <text x="90" y="114" class="subtitle">사양서는 추상적 흐름과 판단을 개발이 구현 가능한 조건으로 변환하는 문서다</text>
+
+  <!-- INPUT: BPMN + DMN -->
+  <rect x="60" y="148" width="260" height="280" rx="16" fill="#eef7f7" stroke="#73a4a4" stroke-width="2.5"/>
+  <rect x="60" y="148" width="260" height="48" rx="16" fill="#73a4a4"/>
+  <text x="190" y="180" text-anchor="middle" class="white">BPMN 입력</text>
+  <text x="85" y="222" class="label">→ 각 태스크·게이트웨이 목록</text>
+  <text x="85" y="248" class="label">→ 시스템/사람 역할 풀 구분</text>
+  <text x="85" y="274" class="label">→ 상태 전이 시점</text>
+  <text x="85" y="300" class="label">→ 예외 분기 경로</text>
+  <text x="85" y="326" class="label">→ 외부 시스템 연동 지점</text>
+  <text x="85" y="352" class="label">→ 이벤트 트리거 조건</text>
+  <text x="85" y="390" class="label">(예: 이메일 인증 흐름 전체)</text>
+
+  <rect x="60" y="450" width="260" height="240" rx="16" fill="#eef7f7" stroke="#73a4a4" stroke-width="2.5"/>
+  <rect x="60" y="450" width="260" height="48" rx="16" fill="#73a4a4"/>
+  <text x="190" y="482" text-anchor="middle" class="white">DMN 입력</text>
+  <text x="85" y="524" class="label">→ 판단 조건 컬럼</text>
+  <text x="85" y="550" class="label">→ 규칙별 결과값</text>
+  <text x="85" y="576" class="label">→ 우선순위 규칙</text>
+  <text x="85" y="602" class="label">→ 예외 조건 처리 규칙</text>
+  <text x="85" y="644" class="label">(예: 비밀번호 실패 횟수별 조치)</text>
+
+  <!-- Arrows → Spec -->
+  <line x1="322" y1="290" x2="420" y2="400" stroke="#245454" stroke-width="3" marker-end="url(#arrow19)"/>
+  <line x1="322" y1="570" x2="420" y2="500" stroke="#245454" stroke-width="3" marker-end="url(#arrow19)"/>
+
+  <!-- SPEC CENTER -->
+  <rect x="420" y="148" width="740" height="580" rx="16" fill="#ffffff" stroke="#245454" stroke-width="3"/>
+  <rect x="420" y="148" width="740" height="52" rx="16" fill="#245454"/>
+  <text x="790" y="182" text-anchor="middle" class="white">사양서 (Specification)</text>
+  <text x="790" y="206" text-anchor="middle" class="whitesm">개발이 구현하고 QA가 검증할 수 있는 조건을 명시하는 실행 문서</text>
+
+  <!-- Spec sections: 4 columns -->
+  <!-- Section 1: API/인터페이스 -->
+  <rect x="440" y="228" width="168" height="468" rx="10" fill="#f4faff" stroke="#245454" stroke-width="1.5"/>
+  <text x="524" y="258" text-anchor="middle" class="sub">API /</text>
+  <text x="524" y="280" text-anchor="middle" class="sub">인터페이스</text>
+  <text x="454" y="315" class="label">엔드포인트</text>
+  <text x="454" y="338" class="label">Method / URL</text>
+  <text x="454" y="375" class="label">요청 파라미터</text>
+  <text x="454" y="398" class="label">타입·제약·필수여부</text>
+  <text x="454" y="435" class="label">응답 구조</text>
+  <text x="454" y="458" class="label">성공/오류 코드</text>
+  <text x="454" y="495" class="label">인증 방식</text>
+  <text x="454" y="518" class="label">토큰 유형</text>
+  <text x="454" y="555" class="label">외부 연동</text>
+  <text x="454" y="578" class="label">서드파티 스펙</text>
+  <text x="454" y="615" class="label">타임아웃 조건</text>
+  <text x="454" y="658" class="label">버전 관리</text>
+
+  <!-- Section 2: 비즈니스 로직 -->
+  <rect x="622" y="228" width="168" height="468" rx="10" fill="#f4faff" stroke="#245454" stroke-width="1.5"/>
+  <text x="706" y="258" text-anchor="middle" class="sub">비즈니스</text>
+  <text x="706" y="280" text-anchor="middle" class="sub">로직</text>
+  <text x="636" y="315" class="label">검증 규칙</text>
+  <text x="636" y="338" class="label">형식·범위·의존성</text>
+  <text x="636" y="375" class="label">판단 조건</text>
+  <text x="636" y="398" class="label">DMN 테이블 기반</text>
+  <text x="636" y="435" class="label">상태 전이 조건</text>
+  <text x="636" y="458" class="label">트리거 이벤트</text>
+  <text x="636" y="495" class="label">계산 로직</text>
+  <text x="636" y="518" class="label">공식·우선순위</text>
+  <text x="636" y="555" class="label">예외 처리</text>
+  <text x="636" y="578" class="label">폴백·재시도</text>
+  <text x="636" y="615" class="label">트랜잭션 범위</text>
+  <text x="636" y="658" class="label">원자성 기준</text>
+
+  <!-- Section 3: 오류 처리 -->
+  <rect x="804" y="228" width="168" height="468" rx="10" fill="#f4faff" stroke="#245454" stroke-width="1.5"/>
+  <text x="888" y="258" text-anchor="middle" class="sub">오류 처리</text>
+  <text x="888" y="280" text-anchor="middle" class="sub">/ 메시지</text>
+  <text x="820" y="315" class="label">오류 코드 체계</text>
+  <text x="820" y="338" class="label">코드·원인·처리</text>
+  <text x="820" y="375" class="label">사용자 메시지</text>
+  <text x="820" y="398" class="label">표시 문구 명시</text>
+  <text x="820" y="435" class="label">시스템 오류</text>
+  <text x="820" y="458" class="label">로그 레벨·알림</text>
+  <text x="820" y="495" class="label">재시도 정책</text>
+  <text x="820" y="518" class="label">간격·최대 횟수</text>
+  <text x="820" y="555" class="label">복구 절차</text>
+  <text x="820" y="578" class="label">롤백 조건</text>
+  <text x="820" y="615" class="label">알림 대상</text>
+  <text x="820" y="658" class="label">운영자·시스템</text>
+
+  <!-- Section 4: 성능/보안 -->
+  <rect x="986" y="228" width="154" height="468" rx="10" fill="#f4faff" stroke="#245454" stroke-width="1.5"/>
+  <text x="1063" y="258" text-anchor="middle" class="sub">성능 /</text>
+  <text x="1063" y="280" text-anchor="middle" class="sub">보안</text>
+  <text x="1002" y="315" class="label">응답 시간 목표</text>
+  <text x="1002" y="338" class="label">P95 기준</text>
+  <text x="1002" y="375" class="label">동시 요청 처리</text>
+  <text x="1002" y="398" class="label">TPS 기준</text>
+  <text x="1002" y="435" class="label">데이터 암호화</text>
+  <text x="1002" y="458" class="label">전송·저장 기준</text>
+  <text x="1002" y="495" class="label">접근 제어</text>
+  <text x="1002" y="518" class="label">권한 레벨</text>
+  <text x="1002" y="555" class="label">감사 로그</text>
+  <text x="1002" y="578" class="label">기록 대상</text>
+  <text x="1002" y="615" class="label">개인정보 처리</text>
+  <text x="1002" y="658" class="label">마스킹·보존</text>
+
+  <!-- Arrows → Output -->
+  <line x1="1162" y1="350" x2="1250" y2="310" stroke="#245454" stroke-width="3" marker-end="url(#arrow19)"/>
+  <line x1="1162" y1="440" x2="1250" y2="440" stroke="#245454" stroke-width="3" marker-end="url(#arrow19)"/>
+  <line x1="1162" y1="530" x2="1250" y2="570" stroke="#245454" stroke-width="3" marker-end="url(#arrow19)"/>
+
+  <!-- OUTPUT -->
+  <rect x="1250" y="230" width="290" height="130" rx="12" fill="#fff5e8" stroke="#c8914b" stroke-width="2.5"/>
+  <text x="1395" y="268" text-anchor="middle" class="sub">개발 구현</text>
+  <text x="1266" y="298" class="label">→ API 스펙 그대로 구현</text>
+  <text x="1266" y="322" class="label">→ 비즈니스 로직 코딩</text>
+  <text x="1266" y="346" class="label">→ 오류 처리 구현</text>
+
+  <rect x="1250" y="382" width="290" height="110" rx="12" fill="#fff5e8" stroke="#c8914b" stroke-width="2.5"/>
+  <text x="1395" y="420" text-anchor="middle" class="sub">테스트케이스</text>
+  <text x="1266" y="450" class="label">→ 조건 → TC 직접 변환</text>
+  <text x="1266" y="474" class="label">→ 오류 코드 → 예외 TC</text>
+
+  <rect x="1250" y="514" width="290" height="130" rx="12" fill="#fff5e8" stroke="#c8914b" stroke-width="2.5"/>
+  <text x="1395" y="552" text-anchor="middle" class="sub">RTM·운영 가이드</text>
+  <text x="1266" y="582" class="label">→ 요구사항 추적 연결</text>
+  <text x="1266" y="606" class="label">→ 운영 알림 기준 수립</text>
+  <text x="1266" y="630" class="label">→ CS 대응 스크립트</text>
+
+  <!-- Bottom -->
+  <text x="800" y="858" text-anchor="middle" class="label">사양서는 BPMN·DMN을 개발 언어로 번역하는 문서다. API, 로직, 오류, 성능·보안 4개 섹션이 모두 있어야 개발과 QA가 별도 확인 없이 작업할 수 있다.</text>
+</svg>

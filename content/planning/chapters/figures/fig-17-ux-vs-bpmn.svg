@@ -1,0 +1,78 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <marker id="arrow17" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5b4a2f"/>
+    </marker>
+    <style>
+      .title{font:700 38px Arial,sans-serif;fill:#22313a}
+      .subtitle{font:500 20px Arial,sans-serif;fill:#58666e}
+      .head{font:700 22px Arial,sans-serif;fill:#22313a}
+      .body{font:500 16px Arial,sans-serif;fill:#58666e}
+      .small{font:500 14px Arial,sans-serif;fill:#7b8790}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="#f7f5ef"/>
+  <text x="90" y="90" class="title">UX 플로우와 BPMN의 차이</text>
+  <text x="90" y="126" class="subtitle">UX 플로우는 경험을 보여주고, BPMN은 사용자-시스템-운영이 함께 만드는 실행 흐름을 보여준다.</text>
+
+  <rect x="90" y="180" width="650" height="550" rx="24" fill="#fffaf1" stroke="#c3a36a" stroke-width="3"/>
+  <text x="120" y="225" class="head">UX Flow</text>
+  <text x="120" y="255" class="body">사용자가 화면을 어떻게 경험하는가</text>
+
+  <rect x="135" y="320" width="150" height="74" rx="16" fill="#ffffff" stroke="#c3a36a" stroke-width="2.5"/>
+  <text x="176" y="364" class="body">로그인 화면</text>
+  <rect x="335" y="320" width="150" height="74" rx="16" fill="#ffffff" stroke="#c3a36a" stroke-width="2.5"/>
+  <text x="363" y="364" class="body">비밀번호 입력</text>
+  <rect x="535" y="320" width="150" height="74" rx="16" fill="#ffffff" stroke="#c3a36a" stroke-width="2.5"/>
+  <text x="570" y="364" class="body">결과 화면</text>
+
+  <line x1="285" y1="357" x2="335" y2="357" stroke="#8f7448" stroke-width="4" marker-end="url(#arrow17)"/>
+  <line x1="485" y1="357" x2="535" y2="357" stroke="#8f7448" stroke-width="4" marker-end="url(#arrow17)"/>
+
+  <text x="135" y="470" class="body">보이는 것</text>
+  <text x="135" y="500" class="body">- 화면 이동</text>
+  <text x="135" y="528" class="body">- 입력과 피드백</text>
+  <text x="135" y="556" class="body">- 경험상의 분기</text>
+
+  <text x="405" y="470" class="body">잘 안 보이는 것</text>
+  <text x="405" y="500" class="body">- 실패 횟수 누적</text>
+  <text x="405" y="528" class="body">- 잠금 처리</text>
+  <text x="405" y="556" class="body">- 운영 개입</text>
+  <text x="405" y="584" class="body">- 예외 후속 처리</text>
+
+  <rect x="860" y="180" width="650" height="550" rx="24" fill="#fffefb" stroke="#5b4a2f" stroke-width="3"/>
+  <text x="890" y="225" class="head">BPMN</text>
+  <text x="890" y="255" class="body">사용자, 시스템, 운영이 함께 만드는 실행 흐름</text>
+
+  <rect x="910" y="315" width="170" height="70" rx="14" fill="#ffffff" stroke="#5b4a2f" stroke-width="2.5"/>
+  <text x="944" y="357" class="body">로그인 시도</text>
+  <rect x="1140" y="315" width="170" height="70" rx="14" fill="#ffffff" stroke="#5b4a2f" stroke-width="2.5"/>
+  <text x="1168" y="357" class="body">인증 요청</text>
+  <circle cx="1385" cy="350" r="44" fill="#ffffff" stroke="#5b4a2f" stroke-width="2.5"/>
+  <text x="1347" y="345" class="body">실패 횟수</text>
+  <text x="1361" y="367" class="body">검증</text>
+
+  <rect x="1095" y="470" width="170" height="70" rx="14" fill="#ffffff" stroke="#5b4a2f" stroke-width="2.5"/>
+  <text x="1141" y="512" class="body">정상 로그인</text>
+  <rect x="1325" y="470" width="140" height="70" rx="14" fill="#fdf1e2" stroke="#b5722c" stroke-width="2.5"/>
+  <text x="1361" y="500" class="body">잠금 처리</text>
+  <text x="1355" y="522" class="body">운영 알림</text>
+
+  <line x1="1080" y1="350" x2="1140" y2="350" stroke="#5b4a2f" stroke-width="4" marker-end="url(#arrow17)"/>
+  <line x1="1310" y1="350" x2="1339" y2="350" stroke="#5b4a2f" stroke-width="4" marker-end="url(#arrow17)"/>
+  <line x1="1385" y1="394" x2="1385" y2="470" stroke="#5b4a2f" stroke-width="4" marker-end="url(#arrow17)"/>
+  <line x1="1350" y1="350" x2="1180" y2="470" stroke="#5b4a2f" stroke-width="4" marker-end="url(#arrow17)"/>
+
+  <text x="910" y="620" class="body">보이는 것</text>
+  <text x="910" y="650" class="body">- 역할 분기</text>
+  <text x="910" y="678" class="body">- 시스템 처리</text>
+  <text x="910" y="706" class="body">- 예외 후속 경로</text>
+
+  <text x="1170" y="620" class="body">핵심 차이</text>
+  <text x="1170" y="650" class="body">- UX Flow는 경험 설명</text>
+  <text x="1170" y="678" class="body">- BPMN은 실행 책임 설명</text>
+  <text x="1170" y="706" class="body">- 운영 개입까지 드러남</text>
+</svg>
+
+
+

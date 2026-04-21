@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <marker id="arrow20" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#245454"/>
+    </marker>
+    <style>
+      .title{font:700 38px Arial,sans-serif;fill:#22313a}
+      .subtitle{font:500 20px Arial,sans-serif;fill:#58666e}
+      .head{font:700 22px Arial,sans-serif;fill:#22313a}
+      .sub{font:700 18px Arial,sans-serif;fill:#22313a}
+      .body{font:500 16px Arial,sans-serif;fill:#58666e}
+      .label{font:500 15px Arial,sans-serif;fill:#7b8790}
+      .white{font:700 20px Arial,sans-serif;fill:#ffffff}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="#f7f5ef"/>
+
+  <!-- Title -->
+  <text x="90" y="78" class="title">프로토타입 산출물 체인: 입력 → 프로토타입 → 검증 출력</text>
+  <text x="90" y="114" class="subtitle">프로토타입은 사용자 검증 도구이자 사양서·TC 입력 전 마지막 실행 확인 단계다</text>
+
+  <!-- INPUT -->
+  <rect x="60" y="148" width="240" height="580" rx="16" fill="#eef7f7" stroke="#73a4a4" stroke-width="2.5"/>
+  <rect x="60" y="148" width="240" height="48" rx="16" fill="#73a4a4"/>
+  <text x="180" y="180" text-anchor="middle" class="white">입력 문서</text>
+  <text x="85" y="222" class="sub">PRD</text>
+  <text x="85" y="248" class="label">→ 핵심 시나리오</text>
+  <text x="85" y="272" class="label">→ 사용자 목표</text>
+  <text x="85" y="310" class="sub">BPMN</text>
+  <text x="85" y="336" class="label">→ 흐름 순서</text>
+  <text x="85" y="360" class="label">→ 분기 지점</text>
+  <text x="85" y="398" class="sub">정책서</text>
+  <text x="85" y="424" class="label">→ 오류 메시지 원문</text>
+  <text x="85" y="448" class="label">→ 상태 표시 기준</text>
+  <text x="85" y="486" class="sub">사양서 (일부)</text>
+  <text x="85" y="512" class="label">→ UI 조건 명세</text>
+  <text x="85" y="536" class="label">→ 인터랙션 규칙</text>
+  <text x="85" y="574" class="sub">디자인 시스템</text>
+  <text x="85" y="600" class="label">→ 컴포넌트 기준</text>
+  <text x="85" y="624" class="label">→ 스타일 가이드</text>
+
+  <!-- Arrow in -->
+  <line x1="302" y1="440" x2="380" y2="440" stroke="#245454" stroke-width="3" marker-end="url(#arrow20)"/>
+
+  <!-- PROTO CENTER -->
+  <rect x="380" y="148" width="840" height="580" rx="16" fill="#ffffff" stroke="#245454" stroke-width="3"/>
+  <rect x="380" y="148" width="840" height="52" rx="16" fill="#245454"/>
+  <text x="800" y="182" text-anchor="middle" class="white">프로토타입 (Prototype)</text>
+
+  <!-- Fidelity levels -->
+  <rect x="405" y="220" width="790" height="80" rx="10" fill="#f0f0f0" stroke="#c0c0c0" stroke-width="1.5"/>
+  <text x="800" y="250" text-anchor="middle" class="sub">충실도(Fidelity) 선택 기준</text>
+  <text x="440" y="282" class="label">Lo-Fi 스케치: 흐름 합의 단계  →  Mid-Fi 와이어프레임: 구조 검증  →  Hi-Fi 인터랙티브: 사용성 테스트 / 개발 핸드오프</text>
+
+  <!-- Type blocks -->
+  <rect x="405" y="320" width="244" height="360" rx="10" fill="#f4faff" stroke="#245454" stroke-width="1.5"/>
+  <text x="527" y="352" text-anchor="middle" class="sub">Lo-Fi</text>
+  <text x="527" y="376" text-anchor="middle" class="label">흐름 스케치</text>
+  <text x="420" y="410" class="label">→ 손 그림 또는 화이트보드</text>
+  <text x="420" y="434" class="label">→ 목적: 흐름 합의</text>
+  <text x="420" y="470" class="label">AI 역할</text>
+  <text x="420" y="494" class="label">→ 시나리오→화면 목록 초안</text>
+  <text x="420" y="518" class="label">→ 화면 순서 제안</text>
+  <text x="420" y="554" class="label">PM 확인</text>
+  <text x="420" y="578" class="label">→ 누락 분기 점검</text>
+  <text x="420" y="602" class="label">→ 예외 흐름 포함 여부</text>
+  <text x="420" y="638" class="label">→ 이해관계자 동의</text>
+
+  <rect x="663" y="320" width="244" height="360" rx="10" fill="#f4faff" stroke="#245454" stroke-width="1.5"/>
+  <text x="785" y="352" text-anchor="middle" class="sub">Mid-Fi</text>
+  <text x="785" y="376" text-anchor="middle" class="label">와이어프레임</text>
+  <text x="678" y="410" class="label">→ Figma / Sketch 구조</text>
+  <text x="678" y="434" class="label">→ 목적: 구조·레이아웃 검증</text>
+  <text x="678" y="470" class="label">AI 역할</text>
+  <text x="678" y="494" class="label">→ 컴포넌트 배치 초안</text>
+  <text x="678" y="518" class="label">→ 정보 계층 제안</text>
+  <text x="678" y="554" class="label">PM 확인</text>
+  <text x="678" y="578" class="label">→ 정책 메시지 위치</text>
+  <text x="678" y="602" class="label">→ 오류 상태 표현</text>
+  <text x="678" y="638" class="label">→ 상태별 화면 커버리지</text>
+
+  <rect x="921" y="320" width="274" height="360" rx="10" fill="#f4faff" stroke="#245454" stroke-width="1.5"/>
+  <text x="1058" y="352" text-anchor="middle" class="sub">Hi-Fi</text>
+  <text x="1058" y="376" text-anchor="middle" class="label">인터랙티브 프로토</text>
+  <text x="936" y="410" class="label">→ 클릭 가능 Figma 프로토</text>
+  <text x="936" y="434" class="label">→ 목적: 사용성 테스트</text>
+  <text x="936" y="470" class="label">AI 역할</text>
+  <text x="936" y="494" class="label">→ 사용성 테스트 시나리오</text>
+  <text x="936" y="518" class="label">→ 관찰 포인트 체크리스트</text>
+  <text x="936" y="554" class="label">PM 확인</text>
+  <text x="936" y="578" class="label">→ 사용자 검증 결과 해석</text>
+  <text x="936" y="602" class="label">→ 수정 사항 → 정책 반영</text>
+  <text x="936" y="638" class="label">→ 개발 핸드오프 기준 확인</text>
+
+  <!-- Arrow out -->
+  <line x1="1222" y1="370" x2="1300" y2="330" stroke="#245454" stroke-width="3" marker-end="url(#arrow20)"/>
+  <line x1="1222" y1="440" x2="1300" y2="440" stroke="#245454" stroke-width="3" marker-end="url(#arrow20)"/>
+  <line x1="1222" y1="510" x2="1300" y2="550" stroke="#245454" stroke-width="3" marker-end="url(#arrow20)"/>
+
+  <!-- OUTPUT -->
+  <rect x="1300" y="228" width="240" height="130" rx="12" fill="#fff5e8" stroke="#c8914b" stroke-width="2.5"/>
+  <text x="1420" y="265" text-anchor="middle" class="sub">사용자 검증</text>
+  <text x="1316" y="296" class="label">→ 흐름 수정 사항 도출</text>
+  <text x="1316" y="320" class="label">→ 정책서 업데이트 입력</text>
+  <text x="1316" y="344" class="label">→ PRD 범위 재조정</text>
+
+  <rect x="1300" y="382" width="240" height="110" rx="12" fill="#fff5e8" stroke="#c8914b" stroke-width="2.5"/>
+  <text x="1420" y="420" text-anchor="middle" class="sub">테스트케이스</text>
+  <text x="1316" y="450" class="label">→ 화면 상태 → TC 시나리오</text>
+  <text x="1316" y="474" class="label">→ 오류 메시지 TC 포함</text>
+
+  <rect x="1300" y="514" width="240" height="110" rx="12" fill="#fff5e8" stroke="#c8914b" stroke-width="2.5"/>
+  <text x="1420" y="552" text-anchor="middle" class="sub">개발 핸드오프</text>
+  <text x="1316" y="582" class="label">→ 컴포넌트 스펙 전달</text>
+  <text x="1316" y="606" class="label">→ 인터랙션 규칙 명시</text>
+
+  <!-- Bottom -->
+  <text x="800" y="858" text-anchor="middle" class="label">프로토타입의 목적은 예쁜 화면이 아니라 가정을 검증하는 것이다. 검증 결과는 정책서와 사양서로 피드백되어야 산출물 체인이 닫힌다.</text>
+</svg>

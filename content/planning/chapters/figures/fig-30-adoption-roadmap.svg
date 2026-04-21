@@ -1,0 +1,203 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="960" viewBox="0 0 1600 960">
+  <defs>
+    <marker id="arr30" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#245454"/>
+    </marker>
+    <style>
+      .t30{font:700 36px Arial,sans-serif;fill:#22313a}
+      .s30{font:400 18px Arial,sans-serif;fill:#58666e}
+      .ph30{font:700 11px Arial,sans-serif;fill:#aed4d4}
+      .pht30{font:700 17px Arial,sans-serif;fill:#ffffff}
+      .tl30{font:700 12px Arial,sans-serif}
+      .sec30{font:700 14px Arial,sans-serif;fill:#22313a}
+      .itm30{font:400 15px Arial,sans-serif;fill:#3a5656}
+      .bdg30{font:500 13px Arial,sans-serif}
+      .cap30{font:400 15px Arial,sans-serif;fill:#58666e}
+      .ck30h{font:700 13px Arial,sans-serif;fill:#58666e}
+      .ck30{font:400 13px Arial,sans-serif;fill:#3a5656}
+      .fig30{font:400 13px Arial,sans-serif;fill:#9ab4b4}
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="960" fill="#f7f5ef"/>
+
+  <!-- Title -->
+  <text x="80" y="66" class="t30">산출물 체계 도입 로드맵</text>
+  <text x="80" y="98" class="s30">기준 → 파일럿 → 연결 → 확장 순서가 가장 안전하다 · 한 번에 다 바꾸려 하지 말 것</text>
+
+  <!-- ═══════════════════════════════════════════════════
+       TIMELINE BAR
+       ═══════════════════════════════════════════════════ -->
+  <rect x="40" y="122" width="1520" height="5" rx="2.5" fill="#c0d4d4"/>
+
+  <!-- Timeline dots -->
+  <circle cx="222" cy="124" r="8" fill="#245454"/>
+  <circle cx="607" cy="124" r="8" fill="#245454"/>
+  <circle cx="992" cy="124" r="8" fill="#245454"/>
+  <circle cx="1377" cy="124" r="8" fill="#245454"/>
+
+  <!-- Timeline labels (above dots) -->
+  <text x="222" y="114" text-anchor="middle" class="tl30" fill="#245454">1일 차~</text>
+  <text x="607" y="114" text-anchor="middle" class="tl30" fill="#245454">1주 차~</text>
+  <text x="992" y="114" text-anchor="middle" class="tl30" fill="#245454">1개월 차~</text>
+  <text x="1377" y="114" text-anchor="middle" class="tl30" fill="#245454">이후 · 확산</text>
+
+  <!-- ═══════════════════════════════════════════════════
+       PHASE 1: 최소 기준 정렬   x=40  w=365
+       ═══════════════════════════════════════════════════ -->
+  <rect x="40" y="140" width="365" height="52" rx="10" fill="#245454"/>
+  <text x="222" y="157" class="ph30" text-anchor="middle">Phase 1</text>
+  <text x="222" y="178" class="pht30" text-anchor="middle">최소 기준 정렬</text>
+
+  <rect x="40" y="192" width="365" height="534" rx="10" fill="#eef7f7" stroke="#73a4a4" stroke-width="2.5"/>
+
+  <text x="62" y="226" class="sec30">정렬 대상</text>
+  <line x1="60" y1="234" x2="388" y2="234" stroke="#b0d0d0" stroke-width="1"/>
+  <text x="64" y="262" class="itm30">▸ 용어집 작성</text>
+  <text x="64" y="294" class="itm30">▸ 문서 경계 정의</text>
+  <text x="64" y="326" class="itm30">▸ 최소 템플릿 확정</text>
+  <text x="64" y="358" class="itm30">▸ Source of Truth 규칙</text>
+  <text x="64" y="390" class="itm30">▸ 승인 상태 정의</text>
+
+  <line x1="60" y1="412" x2="388" y2="412" stroke="#b0d0d0" stroke-width="1"/>
+  <text x="62" y="436" class="sec30">툴 셋업</text>
+  <text x="64" y="462" class="itm30">▸ 기준 문서 도구 확정</text>
+  <text x="64" y="492" class="itm30">▸ Obsidian · VS Code 환경 구성</text>
+  <text x="64" y="522" class="itm30">▸ AI 연동 (Claude / Cursor 등)</text>
+  <text x="64" y="552" class="itm30">▸ Git 저장소 · Jira 프로젝트 생성</text>
+
+  <rect x="60" y="690" width="325" height="26" rx="13" fill="#245454" opacity="0.12"/>
+  <text x="222" y="707" text-anchor="middle" class="bdg30" fill="#245454">기준 없이 파일럿 없다</text>
+
+  <!-- Arrow 1→2 -->
+  <line x1="405" y1="455" x2="423" y2="455" stroke="#245454" stroke-width="3.5" marker-end="url(#arr30)"/>
+
+  <!-- ═══════════════════════════════════════════════════
+       PHASE 2: 대표 케이스 파일럿   x=425  w=365
+       ═══════════════════════════════════════════════════ -->
+  <rect x="425" y="140" width="365" height="52" rx="10" fill="#245454"/>
+  <text x="607" y="157" class="ph30" text-anchor="middle">Phase 2</text>
+  <text x="607" y="178" class="pht30" text-anchor="middle">대표 케이스 파일럿</text>
+
+  <rect x="425" y="192" width="365" height="534" rx="10" fill="#ffffff" stroke="#245454" stroke-width="2.5"/>
+
+  <text x="447" y="226" class="sec30">작성 대상 (1건 완주)</text>
+  <line x1="445" y1="234" x2="773" y2="234" stroke="#a0b8b8" stroke-width="1"/>
+  <text x="449" y="262" class="itm30">▸ RIB</text>
+  <text x="449" y="292" class="itm30">▸ PRD</text>
+  <text x="449" y="322" class="itm30">▸ 정책서</text>
+  <text x="449" y="352" class="itm30">▸ BPMN</text>
+  <text x="449" y="382" class="itm30">▸ DMN</text>
+  <text x="449" y="412" class="itm30">▸ 사양서</text>
+  <text x="449" y="442" class="itm30">▸ 프로토타입</text>
+  <text x="449" y="472" class="itm30">▸ 테스트케이스</text>
+
+  <line x1="445" y1="494" x2="773" y2="494" stroke="#a0b8b8" stroke-width="1"/>
+  <text x="447" y="518" class="sec30">운영 규칙</text>
+  <text x="449" y="544" class="itm30">▸ 승인자 / 리뷰어 결정</text>
+  <text x="449" y="572" class="itm30">▸ 브랜치 / PR / 이슈 규칙</text>
+
+  <rect x="445" y="690" width="325" height="26" rx="13" fill="#245454" opacity="0.12"/>
+  <text x="607" y="707" text-anchor="middle" class="bdg30" fill="#245454">한 건을 끝까지 돌려본다</text>
+
+  <!-- Arrow 2→3 -->
+  <line x1="790" y1="455" x2="808" y2="455" stroke="#245454" stroke-width="3.5" marker-end="url(#arr30)"/>
+
+  <!-- ═══════════════════════════════════════════════════
+       PHASE 3: 추적 체계 도입   x=810  w=365
+       ═══════════════════════════════════════════════════ -->
+  <rect x="810" y="140" width="365" height="52" rx="10" fill="#245454"/>
+  <text x="992" y="157" class="ph30" text-anchor="middle">Phase 3</text>
+  <text x="992" y="178" class="pht30" text-anchor="middle">추적 체계 도입</text>
+
+  <rect x="810" y="192" width="365" height="534" rx="10" fill="#fff5e8" stroke="#d29a52" stroke-width="2.5"/>
+
+  <text x="832" y="226" class="sec30">연결 문서 세트</text>
+  <line x1="830" y1="234" x2="1158" y2="234" stroke="#dbb888" stroke-width="1"/>
+  <text x="834" y="262" class="itm30">▸ RTM (요구사항 ↔ TC 연결)</text>
+  <text x="834" y="294" class="itm30">▸ Decision Log (판단 근거 기록)</text>
+  <text x="834" y="326" class="itm30">▸ Changelog (변경 이력)</text>
+
+  <line x1="830" y1="350" x2="1158" y2="350" stroke="#dbb888" stroke-width="1"/>
+  <text x="832" y="374" class="sec30">게이트 구조</text>
+  <text x="834" y="400" class="itm30">▸ Input Gate (기획 진입 조건)</text>
+  <text x="834" y="430" class="itm30">▸ DoR (개발 착수 조건)</text>
+  <text x="834" y="460" class="itm30">▸ DoD (출시 완료 기준)</text>
+
+  <line x1="830" y1="484" x2="1158" y2="484" stroke="#dbb888" stroke-width="1"/>
+  <text x="832" y="508" class="sec30">회고</text>
+  <text x="834" y="534" class="itm30">▸ 실제 유지된 산출물 확인</text>
+  <text x="834" y="562" class="itm30">▸ FAQ / 운영 가이드 점검</text>
+  <text x="834" y="590" class="itm30">▸ 피드백 → 백로그 연결</text>
+
+  <rect x="830" y="690" width="325" height="26" rx="13" fill="#d29a52" opacity="0.14"/>
+  <text x="992" y="707" text-anchor="middle" class="bdg30" fill="#7a5010">추적이 있어야 개선이 된다</text>
+
+  <!-- Arrow 3→4 -->
+  <line x1="1175" y1="455" x2="1193" y2="455" stroke="#245454" stroke-width="3.5" marker-end="url(#arr30)"/>
+
+  <!-- ═══════════════════════════════════════════════════
+       PHASE 4: 팀 확장과 자동화   x=1195  w=365
+       ═══════════════════════════════════════════════════ -->
+  <rect x="1195" y="140" width="365" height="52" rx="10" fill="#245454"/>
+  <text x="1377" y="157" class="ph30" text-anchor="middle">Phase 4</text>
+  <text x="1377" y="178" class="pht30" text-anchor="middle">팀 확장과 자동화</text>
+
+  <rect x="1195" y="192" width="365" height="534" rx="10" fill="#eef7f7" stroke="#245454" stroke-width="2.5"/>
+
+  <text x="1217" y="226" class="sec30">운영 리듬</text>
+  <line x1="1215" y1="234" x2="1543" y2="234" stroke="#a0c8c8" stroke-width="1"/>
+  <text x="1219" y="262" class="itm30">▸ 주간 리뷰 리듬 확립</text>
+  <text x="1219" y="292" class="itm30">▸ 역할 재편 · 팀 내 가이드 공유</text>
+
+  <line x1="1215" y1="316" x2="1543" y2="316" stroke="#a0c8c8" stroke-width="1"/>
+  <text x="1217" y="340" class="sec30">AI 자동화 워크플로</text>
+  <text x="1219" y="366" class="itm30">▸ AI 초안 생성 루틴 정착</text>
+  <text x="1219" y="396" class="itm30">▸ 릴리스 노트 자동화</text>
+  <text x="1219" y="426" class="itm30">▸ 하네스 카드 운영</text>
+  <text x="1219" y="456" class="itm30">▸ RAG 시스템 연동 (선택)</text>
+
+  <line x1="1215" y1="480" x2="1543" y2="480" stroke="#a0c8c8" stroke-width="1"/>
+  <text x="1217" y="504" class="sec30">운영 반영 루프</text>
+  <text x="1219" y="530" class="itm30">▸ 운영 이슈 → RIB 반영</text>
+  <text x="1219" y="560" class="itm30">▸ VOC → 다음 PRD 입력</text>
+  <text x="1219" y="590" class="itm30">▸ 피드백 → 백로그 연결</text>
+
+  <rect x="1215" y="690" width="325" height="26" rx="13" fill="#245454" opacity="0.12"/>
+  <text x="1377" y="707" text-anchor="middle" class="bdg30" fill="#245454">AI는 초안 · 사람은 승인</text>
+
+  <!-- ═══════════════════════════════════════════════════
+       BOTTOM CAPTION
+       ═══════════════════════════════════════════════════ -->
+  <text x="800" y="762" text-anchor="middle" class="cap30">한 번에 다 바꾸려 하지 말 것 — 대표 케이스 1건을 같은 규칙으로 끝까지 돌려보는 것이 시작이다</text>
+
+  <!-- ═══════════════════════════════════════════════════
+       CHECKLIST BOX
+       ═══════════════════════════════════════════════════ -->
+  <rect x="40" y="780" width="1520" height="130" rx="10" fill="#ffffff" stroke="#c0d4d4" stroke-width="1.5"/>
+
+  <text x="66" y="806" class="ck30h">도입 전 체크</text>
+  <text x="176" y="806" class="ck30">□ 한 번에 다 바꾸려 하지 않는가</text>
+  <text x="476" y="806" class="ck30">□ 파일럿 1건을 끝까지 돌릴 계획인가</text>
+  <text x="796" y="806" class="ck30">□ 문서·모델·코드가 연결되는가</text>
+  <text x="1096" y="806" class="ck30">□ 승인 구조와 리듬이 있는가</text>
+
+  <line x1="58" y1="820" x2="1542" y2="820" stroke="#e0ecec" stroke-width="1"/>
+
+  <text x="66" y="844" class="ck30h">확산 전 체크</text>
+  <text x="176" y="844" class="ck30">□ 운영 반영 루프가 실제로 도는가</text>
+  <text x="476" y="844" class="ck30">□ RTM / Decision Log가 유지되는가</text>
+  <text x="796" y="844" class="ck30">□ AI 초안 위에 사람 승인이 있는가</text>
+  <text x="1096" y="844" class="ck30">□ 이 체계로 다음 과제도 반복 가능한가</text>
+
+  <line x1="58" y1="858" x2="1542" y2="858" stroke="#e0ecec" stroke-width="1"/>
+
+  <text x="66" y="880" class="ck30h">정착 기준</text>
+  <text x="176" y="880" class="ck30">□ 게이트(Input Gate / DoR / DoD)가 실제로 작동하는가</text>
+  <text x="596" y="880" class="ck30">□ 산출물 체인이 끊기지 않고 이어지는가</text>
+  <text x="1016" y="880" class="ck30">□ 하네스 카드로 AI 작업이 재현되는가</text>
+
+  <!-- Fig label -->
+  <text x="800" y="950" text-anchor="middle" class="fig30">fig-30 | 산출물 체계 도입 로드맵</text>
+</svg>

@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <marker id="arrow22" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#245454"/>
+    </marker>
+    <style>
+      .title{font:700 38px Arial,sans-serif;fill:#22313a}
+      .subtitle{font:500 20px Arial,sans-serif;fill:#58666e}
+      .head{font:700 22px Arial,sans-serif;fill:#22313a}
+      .body{font:500 16px Arial,sans-serif;fill:#58666e}
+      .box-title{font:700 22px Arial,sans-serif;fill:#22313a}
+      .box-text{font:500 16px Arial,sans-serif;fill:#58666e}
+      .note{font:500 16px Arial,sans-serif;fill:#58666e}
+      .small{font:500 14px Arial,sans-serif;fill:#7b8790}
+      .main{fill:#ffffff;stroke:#245454;stroke-width:3}
+      .base{fill:#eef7f7;stroke:#73a4a4;stroke-width:2.5}
+      .trace{fill:#fff5e8;stroke:#d29a52;stroke-width:2.5}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="#f7f5ef"/>
+  <text x="90" y="90" class="title">산출물 체인 전체 구조</text>
+  <text x="90" y="126" class="subtitle">좋은 문서는 단독 결과물이 아니라 다음 산출물의 입력이 되는 체인으로 설계된다.</text>
+
+  <rect x="90" y="170" width="118" height="124" rx="18" class="main"/>
+  <text x="126" y="210" class="box-title">RIB</text>
+  <text x="112" y="242" class="box-text">문제</text>
+  <text x="112" y="264" class="box-text">범위</text>
+  <text x="112" y="286" class="box-text">제약</text>
+
+  <rect x="245" y="170" width="118" height="124" rx="18" class="main"/>
+  <text x="279" y="210" class="box-title">PRD</text>
+  <text x="267" y="242" class="box-text">방향</text>
+  <text x="267" y="264" class="box-text">시나리오</text>
+  <text x="267" y="286" class="box-text">우선순위</text>
+
+  <rect x="400" y="170" width="132" height="124" rx="18" class="main"/>
+  <text x="432" y="210" class="box-title">정책서</text>
+  <text x="424" y="242" class="box-text">규칙</text>
+  <text x="424" y="264" class="box-text">예외</text>
+  <text x="424" y="286" class="box-text">기준</text>
+
+  <rect x="569" y="170" width="132" height="124" rx="18" class="main"/>
+  <text x="607" y="210" class="box-title">BPMN</text>
+  <text x="591" y="242" class="box-text">흐름</text>
+  <text x="591" y="264" class="box-text">역할</text>
+  <text x="591" y="286" class="box-text">분기</text>
+
+  <rect x="738" y="170" width="132" height="124" rx="18" class="main"/>
+  <text x="779" y="210" class="box-title">DMN</text>
+  <text x="760" y="242" class="box-text">판단 규칙</text>
+  <text x="760" y="264" class="box-text">조건 조합</text>
+  <text x="760" y="286" class="box-text">결과</text>
+
+  <rect x="907" y="170" width="132" height="124" rx="18" class="main"/>
+  <text x="942" y="210" class="box-title">사양서</text>
+  <text x="932" y="242" class="box-text">구현 조건</text>
+  <text x="932" y="264" class="box-text">상태</text>
+  <text x="932" y="286" class="box-text">오류 처리</text>
+
+  <rect x="1076" y="170" width="146" height="124" rx="18" class="main"/>
+  <text x="1099" y="210" class="box-title">프로토타입</text>
+  <text x="1102" y="242" class="box-text">화면 검증</text>
+  <text x="1102" y="264" class="box-text">경험 점검</text>
+  <text x="1102" y="286" class="box-text">피드백</text>
+
+  <rect x="1259" y="170" width="166" height="124" rx="18" class="main"/>
+  <text x="1284" y="210" class="box-title">테스트케이스</text>
+  <text x="1291" y="242" class="box-text">검증 기준</text>
+  <text x="1291" y="264" class="box-text">정상/예외</text>
+  <text x="1291" y="286" class="box-text">회귀 확인</text>
+
+  <line x1="208" y1="232" x2="245" y2="232" stroke="#245454" stroke-width="4" marker-end="url(#arrow22)"/>
+  <line x1="363" y1="232" x2="400" y2="232" stroke="#245454" stroke-width="4" marker-end="url(#arrow22)"/>
+  <line x1="532" y1="232" x2="569" y2="232" stroke="#245454" stroke-width="4" marker-end="url(#arrow22)"/>
+  <line x1="701" y1="232" x2="738" y2="232" stroke="#245454" stroke-width="4" marker-end="url(#arrow22)"/>
+  <line x1="870" y1="232" x2="907" y2="232" stroke="#245454" stroke-width="4" marker-end="url(#arrow22)"/>
+  <line x1="1039" y1="232" x2="1076" y2="232" stroke="#245454" stroke-width="4" marker-end="url(#arrow22)"/>
+  <line x1="1222" y1="232" x2="1259" y2="232" stroke="#245454" stroke-width="4" marker-end="url(#arrow22)"/>
+
+  <rect x="90" y="360" width="450" height="150" rx="20" class="base"/>
+  <text x="120" y="401" class="box-title">기준 산출물</text>
+  <text x="120" y="433" class="box-text">로드맵, 용어집, Feature Taxonomy, 공통 정책, Source of Truth</text>
+  <text x="120" y="461" class="box-text">여러 과제가 공통으로 참조하는 기준 레이어</text>
+  <line x1="315" y1="360" x2="315" y2="300" stroke="#73a4a4" stroke-width="3" stroke-dasharray="8 8"/>
+  <line x1="480" y1="360" x2="480" y2="300" stroke="#73a4a4" stroke-width="3" stroke-dasharray="8 8"/>
+
+  <rect x="575" y="360" width="470" height="150" rx="20" class="trace"/>
+  <text x="605" y="401" class="box-title">체인 전반 추적 장치</text>
+  <text x="605" y="433" class="box-text">RTM: 요구사항과 결과물 연결</text>
+  <text x="605" y="461" class="box-text">Decision Log: 판단 근거 기록 / Changelog: 변경 이력 기록</text>
+  <line x1="807" y1="294" x2="807" y2="360" stroke="#d29a52" stroke-width="3" stroke-dasharray="8 8"/>
+
+  <rect x="1080" y="360" width="345" height="150" rx="20" class="base"/>
+  <text x="1110" y="401" class="box-title">실행 및 운영 연결</text>
+  <text x="1110" y="433" class="box-text">개발, QA, 운영 문서, Jira 이슈, 릴리스 기록</text>
+  <text x="1110" y="461" class="box-text">산출물 체인은 구현 이후 운영 반영까지 이어진다</text>
+  <line x1="1342" y1="294" x2="1342" y2="360" stroke="#73a4a4" stroke-width="3" stroke-dasharray="8 8"/>
+
+  <text x="90" y="590" class="note">핵심 원칙</text>
+  <text x="90" y="626" class="box-text">1. 정책은 규칙과 예외를 정리하고, 흐름은 BPMN, 판단은 DMN으로 분리한다.</text>
+  <text x="90" y="654" class="box-text">2. 사양서와 테스트케이스는 앞선 산출물을 구현 조건과 검증 기준으로 번역한다.</text>
+  <text x="90" y="682" class="box-text">3. RTM, Decision Log, Changelog가 없으면 체인은 연결돼도 추적 가능하지 않다.</text>
+</svg>
+
+
+

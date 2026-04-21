@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1220" viewBox="0 0 1600 1220">
+  <defs>
+    <style>
+      .bg { fill: #f6f3ea; }
+      .title { font: 700 36px Arial, sans-serif; fill: #21323a; }
+      .subtitle { font: 500 18px Arial, sans-serif; fill: #5d6a71; }
+      .header { font: 700 18px Arial, sans-serif; fill: #21323a; }
+      .cell-head { font: 700 20px Arial, sans-serif; fill: #21323a; }
+      .cell-body { font: 500 16px Arial, sans-serif; fill: #4f5d65; }
+      .small { font: 500 14px Arial, sans-serif; fill: #70808a; }
+      .stroke { stroke: #d3d9dd; stroke-width: 1.5; }
+      .label { fill: #21323a; }
+      .row1 { fill: #eaf1fb; }
+      .row2 { fill: #eef3ff; }
+      .row3 { fill: #eef7f3; }
+      .row4 { fill: #f2f7ef; }
+      .row5 { fill: #fff5e8; }
+      .row6 { fill: #fdf0f2; }
+      .row7 { fill: #f2f0fb; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1220" class="bg"/>
+
+  <text x="90" y="84" class="title">문서 레이어 7단계 구조</text>
+  <text x="90" y="118" class="subtitle">문서를 이름으로 나누는 것이 아니라, 질문과 책임으로 나눈다.</text>
+
+  <rect x="80" y="160" width="1440" height="72" rx="18" fill="#dfe8ec"/>
+  <text x="120" y="204" class="header">레이어</text>
+  <text x="430" y="204" class="header">핵심 질문</text>
+  <text x="900" y="204" class="header">대표 문서</text>
+  <text x="1200" y="204" class="header">산출 목적</text>
+
+  <rect x="80" y="252" width="1440" height="116" rx="22" class="row1 stroke"/>
+  <text x="120" y="308" class="cell-head">1. 비즈니스 레이어</text>
+  <text x="430" y="300" class="cell-body">왜 이 일을 해야 하는가</text>
+  <text x="900" y="300" class="cell-body">BRD, 사업 요구, 문제 정의 문서</text>
+  <text x="1200" y="300" class="cell-body">비즈니스 목적과 범위 정렬</text>
+
+  <rect x="80" y="388" width="1440" height="116" rx="22" class="row2 stroke"/>
+  <text x="120" y="444" class="cell-head">2. 제품/서비스 레이어</text>
+  <text x="430" y="436" class="cell-body">무엇을 만들고 어떤 가치를 줄 것인가</text>
+  <text x="900" y="436" class="cell-body">PRD</text>
+  <text x="1200" y="436" class="cell-body">사용자 가치, 범위, 우선순위 정의</text>
+
+  <rect x="80" y="524" width="1440" height="116" rx="22" class="row3 stroke"/>
+  <text x="120" y="580" class="cell-head">3. 정책/판단 레이어</text>
+  <text x="430" y="572" class="cell-body">어떤 규칙과 조건으로 동작해야 하는가</text>
+  <text x="900" y="572" class="cell-body">정책서, DMN</text>
+  <text x="1200" y="572" class="cell-body">정책, 예외, 분기 규칙 명확화</text>
+
+  <rect x="80" y="660" width="1440" height="116" rx="22" class="row4 stroke"/>
+  <text x="120" y="716" class="cell-head">4. 흐름 레이어</text>
+  <text x="430" y="708" class="cell-body">어떤 순서와 상태 변화로 처리되는가</text>
+  <text x="900" y="708" class="cell-body">BPMN, 프로세스 설계서</text>
+  <text x="1200" y="708" class="cell-body">업무/시스템 흐름 구조화</text>
+
+  <rect x="80" y="796" width="1440" height="116" rx="22" class="row5 stroke"/>
+  <text x="120" y="852" class="cell-head">5. 상세 설계 레이어</text>
+  <text x="430" y="844" class="cell-body">구현 가능한 수준으로 무엇을 남길 것인가</text>
+  <text x="900" y="844" class="cell-body">사양서, 기능명세서</text>
+  <text x="1200" y="844" class="cell-body">상태, 조건, 메시지, 인터페이스 정의</text>
+
+  <rect x="80" y="932" width="1440" height="116" rx="22" class="row6 stroke"/>
+  <text x="120" y="988" class="cell-head">6. 경험 레이어</text>
+  <text x="430" y="980" class="cell-body">사용자는 무엇을 보고 어떻게 행동하는가</text>
+  <text x="900" y="980" class="cell-body">프로토타입, 화면 설계</text>
+  <text x="1200" y="980" class="cell-body">경험 검토와 협업 정렬</text>
+
+  <rect x="80" y="1068" width="1440" height="116" rx="22" class="row7 stroke"/>
+  <text x="120" y="1124" class="cell-head">7. 검증 레이어</text>
+  <text x="430" y="1116" class="cell-body">요구사항이 실제로 충족됐는가</text>
+  <text x="900" y="1116" class="cell-body">테스트케이스, RTM</text>
+  <text x="1200" y="1116" class="cell-body">검증, 추적성, 변경관리</text>
+</svg>
