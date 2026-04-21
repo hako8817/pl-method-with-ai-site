@@ -1,4 +1,7 @@
 ﻿---
+publish: true
+publish_section: knowledge
+publish_order: 50
 title: Knowledge
 ---
 
@@ -17,3 +20,4 @@ title: Knowledge
 1. Knowledge
 2. [Getting Started](getting-started)
 3. [PRD Sample](sample-prd)
+

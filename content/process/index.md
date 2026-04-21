@@ -1,4 +1,7 @@
 ﻿---
+publish: true
+publish_section: process
+publish_order: 10
 title: Process
 ---
 
@@ -19,3 +22,4 @@ title: Process
 3. [Planning](../planning/)
 4. [PKM](../pkm/)
 5. [Knowledge](../knowledge/)
+

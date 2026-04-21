@@ -1,4 +1,7 @@
 ﻿---
+publish: true
+publish_section: proposal
+publish_order: 20
 title: Proposal
 ---
 
@@ -17,3 +20,4 @@ title: Proposal
 1. Proposal
 2. [One-page Summary](one-page-summary)
 3. [TOC Draft](toc-draft)
+

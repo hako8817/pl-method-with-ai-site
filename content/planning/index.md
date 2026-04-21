@@ -1,10 +1,7 @@
----
-type:
-category: "#project"
-status: active
-priority: Medium
-created: 2026-04-13
-updated: 2026-04-13 21:33
+﻿---
+publish: true
+publish_section: planning
+publish_order: 30
 ---
 # **AI 시대 기획 산출물의 재설계**
 
@@ -162,4 +159,5 @@ AI와 함께 일하는 환경에서는 다음과 같은 문제가 반복적으�
 AI가 오해 없이 일할 수 있도록 기획 산출물을 다시 설계하는 책**이다.
 
 ---
+
 
