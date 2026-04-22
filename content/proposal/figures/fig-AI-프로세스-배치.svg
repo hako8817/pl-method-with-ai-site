@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" width="960" height="500">
+  <defs>
+    <style>
+      text { font-family: 'Malgun Gothic', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif; }
+    </style>
+    <marker id="arr" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#868e96"/>
+    </marker>
+  </defs>
+
+  <!-- 배경 -->
+  <rect width="960" height="500" fill="#f8f9fa" rx="8"/>
+
+  <!-- 제목 -->
+  <text x="480" y="34" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a2e">AI는 제안 프로세스 어디에 들어가는가 — 단계별 배치</text>
+
+  <!-- 컬럼 헤더 -->
+  <rect x="20" y="50" width="200" height="36" rx="4" fill="#495057"/>
+  <text x="120" y="73" text-anchor="middle" font-size="12" fill="white" font-weight="bold">단계</text>
+
+  <rect x="228" y="50" width="240" height="36" rx="4" fill="#2d6be4"/>
+  <text x="348" y="73" text-anchor="middle" font-size="12" fill="white" font-weight="bold">AI가 잘하는 일</text>
+
+  <rect x="476" y="50" width="240" height="36" rx="4" fill="#e67700"/>
+  <text x="596" y="73" text-anchor="middle" font-size="12" fill="white" font-weight="bold">사람이 반드시 판단할 것</text>
+
+  <rect x="724" y="50" width="216" height="36" rx="4" fill="#2b8a3e"/>
+  <text x="832" y="73" text-anchor="middle" font-size="12" fill="white" font-weight="bold">주요 산출물</text>
+
+  <!-- 행 데이터 -->
+  <!-- 각 행: y_base = 96 + (row * 56) -->
+
+  <!-- 행 1: RFP 분석 -->
+  <rect x="20" y="96" width="200" height="52" rx="4" fill="#e9ecef" stroke="#dee2e6" stroke-width="1"/>
+  <text x="120" y="117" text-anchor="middle" font-size="12" font-weight="bold" fill="#212529">① RFP 분석</text>
+  <text x="120" y="135" text-anchor="middle" font-size="10" fill="#495057">제안 요청서 이해</text>
+
+  <rect x="228" y="96" width="240" height="52" rx="4" fill="#e7f5ff" stroke="#74c0fc" stroke-width="1"/>
+  <text x="348" y="117" text-anchor="middle" font-size="11" fill="#1864ab">구조 분해, 요구사항 추출</text>
+  <text x="348" y="133" text-anchor="middle" font-size="11" fill="#1864ab">누락 질문 후보 생성</text>
+
+  <rect x="476" y="96" width="240" height="52" rx="4" fill="#fff4e6" stroke="#ffa94d" stroke-width="1"/>
+  <text x="596" y="117" text-anchor="middle" font-size="11" fill="#c05c00">고객 의도 해석</text>
+  <text x="596" y="133" text-anchor="middle" font-size="11" fill="#c05c00">수주 가능성 판단</text>
+
+  <rect x="724" y="96" width="216" height="52" rx="4" fill="#ebfbee" stroke="#8ce99a" stroke-width="1"/>
+  <text x="832" y="122" text-anchor="middle" font-size="11" fill="#2b8a3e">RFP 분석 노트</text>
+
+  <!-- 행 2: 요구사항 구조화 -->
+  <rect x="20" y="156" width="200" height="52" rx="4" fill="#e9ecef" stroke="#dee2e6" stroke-width="1"/>
+  <text x="120" y="177" text-anchor="middle" font-size="12" font-weight="bold" fill="#212529">② 요구사항 구조화</text>
+  <text x="120" y="195" text-anchor="middle" font-size="10" fill="#495057">분류 및 우선순위화</text>
+
+  <rect x="228" y="156" width="240" height="52" rx="4" fill="#e7f5ff" stroke="#74c0fc" stroke-width="1"/>
+  <text x="348" y="177" text-anchor="middle" font-size="11" fill="#1864ab">중복 통합, 분류 초안 작성</text>
+  <text x="348" y="193" text-anchor="middle" font-size="11" fill="#1864ab">우선순위 후보 제시</text>
+
+  <rect x="476" y="156" width="240" height="52" rx="4" fill="#fff4e6" stroke="#ffa94d" stroke-width="1"/>
+  <text x="596" y="177" text-anchor="middle" font-size="11" fill="#c05c00">중요도 최종 결정</text>
+  <text x="596" y="193" text-anchor="middle" font-size="11" fill="#c05c00">해석과 판단 확정</text>
+
+  <rect x="724" y="156" width="216" height="52" rx="4" fill="#ebfbee" stroke="#8ce99a" stroke-width="1"/>
+  <text x="832" y="182" text-anchor="middle" font-size="11" fill="#2b8a3e">요구사항 목록</text>
+
+  <!-- 행 3: 대응 메트릭스 -->
+  <rect x="20" y="216" width="200" height="52" rx="4" fill="#e9ecef" stroke="#dee2e6" stroke-width="1"/>
+  <text x="120" y="237" text-anchor="middle" font-size="12" font-weight="bold" fill="#212529">③ 대응 메트릭스</text>
+  <text x="120" y="255" text-anchor="middle" font-size="10" fill="#495057">대응 전략 매핑</text>
+
+  <rect x="228" y="216" width="240" height="52" rx="4" fill="#e7f5ff" stroke="#74c0fc" stroke-width="1"/>
+  <text x="348" y="237" text-anchor="middle" font-size="11" fill="#1864ab">RACI·KPI 초안 자동 생성</text>
+  <text x="348" y="253" text-anchor="middle" font-size="11" fill="#1864ab">리스크 후보 제시</text>
+
+  <rect x="476" y="216" width="240" height="52" rx="4" fill="#fff4e6" stroke="#ffa94d" stroke-width="1"/>
+  <text x="596" y="237" text-anchor="middle" font-size="11" fill="#c05c00">대응 수준 결정</text>
+  <text x="596" y="253" text-anchor="middle" font-size="11" fill="#c05c00">산출물·책임 범위 확정</text>
+
+  <rect x="724" y="216" width="216" height="52" rx="4" fill="#ebfbee" stroke="#8ce99a" stroke-width="1"/>
+  <text x="832" y="242" text-anchor="middle" font-size="11" fill="#2b8a3e">요구사항 대응 메트릭스</text>
+
+  <!-- 행 4: 전략·목차 설계 -->
+  <rect x="20" y="276" width="200" height="52" rx="4" fill="#e9ecef" stroke="#dee2e6" stroke-width="1"/>
+  <text x="120" y="297" text-anchor="middle" font-size="12" font-weight="bold" fill="#212529">④ 전략·목차 설계</text>
+  <text x="120" y="315" text-anchor="middle" font-size="10" fill="#495057">제안 메시지 구성</text>
+
+  <rect x="228" y="276" width="240" height="52" rx="4" fill="#e7f5ff" stroke="#74c0fc" stroke-width="1"/>
+  <text x="348" y="297" text-anchor="middle" font-size="11" fill="#1864ab">전략 요약 초안 생성</text>
+  <text x="348" y="313" text-anchor="middle" font-size="11" fill="#1864ab">목차 구조 후보 제시</text>
+
+  <rect x="476" y="276" width="240" height="52" rx="4" fill="#fff4e6" stroke="#ffa94d" stroke-width="1"/>
+  <text x="596" y="297" text-anchor="middle" font-size="11" fill="#c05c00">차별화 포인트 선택</text>
+  <text x="596" y="313" text-anchor="middle" font-size="11" fill="#c05c00">목차 최종 확정</text>
+
+  <rect x="724" y="276" width="216" height="52" rx="4" fill="#ebfbee" stroke="#8ce99a" stroke-width="1"/>
+  <text x="832" y="302" text-anchor="middle" font-size="11" fill="#2b8a3e">전략 요약·목차안</text>
+
+  <!-- 행 5: 본문 초안·검토 -->
+  <rect x="20" y="336" width="200" height="52" rx="4" fill="#e9ecef" stroke="#dee2e6" stroke-width="1"/>
+  <text x="120" y="357" text-anchor="middle" font-size="12" font-weight="bold" fill="#212529">⑤⑥ 본문·검토</text>
+  <text x="120" y="375" text-anchor="middle" font-size="10" fill="#495057">초안 작성 및 품질 통제</text>
+
+  <rect x="228" y="336" width="240" height="52" rx="4" fill="#e7f5ff" stroke="#74c0fc" stroke-width="1"/>
+  <text x="348" y="357" text-anchor="middle" font-size="11" fill="#1864ab">섹션 초안 생성</text>
+  <text x="348" y="373" text-anchor="middle" font-size="11" fill="#1864ab">누락·모순 탐지</text>
+
+  <rect x="476" y="336" width="240" height="52" rx="4" fill="#fff4e6" stroke="#ffa94d" stroke-width="1"/>
+  <text x="596" y="357" text-anchor="middle" font-size="11" fill="#c05c00">약속 수준 최종 승인</text>
+  <text x="596" y="373" text-anchor="middle" font-size="11" fill="#c05c00">비용·리스크 판단</text>
+
+  <rect x="724" y="336" width="216" height="52" rx="4" fill="#ebfbee" stroke="#8ce99a" stroke-width="1"/>
+  <text x="832" y="362" text-anchor="middle" font-size="11" fill="#2b8a3e">제안서 본문·검토 보고</text>
+
+  <!-- 하단 범례 -->
+  <rect x="20" y="404" width="920" height="76" rx="6" fill="white" stroke="#dee2e6" stroke-width="1"/>
+  <rect x="36" y="420" width="14" height="14" rx="2" fill="#2d6be4"/>
+  <text x="56" y="432" font-size="11" fill="#1864ab">AI 담당 — 구조화·초안·탐지 가속</text>
+  <rect x="36" y="448" width="14" height="14" rx="2" fill="#e67700"/>
+  <text x="56" y="460" font-size="11" fill="#c05c00">사람 필수 — 범위·약속·위험·책임 판단은 AI가 대신할 수 없다</text>
+  <text x="560" y="432" font-size="11" fill="#495057">⑦ 착수 입력 정리(제안 이후): AI는 착수 입력 초안 정리 보조,</text>
+  <text x="560" y="448" font-size="11" fill="#495057">사람은 범위 해석과 책임 이관 조건 확정</text>
+  <text x="560" y="464" font-size="10" fill="#868e96">→ 자세한 내용은 12장 참고</text>
+</svg>

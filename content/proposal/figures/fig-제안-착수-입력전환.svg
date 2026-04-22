@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 340" width="960" height="340">
+  <defs>
+    <style>
+      text { font-family: 'Malgun Gothic', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif; }
+    </style>
+    <marker id="arr" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#868e96"/>
+    </marker>
+  </defs>
+
+  <rect width="960" height="340" fill="#f8f9fa" rx="8"/>
+  <text x="480" y="34" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a2e">제안 산출물에서 착수 입력으로 전환하는 흐름</text>
+
+  <rect x="30" y="82" width="190" height="132" rx="10" fill="#e7f5ff" stroke="#74c0fc" stroke-width="1.5"/>
+  <text x="125" y="112" text-anchor="middle" font-size="13" font-weight="bold" fill="#1864ab">1. 제안서 문장</text>
+  <text x="125" y="136" text-anchor="middle" font-size="11" fill="#1864ab">범위, 일정, 역할,</text>
+  <text x="125" y="154" text-anchor="middle" font-size="11" fill="#1864ab">가정과 약속이 섞여 있음</text>
+  <rect x="64" y="172" width="122" height="24" rx="12" fill="#ffffff" stroke="#74c0fc" stroke-width="1"/>
+  <text x="125" y="188" text-anchor="middle" font-size="10" fill="#1864ab">제안 단계 산출물</text>
+
+  <rect x="260" y="82" width="190" height="132" rx="10" fill="#fff4e6" stroke="#ffa94d" stroke-width="1.5"/>
+  <text x="355" y="112" text-anchor="middle" font-size="13" font-weight="bold" fill="#c05c00">2. 항목 분리</text>
+  <text x="355" y="136" text-anchor="middle" font-size="11" fill="#c05c00">확정</text>
+  <text x="355" y="154" text-anchor="middle" font-size="11" fill="#c05c00">협의 필요</text>
+  <text x="355" y="172" text-anchor="middle" font-size="11" fill="#c05c00">질문 필요</text>
+  <rect x="294" y="190" width="122" height="24" rx="12" fill="#ffffff" stroke="#ffa94d" stroke-width="1"/>
+  <text x="355" y="206" text-anchor="middle" font-size="10" fill="#c05c00">해석과 재정리</text>
+
+  <rect x="490" y="82" width="190" height="132" rx="10" fill="#ebfbee" stroke="#8ce99a" stroke-width="1.5"/>
+  <text x="585" y="112" text-anchor="middle" font-size="13" font-weight="bold" fill="#2b8a3e">3. 착수 입력 세트</text>
+  <text x="585" y="136" text-anchor="middle" font-size="11" fill="#2b8a3e">킥오프 안건</text>
+  <text x="585" y="154" text-anchor="middle" font-size="11" fill="#2b8a3e">질문 리스트</text>
+  <text x="585" y="172" text-anchor="middle" font-size="11" fill="#2b8a3e">확정/보류 항목</text>
+  <rect x="524" y="190" width="122" height="24" rx="12" fill="#ffffff" stroke="#8ce99a" stroke-width="1"/>
+  <text x="585" y="206" text-anchor="middle" font-size="10" fill="#2b8a3e">착수용 정리본</text>
+
+  <rect x="720" y="82" width="210" height="132" rx="10" fill="#fff3bf" stroke="#ffd43b" stroke-width="2"/>
+  <text x="825" y="112" text-anchor="middle" font-size="13" font-weight="bold" fill="#5c4400">4. RIB 입력 후보</text>
+  <text x="825" y="136" text-anchor="middle" font-size="11" fill="#795c00">누가 무엇을 위해</text>
+  <text x="825" y="154" text-anchor="middle" font-size="11" fill="#795c00">어떤 문제를 다루는가</text>
+  <text x="825" y="172" text-anchor="middle" font-size="11" fill="#795c00">범위와 제약은 무엇인가</text>
+  <rect x="769" y="190" width="112" height="24" rx="12" fill="#ffffff" stroke="#ffd43b" stroke-width="1"/>
+  <text x="825" y="206" text-anchor="middle" font-size="10" fill="#795c00">기획 입력 후보</text>
+
+  <line x1="220" y1="148" x2="260" y2="148" stroke="#868e96" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="450" y1="148" x2="490" y2="148" stroke="#868e96" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="680" y1="148" x2="720" y2="148" stroke="#868e96" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <rect x="30" y="248" width="900" height="58" rx="8" fill="#ffffff" stroke="#dee2e6" stroke-width="1"/>
+  <text x="480" y="272" text-anchor="middle" font-size="11" fill="#495057">제안서를 그대로 기획 문서로 넘기는 것이 아니라, 약속과 해석을 다시 분리해 다음 단계 입력 구조로 번역하는 과정이 필요하다.</text>
+  <text x="480" y="290" text-anchor="middle" font-size="11" fill="#495057">AI는 이 구간에서 문장 추출, 분류 초안, 질문 리스트 정리에 강하지만 최종 확정 판단은 사람이 맡는다.</text>
+</svg>
