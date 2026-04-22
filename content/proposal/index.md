@@ -19,6 +19,8 @@ title: Proposal
 ## Reading Order
 1. Proposal
 2. [One-page Summary](one-page-summary)
-3. [TOC Draft](toc-draft)
+3. [Proposal Chapters](chapters/)
+4. [TOC Draft](toc-draft)
+
 
 
