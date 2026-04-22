@@ -37,7 +37,14 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      filterFn: (node) =>
+        node.slugSegment !== "tags" &&
+        node.slug !== "proposal/one-page-summary" &&
+        node.slug !== "proposal/toc-draft" &&
+        !node.slug.startsWith("proposal/chapters") &&
+        !node.slug.startsWith("proposal/figures"),
+    }),
   ],
   right: [
     Component.Graph(),
@@ -61,9 +68,17 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      filterFn: (node) =>
+        node.slugSegment !== "tags" &&
+        node.slug !== "proposal/one-page-summary" &&
+        node.slug !== "proposal/toc-draft" &&
+        !node.slug.startsWith("proposal/chapters") &&
+        !node.slug.startsWith("proposal/figures"),
+    }),
   ],
   right: [],
 }
+
 
 
